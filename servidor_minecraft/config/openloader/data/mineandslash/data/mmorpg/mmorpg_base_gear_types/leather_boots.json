@@ -1,0 +1,65 @@
+{
+  "base_stats": [
+    {
+      "type": "FLAT",
+      "max": 6.0,
+      "min": 3.0,
+      "stat": "dodge"
+    },
+    {
+      "type": "FLAT",
+      "max": 2.0,
+      "min": 1.0,
+      "stat": "health"
+    }
+  ],
+  "gear_slot": "boots",
+  "guid": "leather_boots",
+  "possible_items": [
+    {
+      "item_id": "lowlands_clothing:penitent_rags_boots",
+      "min_rar": "common",
+      "weight": 1
+    },
+    {
+      "item_id": "lowlands_clothing:bret_corsair_armor_boots",
+      "min_rar": "uncommon",
+      "weight": 10
+    },
+    {
+      "item_id": "lowlands_clothing:maskerade_armor_boots",
+      "min_rar": "rare",
+      "weight": 100
+    },
+    {
+      "item_id": "luckys_armory:bone_armor_boots",
+      "min_rar": "common",
+      "weight": 1
+    },
+    {
+      "item_id": "fantasy_armor:evening_ghost_boots",
+      "min_rar": "rare",
+      "weight": 100
+    }
+  ],
+  "req": {
+    "base_req": {},
+    "scaling_req": {
+      "dexterity": 0.4
+    }
+  },
+  "style": "DEX",
+  "tags": {
+    "tags": [
+      "dexterity",
+      "dodge_stat",
+      "dodge_stat_half",
+      "armor_family",
+      "boots",
+	  "leather_boots",
+	  "leather"
+    ]
+  },
+  "weapon_type": "none",
+  "weight": 1000
+}

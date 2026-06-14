@@ -1,0 +1,65 @@
+{
+  "base_stats": [
+    {
+      "type": "FLAT",
+      "max": 6.0,
+      "min": 4.0,
+      "stat": "weapon_damage"
+    },
+	{
+	  "type": "FLAT",
+	  "max": 6.0,
+	  "min": 3.0,
+	  "stat": "mana_on_basic_hit"
+	}
+  ],
+  "gear_slot": "dagger",
+  "guid": "dagger",
+  "possible_items": [
+    {
+      "item_id": "rpgsmwlite:bronze_knife",
+      "min_rar": "common",
+      "weight": 1
+    },
+    {
+      "item_id": "simplyswords:nickel_knife",
+      "min_rar": "uncommon",
+      "weight": 10
+    },
+    {
+      "item_id": "rpgsmwlite:miphrilknife",
+      "min_rar": "rare",
+      "weight": 100
+    },
+    {
+      "item_id": "rpgsmwlite:iron_knife",
+      "min_rar": "common",
+      "weight": 1
+    },
+    {
+      "item_id": "rpgsmwlite:diamond_knife",
+      "min_rar": "uncommon",
+      "weight": 10
+    }
+  ],
+  "req": {
+    "base_req": {},
+    "scaling_req": {
+      "intelligence": 0.25,
+      "dexterity": 0.25
+    }
+  },
+  "style": "DEX",
+  "tags": {
+    "tags": [
+      "mage_weapon",
+      "dagger",
+      "weapon_family",
+      "melee_weapon",
+      "intelligence",
+      "dexterity"
+    ]
+  },
+  "weapon_type": "dagger",
+  "weight": 1000
+}

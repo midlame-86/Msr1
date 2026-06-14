@@ -1,0 +1,11 @@
+[
+  {
+    "entityId": "minecraft:skeleton",
+    "itemId": "minecraft:flint",
+    "dropChance": 15.0,
+    "minAmount": 1,
+    "maxAmount": 3,
+    "_comment": "Flint from skeletons",
+    "requirePlayerKill": false
+  }
+]

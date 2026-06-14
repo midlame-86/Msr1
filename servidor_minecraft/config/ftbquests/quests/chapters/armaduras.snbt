@@ -1,0 +1,1488 @@
+{
+	consume_items: true
+	default_hide_dependency_lines: false
+	default_quest_shape: "square"
+	default_repeatable_quest: true
+	filename: "armaduras"
+	group: "2C9EC70F5E4DE9CC"
+	id: "245E3E6288A2405D"
+	images: [{
+		height: 1.3d
+		image: "legendary_monsters:textures/particle/warning2.png"
+		rotation: 0.0d
+		width: 1.3d
+		x: -5.0d
+		y: -13.0d
+	}]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			id: "2C93371F57279525"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "754D4F6589778B01"
+				type: "checkmark"
+			}]
+			x: -9.0d
+			y: -7.5d
+		}
+		{
+			id: "6F4A4C7347DBC7E8"
+			rewards: [
+				{
+					id: "56BD0B107518803E"
+					item: {
+						Count: 1
+						id: "luckys_armory:heavy_diamond_armor_helmet"
+						tag: {
+							Damage: 0
+							mmorpg_custom_data: "{\"data\":{\"map\":{\"crafted\":\"true\",\"sl\":\"false\"}}}"
+							mmorpg_gear: "{\"baseStats\":{\"p\":31},\"imp\":{\"p\":2,\"imp\":\"siege_helm\"},\"affixes\":{\"suf\":[{\"p\":44,\"id\":\"of_the_philosopher\",\"rar\":\"rare\",\"ty\":\"suffix\"}],\"pre\":[{\"p\":35,\"id\":\"resplendent\",\"rar\":\"rare\",\"ty\":\"prefix\"},{\"p\":15,\"id\":\"seraphim\",\"rar\":\"uncommon\",\"ty\":\"prefix\"}],\"cor\":[]},\"sockets\":{\"so\":[],\"sl\":1,\"rw\":\"\",\"rp\":0},\"rar\":\"rare\",\"lvl\":15,\"gtype\":\"plate_helmet\"}"
+							mmorpg_potential: "{\"potential\":25}"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2D4DF7F07F166E6A"
+					item: {
+						Count: 1
+						id: "luckys_armory:heavy_diamond_armor_chestplate"
+						tag: {
+							Damage: 0
+							mmorpg_custom_data: "{\"data\":{\"map\":{\"crafted\":\"true\",\"sl\":\"false\"}}}"
+							mmorpg_gear: "{\"baseStats\":{\"p\":85},\"imp\":{\"p\":9,\"imp\":\"\"},\"affixes\":{\"suf\":[{\"p\":57,\"id\":\"strong_str_armor_suf\",\"rar\":\"rare\",\"ty\":\"suffix\"}],\"pre\":[{\"p\":52,\"id\":\"resplendent\",\"rar\":\"rare\",\"ty\":\"prefix\"},{\"p\":59,\"id\":\"item_both_armor\",\"rar\":\"rare\",\"ty\":\"prefix\"}],\"cor\":[]},\"sockets\":{\"so\":[],\"sl\":1,\"rw\":\"\",\"rp\":0},\"rar\":\"rare\",\"lvl\":15,\"gtype\":\"plate_chest\"}"
+							mmorpg_potential: "{\"potential\":25}"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4ED0C190470F84F3"
+					item: {
+						Count: 1
+						id: "luckys_armory:heavy_diamond_armor_leggings"
+						tag: {
+							Damage: 0
+							mmorpg_custom_data: "{\"data\":{\"map\":{\"crafted\":\"true\",\"sl\":\"false\"}}}"
+							mmorpg_gear: "{\"baseStats\":{\"p\":45},\"imp\":{\"p\":69,\"imp\":\"\"},\"affixes\":{\"suf\":[{\"p\":42,\"id\":\"fire_res\",\"rar\":\"rare\",\"ty\":\"suffix\"}],\"pre\":[{\"p\":26,\"id\":\"resplendent\",\"rar\":\"uncommon\",\"ty\":\"prefix\"},{\"p\":12,\"id\":\"item_flat_armor\",\"rar\":\"common\",\"ty\":\"prefix\"}],\"cor\":[]},\"sockets\":{\"so\":[],\"sl\":0,\"rw\":\"\",\"rp\":0},\"rar\":\"rare\",\"lvl\":15,\"gtype\":\"plate_pants\"}"
+							mmorpg_potential: "{\"potential\":25}"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6BD53D389F516851"
+					item: {
+						Count: 1
+						id: "luckys_armory:heavy_diamond_armor_boots"
+						tag: {
+							Damage: 0
+							mmorpg_custom_data: "{\"data\":{\"map\":{\"crafted\":\"true\",\"sl\":\"false\"}}}"
+							mmorpg_gear: "{\"baseStats\":{\"p\":88},\"imp\":{\"p\":99,\"imp\":\"\"},\"affixes\":{\"suf\":[{\"p\":53,\"id\":\"water_res\",\"rar\":\"rare\",\"ty\":\"suffix\"}],\"pre\":[{\"p\":7,\"id\":\"item_flat_armor_half\",\"rar\":\"common\",\"ty\":\"prefix\"},{\"p\":41,\"id\":\"glimmering\",\"rar\":\"rare\",\"ty\":\"prefix\"}],\"cor\":[]},\"sockets\":{\"so\":[],\"sl\":0,\"rw\":\"\",\"rp\":0},\"rar\":\"rare\",\"lvl\":15,\"gtype\":\"plate_boots\"}"
+							mmorpg_potential: "{\"potential\":25}"
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "4ACDA40FBB7983EE"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "luckys_armory:heavy_diamond_armor_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "05C2C09FEB517D50"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "luckys_armory:heavy_diamond_armor_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "53B16230AA85823F"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "luckys_armory:heavy_diamond_armor_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "64A2A5806C68E13A"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "luckys_armory:heavy_diamond_armor_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -7.5d
+			y: -7.5d
+		}
+		{
+			id: "67DDFDBB2F393F87"
+			rewards: [
+				{
+					id: "717B429EE1CCE593"
+					item: {
+						Count: 1
+						id: "fantasy_armor:dark_cover_helmet"
+						tag: {
+							Damage: 0
+							mmorpg_custom_data: "{\"data\":{\"map\":{\"crafted\":\"true\",\"sl\":\"false\"}}}"
+							mmorpg_gear: "{\"baseStats\":{\"p\":92},\"imp\":{\"p\":63,\"imp\":\"mind_cage\"},\"affixes\":{\"suf\":[{\"p\":19,\"id\":\"strong_str_armor_suf\",\"rar\":\"uncommon\",\"ty\":\"suffix\"}],\"pre\":[{\"p\":32,\"id\":\"seraphim\",\"rar\":\"uncommon\",\"ty\":\"prefix\"},{\"p\":37,\"id\":\"item_perc_ms\",\"rar\":\"uncommon\",\"ty\":\"prefix\"}],\"cor\":[]},\"sockets\":{\"so\":[],\"sl\":0,\"rw\":\"\",\"rp\":0},\"rar\":\"rare\",\"lvl\":20,\"gtype\":\"chainmail_helmet\"}"
+							mmorpg_potential: "{\"potential\":25}"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5AF3FB9F3FEF7B71"
+					item: {
+						Count: 1
+						id: "fantasy_armor:dark_cover_chestplate"
+						tag: {
+							Damage: 0
+							mmorpg_custom_data: "{\"data\":{\"map\":{\"crafted\":\"true\",\"sl\":\"false\"}}}"
+							mmorpg_gear: "{\"baseStats\":{\"p\":76},\"imp\":{\"p\":69,\"imp\":\"\"},\"affixes\":{\"suf\":[{\"p\":27,\"id\":\"strong_str_armor_suf\",\"rar\":\"uncommon\",\"ty\":\"suffix\"}],\"pre\":[{\"p\":28,\"id\":\"giants\",\"rar\":\"common\",\"ty\":\"prefix\"},{\"p\":23,\"id\":\"seraphim\",\"rar\":\"uncommon\",\"ty\":\"prefix\"}],\"cor\":[]},\"sockets\":{\"so\":[],\"sl\":0,\"rw\":\"\",\"rp\":0},\"rar\":\"rare\",\"lvl\":20,\"gtype\":\"chainmail_chest\"}"
+							mmorpg_potential: "{\"potential\":25}"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "25654054F5D31AAE"
+					item: {
+						Count: 1
+						id: "fantasy_armor:dark_cover_leggings"
+						tag: {
+							Damage: 0
+							mmorpg_custom_data: "{\"data\":{\"map\":{\"crafted\":\"true\",\"sl\":\"false\"}}}"
+							mmorpg_gear: "{\"baseStats\":{\"p\":56},\"imp\":{\"p\":6,\"imp\":\"\"},\"affixes\":{\"suf\":[{\"p\":38,\"id\":\"water_res\",\"rar\":\"uncommon\",\"ty\":\"suffix\"}],\"pre\":[{\"p\":21,\"id\":\"promised\",\"rar\":\"uncommon\",\"ty\":\"prefix\"},{\"p\":10,\"id\":\"resplendent\",\"rar\":\"common\",\"ty\":\"prefix\"}],\"cor\":[]},\"sockets\":{\"so\":[],\"sl\":0,\"rw\":\"\",\"rp\":0},\"rar\":\"rare\",\"lvl\":20,\"gtype\":\"chainmail_pants\"}"
+							mmorpg_potential: "{\"potential\":25}"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "32217D4A24942607"
+					item: {
+						Count: 1
+						id: "fantasy_armor:dark_cover_boots"
+						tag: {
+							Damage: 0
+							mmorpg_custom_data: "{\"data\":{\"map\":{\"crafted\":\"true\",\"sl\":\"false\"}}}"
+							mmorpg_gear: "{\"baseStats\":{\"p\":83},\"imp\":{\"p\":65,\"imp\":\"\"},\"affixes\":{\"suf\":[{\"p\":18,\"id\":\"lightning_res\",\"rar\":\"uncommon\",\"ty\":\"suffix\"}],\"pre\":[{\"p\":16,\"id\":\"glimmering\",\"rar\":\"uncommon\",\"ty\":\"prefix\"},{\"p\":27,\"id\":\"giants\",\"rar\":\"common\",\"ty\":\"prefix\"}],\"cor\":[]},\"sockets\":{\"so\":[],\"sl\":1,\"rw\":\"\",\"rp\":0},\"rar\":\"rare\",\"lvl\":20,\"gtype\":\"chainmail_boots\"}"
+							mmorpg_potential: "{\"potential\":25}"
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "0C5075C73B805F3E"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "fantasy_armor:dark_cover_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "15B0CF1A58F37B1A"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "fantasy_armor:dark_cover_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2AA0FC8AB0921A7C"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "fantasy_armor:dark_cover_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "33B169A9905F4531"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "fantasy_armor:dark_cover_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -6.5d
+			y: -7.5d
+		}
+		{
+			id: "5CA12C6675F6A248"
+			rewards: [
+				{
+					id: "5FD50B76CFD63E2F"
+					item: {
+						Count: 1
+						id: "warriorsofpastepoch:plague_doctor_armor_helmet"
+						tag: {
+							Damage: 0
+							mmorpg_custom_data: "{\"data\":{\"map\":{\"crafted\":\"true\",\"sl\":\"false\"}}}"
+							mmorpg_gear: "{\"baseStats\":{\"p\":61},\"imp\":{\"p\":64,\"imp\":\"bone_helm\"},\"affixes\":{\"suf\":[{\"p\":30,\"id\":\"lightning_res\",\"rar\":\"common\",\"ty\":\"suffix\"}],\"pre\":[{\"p\":42,\"id\":\"giants\",\"rar\":\"rare\",\"ty\":\"prefix\"},{\"p\":59,\"id\":\"glimmering\",\"rar\":\"rare\",\"ty\":\"prefix\"}],\"cor\":[]},\"sockets\":{\"so\":[],\"sl\":0,\"rw\":\"\",\"rp\":0},\"rar\":\"rare\",\"lvl\":20,\"gtype\":\"leather_helmet\"}"
+							mmorpg_potential: "{\"potential\":25}"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "70A108BD8DB8ADC1"
+					item: {
+						Count: 1
+						id: "warriorsofpastepoch:plague_doctor_armor_chestplate"
+						tag: {
+							Damage: 0
+							mmorpg_custom_data: "{\"data\":{\"map\":{\"crafted\":\"true\",\"sl\":\"false\"}}}"
+							mmorpg_gear: "{\"baseStats\":{\"p\":91},\"imp\":{\"p\":82,\"imp\":\"\"},\"affixes\":{\"suf\":[{\"p\":57,\"id\":\"of_the_philosopher\",\"rar\":\"rare\",\"ty\":\"suffix\"}],\"pre\":[{\"p\":51,\"id\":\"giants\",\"rar\":\"rare\",\"ty\":\"prefix\"},{\"p\":8,\"id\":\"glimmering\",\"rar\":\"common\",\"ty\":\"prefix\"}],\"cor\":[]},\"sockets\":{\"so\":[],\"sl\":1,\"rw\":\"\",\"rp\":0},\"rar\":\"rare\",\"lvl\":20,\"gtype\":\"leather_chest\"}"
+							mmorpg_potential: "{\"potential\":25}"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "72B68CD82D945D9D"
+					item: {
+						Count: 1
+						id: "warriorsofpastepoch:plague_doctor_armor_leggings"
+						tag: {
+							Damage: 0
+							mmorpg_custom_data: "{\"data\":{\"map\":{\"crafted\":\"true\",\"sl\":\"false\"}}}"
+							mmorpg_gear: "{\"baseStats\":{\"p\":61},\"imp\":{\"p\":54,\"imp\":\"\"},\"affixes\":{\"suf\":[{\"p\":31,\"id\":\"of_the_troll\",\"rar\":\"rare\",\"ty\":\"suffix\"}],\"pre\":[{\"p\":4,\"id\":\"boundless\",\"rar\":\"common\",\"ty\":\"prefix\"},{\"p\":47,\"id\":\"glimmering\",\"rar\":\"rare\",\"ty\":\"prefix\"}],\"cor\":[]},\"sockets\":{\"so\":[],\"sl\":1,\"rw\":\"\",\"rp\":0},\"rar\":\"rare\",\"lvl\":20,\"gtype\":\"leather_pants\"}"
+							mmorpg_potential: "{\"potential\":25}"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2BE57099B397ED3D"
+					item: {
+						Count: 1
+						id: "warriorsofpastepoch:plague_doctor_armor_boots"
+						tag: {
+							Damage: 0
+							mmorpg_custom_data: "{\"data\":{\"map\":{\"crafted\":\"true\",\"sl\":\"false\"}}}"
+							mmorpg_gear: "{\"baseStats\":{\"p\":55},\"imp\":{\"p\":90,\"imp\":\"\"},\"affixes\":{\"suf\":[{\"p\":30,\"id\":\"of_the_wind\",\"rar\":\"rare\",\"ty\":\"suffix\"}],\"pre\":[{\"p\":41,\"id\":\"gazelles\",\"rar\":\"rare\",\"ty\":\"prefix\"},{\"p\":27,\"id\":\"glimmering\",\"rar\":\"uncommon\",\"ty\":\"prefix\"}],\"cor\":[]},\"sockets\":{\"so\":[],\"sl\":1,\"rw\":\"\",\"rp\":0},\"rar\":\"rare\",\"lvl\":20,\"gtype\":\"leather_boots\"}"
+							mmorpg_potential: "{\"potential\":25}"
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "481B797EDA2A85E6"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "warriorsofpastepoch:plague_doctor_armor_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "717A2B06A10B2692"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "warriorsofpastepoch:plague_doctor_armor_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "13B0018ADC0DE294"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "warriorsofpastepoch:plague_doctor_armor_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7CEF04E4E6DFAFFA"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "warriorsofpastepoch:plague_doctor_armor_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -5.5d
+			y: -7.5d
+		}
+		{
+			id: "271F04F57351855C"
+			rewards: [
+				{
+					id: "57BE6A15B1E4C01F"
+					item: {
+						Count: 1
+						id: "warriorsofpastepoch:muketers_armor_helmet"
+						tag: {
+							Damage: 0
+							mmorpg_custom_data: "{\"data\":{\"map\":{\"crafted\":\"true\",\"sl\":\"false\"}}}"
+							mmorpg_gear: "{\"baseStats\":{\"p\":47},\"imp\":{\"p\":15,\"imp\":\"bandit_mask\"},\"affixes\":{\"suf\":[{\"p\":34,\"id\":\"fire_res\",\"rar\":\"rare\",\"ty\":\"suffix\"}],\"pre\":[{\"p\":29,\"id\":\"item_perc_dodge\",\"rar\":\"common\",\"ty\":\"prefix\"},{\"p\":58,\"id\":\"giants\",\"rar\":\"rare\",\"ty\":\"prefix\"}],\"cor\":[]},\"sockets\":{\"so\":[],\"sl\":1,\"rw\":\"\",\"rp\":0},\"rar\":\"rare\",\"lvl\":20,\"gtype\":\"vest_helmet\"}"
+							mmorpg_potential: "{\"potential\":25}"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "71E8D6292147F19C"
+					item: {
+						Count: 1
+						id: "warriorsofpastepoch:muketers_armor_chestplate"
+						tag: {
+							Damage: 0
+							mmorpg_custom_data: "{\"data\":{\"map\":{\"crafted\":\"true\",\"sl\":\"false\"}}}"
+							mmorpg_gear: "{\"baseStats\":{\"p\":49},\"imp\":{\"p\":47,\"imp\":\"\"},\"affixes\":{\"suf\":[{\"p\":45,\"id\":\"lightning_res\",\"rar\":\"rare\",\"ty\":\"suffix\"}],\"pre\":[{\"p\":18,\"id\":\"item_perc_dodge\",\"rar\":\"common\",\"ty\":\"prefix\"},{\"p\":19,\"id\":\"glimmering\",\"rar\":\"common\",\"ty\":\"prefix\"}],\"cor\":[]},\"sockets\":{\"so\":[],\"sl\":1,\"rw\":\"\",\"rp\":0},\"rar\":\"rare\",\"lvl\":20,\"gtype\":\"vest_chest\"}"
+							mmorpg_potential: "{\"potential\":25}"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "38E6761F3CEBFD83"
+					item: {
+						Count: 1
+						id: "warriorsofpastepoch:muketers_armor_leggings"
+						tag: {
+							Damage: 0
+							mmorpg_custom_data: "{\"data\":{\"map\":{\"crafted\":\"true\",\"sl\":\"false\"}}}"
+							mmorpg_gear: "{\"baseStats\":{\"p\":84},\"imp\":{\"p\":98,\"imp\":\"\"},\"affixes\":{\"suf\":[{\"p\":18,\"id\":\"fire_res\",\"rar\":\"common\",\"ty\":\"suffix\"}],\"pre\":[{\"p\":3,\"id\":\"seraphim\",\"rar\":\"common\",\"ty\":\"prefix\"},{\"p\":12,\"id\":\"immortal\",\"rar\":\"common\",\"ty\":\"prefix\"}],\"cor\":[]},\"sockets\":{\"so\":[],\"sl\":0,\"rw\":\"\",\"rp\":0},\"rar\":\"rare\",\"lvl\":20,\"gtype\":\"leather_pants\"}"
+							mmorpg_potential: "{\"potential\":25}"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "43FF26C22FF263E4"
+					item: {
+						Count: 1
+						id: "warriorsofpastepoch:muketers_armor_boots"
+						tag: {
+							Damage: 0
+							mmorpg_custom_data: "{\"data\":{\"map\":{\"crafted\":\"true\",\"sl\":\"false\"}}}"
+							mmorpg_gear: "{\"baseStats\":{\"p\":57},\"imp\":{\"p\":39,\"imp\":\"\"},\"affixes\":{\"suf\":[{\"p\":26,\"id\":\"lightning_res\",\"rar\":\"uncommon\",\"ty\":\"suffix\"}],\"pre\":[{\"p\":12,\"id\":\"seraphim\",\"rar\":\"common\",\"ty\":\"prefix\"},{\"p\":43,\"id\":\"glimmering\",\"rar\":\"rare\",\"ty\":\"prefix\"}],\"cor\":[]},\"sockets\":{\"so\":[],\"sl\":1,\"rw\":\"\",\"rp\":0},\"rar\":\"rare\",\"lvl\":20,\"gtype\":\"vest_boots\"}"
+							mmorpg_potential: "{\"potential\":25}"
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "5F1316ADE4BA501E"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "warriorsofpastepoch:muketers_armor_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5A4CF9309A7801F9"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "warriorsofpastepoch:muketers_armor_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6308A948ED30C3CC"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "warriorsofpastepoch:muketers_armor_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2A947CEBCEC2ED12"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "warriorsofpastepoch:muketers_armor_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -4.5d
+			y: -7.5d
+		}
+		{
+			id: "0966724CA1F38B05"
+			rewards: [
+				{
+					id: "3638BA89EB3BF2E0"
+					item: {
+						Count: 1
+						id: "fantasy_armor:silver_knight_helmet"
+						tag: {
+							Damage: 0
+							mmorpg_custom_data: "{\"data\":{\"map\":{\"crafted\":\"true\",\"sl\":\"false\"}}}"
+							mmorpg_gear: "{\"baseStats\":{\"p\":96},\"imp\":{\"p\":77,\"imp\":\"gladiator_helm\"},\"affixes\":{\"suf\":[{\"p\":51,\"id\":\"fire_res\",\"rar\":\"rare\",\"ty\":\"suffix\"}],\"pre\":[{\"p\":58,\"id\":\"resplendent\",\"rar\":\"rare\",\"ty\":\"prefix\"},{\"p\":9,\"id\":\"item_both_armor_half\",\"rar\":\"common\",\"ty\":\"prefix\"}],\"cor\":[]},\"sockets\":{\"so\":[],\"sl\":1,\"rw\":\"\",\"rp\":0},\"rar\":\"rare\",\"lvl\":25,\"gtype\":\"plate_helmet\"}"
+							mmorpg_potential: "{\"potential\":25}"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "34547073F3D16570"
+					item: {
+						Count: 1
+						id: "fantasy_armor:silver_knight_chestplate"
+						tag: {
+							Damage: 0
+							mmorpg_custom_data: "{\"data\":{\"map\":{\"crafted\":\"true\",\"sl\":\"false\"}}}"
+							mmorpg_gear: "{\"baseStats\":{\"p\":72},\"imp\":{\"p\":33,\"imp\":\"\"},\"affixes\":{\"suf\":[{\"p\":25,\"id\":\"lightning_res\",\"rar\":\"uncommon\",\"ty\":\"suffix\"}],\"pre\":[{\"p\":31,\"id\":\"resplendent\",\"rar\":\"rare\",\"ty\":\"prefix\"},{\"p\":22,\"id\":\"giants\",\"rar\":\"uncommon\",\"ty\":\"prefix\"}],\"cor\":[]},\"sockets\":{\"so\":[],\"sl\":0,\"rw\":\"\",\"rp\":0},\"rar\":\"rare\",\"lvl\":25,\"gtype\":\"plate_chest\"}"
+							mmorpg_potential: "{\"potential\":25}"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5D07FB84D63F1910"
+					item: {
+						Count: 1
+						id: "fantasy_armor:silver_knight_leggings"
+						tag: {
+							Damage: 0
+							mmorpg_custom_data: "{\"data\":{\"map\":{\"crafted\":\"true\",\"sl\":\"false\"}}}"
+							mmorpg_gear: "{\"baseStats\":{\"p\":100},\"imp\":{\"p\":56,\"imp\":\"\"},\"affixes\":{\"suf\":[{\"p\":35,\"id\":\"fire_res\",\"rar\":\"rare\",\"ty\":\"suffix\"}],\"pre\":[{\"p\":44,\"id\":\"resplendent\",\"rar\":\"uncommon\",\"ty\":\"prefix\"},{\"p\":3,\"id\":\"item_flat_armor\",\"rar\":\"common\",\"ty\":\"prefix\"}],\"cor\":[]},\"sockets\":{\"so\":[],\"sl\":0,\"rw\":\"\",\"rp\":0},\"rar\":\"rare\",\"lvl\":25,\"gtype\":\"plate_pants\"}"
+							mmorpg_potential: "{\"potential\":25}"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "14BFE9C86F0B8EFA"
+					item: {
+						Count: 1
+						id: "fantasy_armor:silver_knight_boots"
+						tag: {
+							Damage: 0
+							mmorpg_custom_data: "{\"data\":{\"map\":{\"crafted\":\"true\",\"sl\":\"false\"}}}"
+							mmorpg_gear: "{\"baseStats\":{\"p\":68},\"imp\":{\"p\":22,\"imp\":\"\"},\"affixes\":{\"suf\":[{\"p\":23,\"id\":\"water_res\",\"rar\":\"uncommon\",\"ty\":\"suffix\"}],\"pre\":[{\"p\":34,\"id\":\"giants\",\"rar\":\"rare\",\"ty\":\"prefix\"},{\"p\":27,\"id\":\"item_perc_armor\",\"rar\":\"common\",\"ty\":\"prefix\"}],\"cor\":[]},\"sockets\":{\"so\":[],\"sl\":0,\"rw\":\"\",\"rp\":0},\"rar\":\"rare\",\"lvl\":25,\"gtype\":\"plate_boots\"}"
+							mmorpg_potential: "{\"potential\":25}"
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "763F94F3D3782AC9"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "fantasy_armor:silver_knight_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0823BCE20480020B"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "fantasy_armor:silver_knight_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "45FE2F3B9149FA01"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "fantasy_armor:silver_knight_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "35F6CFDC44C6494C"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "fantasy_armor:silver_knight_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -6.5d
+			y: -6.5d
+		}
+		{
+			id: "3A3B307D568B13A2"
+			rewards: [
+				{
+					id: "2A870BA4F6D4CCA1"
+					item: {
+						Count: 1
+						id: "mowziesmobs:geomancer_sandals"
+						tag: {
+							Damage: 0
+							mmorpg_custom_data: "{\"data\":{\"map\":{\"crafted\":\"true\",\"sl\":\"false\"}}}"
+							mmorpg_gear: "{\"baseStats\":{\"p\":87},\"imp\":{\"p\":30,\"imp\":\"\"},\"affixes\":{\"suf\":[{\"p\":55,\"id\":\"lightning_res\",\"rar\":\"rare\",\"ty\":\"suffix\"}],\"pre\":[{\"p\":53,\"id\":\"seraphim\",\"rar\":\"rare\",\"ty\":\"prefix\"},{\"p\":27,\"id\":\"resplendent\",\"rar\":\"uncommon\",\"ty\":\"prefix\"}],\"cor\":[]},\"sockets\":{\"so\":[],\"sl\":0,\"rw\":\"\",\"rp\":0},\"rar\":\"rare\",\"lvl\":30,\"gtype\":\"cloth_boots\"}"
+							mmorpg_potential: "{\"potential\":25}"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4A25A5FE5CDFA4C9"
+					item: {
+						Count: 1
+						id: "mowziesmobs:geomancer_belt"
+						tag: {
+							Damage: 0
+							mmorpg_custom_data: "{\"data\":{\"map\":{\"crafted\":\"true\",\"sl\":\"false\"}}}"
+							mmorpg_gear: "{\"baseStats\":{\"p\":59},\"imp\":{\"p\":13,\"imp\":\"\"},\"affixes\":{\"suf\":[{\"p\":60,\"id\":\"lightning_res\",\"rar\":\"rare\",\"ty\":\"suffix\"}],\"pre\":[{\"p\":15,\"id\":\"item_both_ms\",\"rar\":\"uncommon\",\"ty\":\"prefix\"},{\"p\":44,\"id\":\"giants\",\"rar\":\"uncommon\",\"ty\":\"prefix\"}],\"cor\":[]},\"sockets\":{\"so\":[],\"sl\":1,\"rw\":\"\",\"rp\":0},\"rar\":\"rare\",\"lvl\":30,\"gtype\":\"cloth_pants\"}"
+							mmorpg_potential: "{\"potential\":25}"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "46749C5AF014405A"
+					item: {
+						Count: 1
+						id: "mowziesmobs:geomancer_robe"
+						tag: {
+							Damage: 0
+							mmorpg_custom_data: "{\"data\":{\"map\":{\"crafted\":\"true\",\"sl\":\"false\"}}}"
+							mmorpg_gear: "{\"baseStats\":{\"p\":53},\"imp\":{\"p\":54,\"imp\":\"\"},\"affixes\":{\"suf\":[{\"p\":34,\"id\":\"chaos_res\",\"rar\":\"uncommon\",\"ty\":\"suffix\"}],\"pre\":[{\"p\":35,\"id\":\"item_perc_ms\",\"rar\":\"rare\",\"ty\":\"prefix\"},{\"p\":45,\"id\":\"glimmering\",\"rar\":\"rare\",\"ty\":\"prefix\"}],\"cor\":[]},\"sockets\":{\"so\":[],\"sl\":1,\"rw\":\"\",\"rp\":0},\"rar\":\"rare\",\"lvl\":30,\"gtype\":\"cloth_chest\"}"
+							mmorpg_potential: "{\"potential\":25}"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3FE7FCF7B7BF8B87"
+					item: {
+						Count: 1
+						id: "mowziesmobs:geomancer_beads"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "7C8D9981EE73AAE8"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "mowziesmobs:geomancer_robe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1EA053A38832EC04"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "mowziesmobs:geomancer_belt"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "392DC896D76164C7"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "mowziesmobs:geomancer_sandals"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6A03D9E7D6EE96AA"
+					item: {
+						Count: 1
+						id: "mowziesmobs:geomancer_beads"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -4.5d
+			y: -6.5d
+		}
+		{
+			id: "688F5A7FD41B391D"
+			rewards: [
+				{
+					id: "6FD1EDA660016EE3"
+					item: {
+						Count: 1
+						id: "many_more_ores_and_crafts:cobalt_helmet"
+						tag: {
+							Damage: 0
+							mmorpg_custom_data: "{\"data\":{\"map\":{\"crafted\":\"true\",\"sl\":\"false\"}}}"
+							mmorpg_gear: "{\"baseStats\":{\"p\":83},\"imp\":{\"p\":71,\"imp\":\"siege_helm\"},\"affixes\":{\"suf\":[{\"p\":48,\"id\":\"water_res\",\"rar\":\"rare\",\"ty\":\"suffix\"}],\"pre\":[{\"p\":58,\"id\":\"glimmering\",\"rar\":\"rare\",\"ty\":\"prefix\"},{\"p\":32,\"id\":\"resplendent\",\"rar\":\"uncommon\",\"ty\":\"prefix\"}],\"cor\":[]},\"sockets\":{\"so\":[],\"sl\":0,\"rw\":\"\",\"rp\":0},\"rar\":\"rare\",\"lvl\":25,\"gtype\":\"chainmail_helmet\"}"
+							mmorpg_potential: "{\"potential\":25}"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "64FE61C1F87C0B42"
+					item: {
+						Count: 1
+						id: "many_more_ores_and_crafts:cobalt_chestplate"
+						tag: {
+							Damage: 0
+							mmorpg_custom_data: "{\"data\":{\"map\":{\"crafted\":\"true\",\"sl\":\"false\"}}}"
+							mmorpg_gear: "{\"baseStats\":{\"p\":68},\"imp\":{\"p\":20,\"imp\":\"\"},\"affixes\":{\"suf\":[{\"p\":41,\"id\":\"chaos_res\",\"rar\":\"rare\",\"ty\":\"suffix\"}],\"pre\":[{\"p\":29,\"id\":\"item_both_ms\",\"rar\":\"common\",\"ty\":\"prefix\"},{\"p\":44,\"id\":\"item_flat_ms\",\"rar\":\"uncommon\",\"ty\":\"prefix\"}],\"cor\":[]},\"sockets\":{\"so\":[],\"sl\":1,\"rw\":\"\",\"rp\":0},\"rar\":\"rare\",\"lvl\":25,\"gtype\":\"cloth_chest\"}"
+							mmorpg_potential: "{\"potential\":25}"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3A2B550E51D70CBA"
+					item: {
+						Count: 1
+						id: "many_more_ores_and_crafts:cobalt_leggings"
+						tag: {
+							Damage: 0
+							mmorpg_custom_data: "{\"data\":{\"map\":{\"crafted\":\"true\",\"sl\":\"false\"}}}"
+							mmorpg_gear: "{\"baseStats\":{\"p\":95},\"imp\":{\"p\":57,\"imp\":\"\"},\"affixes\":{\"suf\":[{\"p\":26,\"id\":\"fire_res\",\"rar\":\"uncommon\",\"ty\":\"suffix\"}],\"pre\":[{\"p\":21,\"id\":\"immortal\",\"rar\":\"uncommon\",\"ty\":\"prefix\"},{\"p\":7,\"id\":\"giants\",\"rar\":\"common\",\"ty\":\"prefix\"}],\"cor\":[]},\"sockets\":{\"so\":[],\"sl\":1,\"rw\":\"\",\"rp\":0},\"rar\":\"rare\",\"lvl\":25,\"gtype\":\"chainmail_pants\"}"
+							mmorpg_potential: "{\"potential\":25}"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "77A99A22E8092697"
+					item: {
+						Count: 1
+						id: "many_more_ores_and_crafts:cobalt_boots"
+						tag: {
+							Damage: 0
+							mmorpg_custom_data: "{\"data\":{\"map\":{\"crafted\":\"true\",\"sl\":\"false\"}}}"
+							mmorpg_gear: "{\"baseStats\":{\"p\":91},\"imp\":{\"p\":72,\"imp\":\"\"},\"affixes\":{\"suf\":[{\"p\":32,\"id\":\"lightning_res\",\"rar\":\"uncommon\",\"ty\":\"suffix\"}],\"pre\":[{\"p\":29,\"id\":\"seraphim\",\"rar\":\"uncommon\",\"ty\":\"prefix\"},{\"p\":8,\"id\":\"glimmering\",\"rar\":\"common\",\"ty\":\"prefix\"}],\"cor\":[]},\"sockets\":{\"so\":[],\"sl\":1,\"rw\":\"\",\"rp\":0},\"rar\":\"rare\",\"lvl\":25,\"gtype\":\"chainmail_boots\"}"
+							mmorpg_potential: "{\"potential\":25}"
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "7E1E6265FD33E768"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "many_more_ores_and_crafts:cobalt_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "46F49140EACE4887"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "many_more_ores_and_crafts:cobalt_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2D0E899DBFAA7CFF"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "many_more_ores_and_crafts:cobalt_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "03C491E908B3AFB1"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "many_more_ores_and_crafts:cobalt_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -7.5d
+			y: -6.5d
+		}
+		{
+			id: "3B8A53B91575A3FA"
+			rewards: [
+				{
+					id: "7DCD706314867E33"
+					item: {
+						Count: 1
+						id: "many_more_ores_and_crafts:palladium_helmet"
+						tag: {
+							Damage: 0
+							mmorpg_custom_data: "{\"data\":{\"map\":{\"crafted\":\"true\",\"sl\":\"false\"}}}"
+							mmorpg_gear: "{\"baseStats\":{\"p\":83},\"imp\":{\"p\":72,\"imp\":\"golden_crown\"},\"affixes\":{\"suf\":[{\"p\":36,\"id\":\"chaos_res\",\"rar\":\"rare\",\"ty\":\"suffix\"}],\"pre\":[{\"p\":26,\"id\":\"glimmering\",\"rar\":\"common\",\"ty\":\"prefix\"},{\"p\":44,\"id\":\"giants\",\"rar\":\"uncommon\",\"ty\":\"prefix\"}],\"cor\":[]},\"sockets\":{\"so\":[],\"sl\":0,\"rw\":\"\",\"rp\":0},\"rar\":\"rare\",\"lvl\":25,\"gtype\":\"brigandine_helmet\"}"
+							mmorpg_potential: "{\"potential\":25}"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "14292002ED81873C"
+					item: {
+						Count: 1
+						id: "many_more_ores_and_crafts:palladium_chestplate"
+						tag: {
+							Damage: 0
+							mmorpg_custom_data: "{\"data\":{\"map\":{\"crafted\":\"true\",\"sl\":\"false\"}}}"
+							mmorpg_gear: "{\"baseStats\":{\"p\":85},\"imp\":{\"p\":74,\"imp\":\"\"},\"affixes\":{\"suf\":[{\"p\":23,\"id\":\"lightning_res\",\"rar\":\"uncommon\",\"ty\":\"suffix\"}],\"pre\":[{\"p\":32,\"id\":\"glimmering\",\"rar\":\"uncommon\",\"ty\":\"prefix\"},{\"p\":35,\"id\":\"giants\",\"rar\":\"rare\",\"ty\":\"prefix\"}],\"cor\":[]},\"sockets\":{\"so\":[],\"sl\":0,\"rw\":\"\",\"rp\":0},\"rar\":\"rare\",\"lvl\":25,\"gtype\":\"brigandine_chest\"}"
+							mmorpg_potential: "{\"potential\":25}"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "427D7CC1A6F28D9E"
+					item: {
+						Count: 1
+						id: "many_more_ores_and_crafts:palladium_leggings"
+						tag: {
+							Damage: 0
+							mmorpg_custom_data: "{\"data\":{\"map\":{\"crafted\":\"true\",\"sl\":\"false\"}}}"
+							mmorpg_gear: "{\"baseStats\":{\"p\":59},\"imp\":{\"p\":50,\"imp\":\"\"},\"affixes\":{\"suf\":[{\"p\":44,\"id\":\"chaos_res\",\"rar\":\"uncommon\",\"ty\":\"suffix\"}],\"pre\":[{\"p\":16,\"id\":\"resplendent\",\"rar\":\"uncommon\",\"ty\":\"prefix\"},{\"p\":37,\"id\":\"item_perc_dodge\",\"rar\":\"rare\",\"ty\":\"prefix\"}],\"cor\":[]},\"sockets\":{\"so\":[],\"sl\":0,\"rw\":\"\",\"rp\":0},\"rar\":\"rare\",\"lvl\":25,\"gtype\":\"brigandine_pants\"}"
+							mmorpg_potential: "{\"potential\":25}"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "19439D78B167BBE4"
+					item: {
+						Count: 1
+						id: "many_more_ores_and_crafts:palladium_boots"
+						tag: {
+							Damage: 0
+							mmorpg_custom_data: "{\"data\":{\"map\":{\"crafted\":\"true\",\"sl\":\"false\"}}}"
+							mmorpg_gear: "{\"baseStats\":{\"p\":33},\"imp\":{\"p\":60,\"imp\":\"\"},\"affixes\":{\"suf\":[{\"p\":3,\"id\":\"water_res\",\"rar\":\"common\",\"ty\":\"suffix\"}],\"pre\":[{\"p\":35,\"id\":\"resplendent\",\"rar\":\"uncommon\",\"ty\":\"prefix\"},{\"p\":25,\"id\":\"item_perc_dodge\",\"rar\":\"common\",\"ty\":\"prefix\"}],\"cor\":[]},\"sockets\":{\"so\":[],\"sl\":1,\"rw\":\"\",\"rp\":0},\"rar\":\"rare\",\"lvl\":25,\"gtype\":\"brigandine_boots\"}"
+							mmorpg_potential: "{\"potential\":25}"
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "4AFB07193C94790C"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "many_more_ores_and_crafts:palladium_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4FA36EB6E1895711"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "many_more_ores_and_crafts:palladium_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "13A67D9792140ACD"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "many_more_ores_and_crafts:palladium_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "68E2C9A5E965A6BC"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "many_more_ores_and_crafts:palladium_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -5.5d
+			y: -6.5d
+		}
+		{
+			id: "5573E493FBAEB9AA"
+			tasks: [{
+				id: "4521A35D24189486"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "cataclysm:bloom_stone_pauldrons"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -7.5d
+			y: -5.5d
+		}
+		{
+			id: "03BA99EC8A399C81"
+			tasks: [
+				{
+					id: "53408504EB450A45"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "fantasy_armor:spark_of_dawn_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "424E1DF7FDB096CA"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "fantasy_armor:spark_of_dawn_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5B51327EBA8DD660"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "fantasy_armor:spark_of_dawn_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7CC113C1814AE79B"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "fantasy_armor:spark_of_dawn_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -7.5d
+			y: -4.5d
+		}
+		{
+			description: ["corpse "]
+			id: "082D2DD548979F79"
+			tasks: [
+				{
+					id: "43B865B341DC4A5A"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "fantasy_armor:golden_execution_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "125BE8C69EAAB903"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "fantasy_armor:golden_execution_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "19A07343C3C2373B"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "fantasy_armor:golden_execution_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "26629A91D580EA92"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "fantasy_armor:forgotten_trace_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -4.5d
+			y: -5.5d
+		}
+		{
+			id: "0B942FFB5A436110"
+			tasks: [
+				{
+					id: "5FA851608F4C0545"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "fantasy_armor:forgotten_trace_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6C9F98D6B0824A06"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "fantasy_armor:forgotten_trace_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5BE22BEAC3818F85"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "fantasy_armor:golden_execution_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1B82DE68828D5BD6"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "fantasy_armor:forgotten_trace_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -6.5d
+			y: -4.5d
+		}
+		{
+			id: "4EE0EEBB0ECAF97B"
+			tasks: [
+				{
+					id: "059A4BD2612BA60A"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "fantasy_armor:sunset_wings_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "70B205798AEA7764"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "fantasy_armor:sunset_wings_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2BFD4651581CB57E"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "fantasy_armor:sunset_wings_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "38D6B014C7F421EB"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "fantasy_armor:sunset_wings_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -5.5d
+			y: -5.5d
+		}
+		{
+			description: [
+				"&4Advertencia este capítulo esta en desarrolo"
+				"{image:azurelib:icons/warning width:10 height:10 align:center}"
+			]
+			id: "0AA09D3D4A85CD1E"
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "68FDF660E1389800"
+				title: "Leer"
+				type: "checkmark"
+			}]
+			x: -6.0d
+			y: -12.0d
+		}
+		{
+			id: "2A4985DC6F6262EE"
+			rewards: [
+				{
+					id: "6A1527646CBA4661"
+					item: {
+						Count: 1
+						id: "many_more_ores_and_crafts:emerald_helmet"
+						tag: {
+							Damage: 0
+							mmorpg_custom_data: "{\"data\":{\"map\":{\"crafted\":\"true\",\"sl\":\"false\"}}}"
+							mmorpg_gear: "{\"baseStats\":{\"p\":72},\"imp\":{\"p\":61,\"imp\":\"hunter_hood\"},\"affixes\":{\"suf\":[{\"p\":26,\"id\":\"water_res\",\"rar\":\"common\",\"ty\":\"suffix\"}],\"pre\":[{\"p\":21,\"id\":\"glimmering\",\"rar\":\"uncommon\",\"ty\":\"prefix\"},{\"p\":29,\"id\":\"resplendent\",\"rar\":\"common\",\"ty\":\"prefix\"}],\"cor\":[]},\"sockets\":{\"so\":[],\"sl\":1,\"rw\":\"\",\"rp\":0},\"rar\":\"rare\",\"lvl\":30,\"gtype\":\"leather_helmet\"}"
+							mmorpg_potential: "{\"potential\":25}"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "58320D5E060045DF"
+					item: {
+						Count: 1
+						id: "many_more_ores_and_crafts:emerald_chestplate"
+						tag: {
+							Damage: 0
+							mmorpg_custom_data: "{\"data\":{\"map\":{\"crafted\":\"true\",\"sl\":\"false\"}}}"
+							mmorpg_gear: "{\"baseStats\":{\"p\":36},\"imp\":{\"p\":35,\"imp\":\"\"},\"affixes\":{\"suf\":[{\"p\":27,\"id\":\"fire_res\",\"rar\":\"common\",\"ty\":\"suffix\"}],\"pre\":[{\"p\":41,\"id\":\"seraphim\",\"rar\":\"uncommon\",\"ty\":\"prefix\"},{\"p\":23,\"id\":\"glimmering\",\"rar\":\"uncommon\",\"ty\":\"prefix\"}],\"cor\":[]},\"sockets\":{\"so\":[],\"sl\":0,\"rw\":\"\",\"rp\":0},\"rar\":\"rare\",\"lvl\":30,\"gtype\":\"brigandine_chest\"}"
+							mmorpg_potential: "{\"potential\":25}"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5E4A6ED75C996A5F"
+					item: {
+						Count: 1
+						id: "many_more_ores_and_crafts:emerald_leggings"
+						tag: {
+							Damage: 0
+							mmorpg_custom_data: "{\"data\":{\"map\":{\"crafted\":\"true\",\"sl\":\"false\"}}}"
+							mmorpg_gear: "{\"baseStats\":{\"p\":96},\"imp\":{\"p\":21,\"imp\":\"\"},\"affixes\":{\"suf\":[{\"p\":32,\"id\":\"of_the_wind\",\"rar\":\"rare\",\"ty\":\"suffix\"}],\"pre\":[{\"p\":30,\"id\":\"boundless\",\"rar\":\"common\",\"ty\":\"prefix\"},{\"p\":8,\"id\":\"resplendent\",\"rar\":\"common\",\"ty\":\"prefix\"}],\"cor\":[]},\"sockets\":{\"so\":[],\"sl\":0,\"rw\":\"\",\"rp\":0},\"rar\":\"rare\",\"lvl\":30,\"gtype\":\"leather_pants\"}"
+							mmorpg_potential: "{\"potential\":25}"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "48F6980C4456AB18"
+					item: {
+						Count: 1
+						id: "many_more_ores_and_crafts:emerald_boots"
+						tag: {
+							Damage: 0
+							mmorpg_custom_data: "{\"data\":{\"map\":{\"crafted\":\"true\",\"sl\":\"false\"}}}"
+							mmorpg_gear: "{\"baseStats\":{\"p\":96},\"imp\":{\"p\":56,\"imp\":\"\"},\"affixes\":{\"suf\":[{\"p\":47,\"id\":\"water_res\",\"rar\":\"rare\",\"ty\":\"suffix\"}],\"pre\":[{\"p\":44,\"id\":\"seraphim\",\"rar\":\"rare\",\"ty\":\"prefix\"},{\"p\":42,\"id\":\"glimmering\",\"rar\":\"uncommon\",\"ty\":\"prefix\"}],\"cor\":[]},\"sockets\":{\"so\":[],\"sl\":0,\"rw\":\"\",\"rp\":0},\"rar\":\"rare\",\"lvl\":30,\"gtype\":\"leather_boots\"}"
+							mmorpg_potential: "{\"potential\":25}"
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "25A3809E71E2CE8B"
+					item: {
+						Count: 1
+						id: "many_more_ores_and_crafts:emerald_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7DE7280E88102E8A"
+					item: {
+						Count: 1
+						id: "many_more_ores_and_crafts:emerald_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "318915B3BDF8B632"
+					item: {
+						Count: 1
+						id: "many_more_ores_and_crafts:emerald_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5120F1734F5F427C"
+					item: {
+						Count: 1
+						id: "many_more_ores_and_crafts:emerald_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -6.5d
+			y: -5.5d
+		}
+	]
+	title: "Armaduras"
+}

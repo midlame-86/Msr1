@@ -1,0 +1,5431 @@
+{
+	consume_items: true
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	default_repeatable_quest: true
+	filename: "armas"
+	group: "2C9EC70F5E4DE9CC"
+	id: "1DB0D4C811E25B8A"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "682329E9FCB47FF5"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "59463BF8ECE6C234"
+				title: "Capitulo 1"
+				type: "checkmark"
+			}]
+			x: -13.5d
+			y: -3.5d
+		}
+		{
+			can_repeat: true
+			id: "3B1BEAD4A24B5273"
+			rewards: [{
+				id: "5D224287AB9AC44C"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "minecraft:iron_sword"
+					tag: {
+						Damage: 0
+						mmorpg_custom_data: "{\"data\":{\"map\":{\"crafted\":\"true\",\"sl\":\"false\"}}}"
+						mmorpg_gear: "{\"baseStats\":{\"p\":77},\"imp\":{\"p\":16,\"imp\":\"dusk_blade\"},\"affixes\":{\"suf\":[],\"pre\":[{\"p\":30,\"id\":\"energy_thief\",\"rar\":\"common\",\"ty\":\"prefix\"}],\"cor\":[]},\"sockets\":{\"so\":[],\"sl\":2,\"rw\":\"\",\"rp\":0},\"rar\":\"common\",\"lvl\":5,\"gtype\":\"sword\"}"
+						mmorpg_potential: "{\"potential\":5}"
+					}
+				}
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				consume_items: true
+				id: "109E61C5A5497DA1"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "minecraft:iron_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -12.0d
+			y: -4.5d
+		}
+		{
+			id: "1F496E08E578A2C5"
+			rewards: [{
+				id: "78681AFBAA98B954"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "mine_and_staff:roots_staff"
+					tag: {
+						Damage: 0
+						mmorpg_custom_data: "{\"data\":{\"map\":{\"crafted\":\"true\",\"sl\":\"false\"}}}"
+						mmorpg_gear: "{\"baseStats\":{\"p\":9},\"imp\":{\"p\":43,\"imp\":\"cursed_staff\"},\"affixes\":{\"suf\":[],\"pre\":[{\"p\":6,\"id\":\"heal_crit_prefix\",\"rar\":\"common\",\"ty\":\"prefix\"}],\"cor\":[]},\"sockets\":{\"so\":[],\"sl\":2,\"rw\":\"\",\"rp\":0},\"rar\":\"common\",\"lvl\":5,\"gtype\":\"staff\"}"
+						mmorpg_potential: "{\"potential\":5}"
+					}
+				}
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				consume_items: true
+				id: "38DCAE8D193E0ECE"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "mine_and_staff:roots_staff"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -10.0d
+			y: -4.5d
+		}
+		{
+			id: "38A0732E3A332F3E"
+			rewards: [{
+				id: "2EE43D8D19359433"
+				item: {
+					Count: 1
+					id: "rpgsmwlite:iron_knife"
+					tag: {
+						Damage: 0
+						mmorpg_custom_data: "{\"data\":{\"map\":{\"crafted\":\"true\",\"sl\":\"false\"}}}"
+						mmorpg_gear: "{\"baseStats\":{\"p\":50},\"imp\":{\"p\":81,\"imp\":\"royal_skean\"},\"affixes\":{\"suf\":[],\"pre\":[{\"p\":21,\"id\":\"fire_wep_dmg\",\"rar\":\"common\",\"ty\":\"prefix\"}],\"cor\":[]},\"sockets\":{\"so\":[],\"sl\":1,\"rw\":\"\",\"rp\":0},\"rar\":\"common\",\"lvl\":5,\"gtype\":\"dagger\"}"
+						mmorpg_potential: "{\"potential\":5}"
+					}
+				}
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				consume_items: true
+				id: "4EC7506E197B964A"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "rpgsmwlite:iron_knife"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -10.0d
+			y: -2.5d
+		}
+		{
+			id: "51CD3486EB586B77"
+			rewards: [{
+				id: "160F99FA7A652901"
+				item: {
+					Count: 1
+					id: "rpgsmwlite:iron_battle_axe"
+					tag: {
+						Damage: 0
+						mmorpg_custom_data: "{\"data\":{\"map\":{\"crafted\":\"true\",\"sl\":\"false\"}}}"
+						mmorpg_gear: "{\"baseStats\":{\"p\":10},\"imp\":{\"p\":41,\"imp\":\"war_axe\"},\"affixes\":{\"suf\":[],\"pre\":[{\"p\":22,\"id\":\"wep_item_both\",\"rar\":\"common\",\"ty\":\"prefix\"}],\"cor\":[]},\"sockets\":{\"so\":[],\"sl\":2,\"rw\":\"\",\"rp\":0},\"rar\":\"common\",\"lvl\":5,\"gtype\":\"axe\"}"
+						mmorpg_potential: "{\"potential\":5}"
+					}
+				}
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "33972C1618BA2F93"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "rpgsmwlite:iron_battle_axe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -8.0d
+			y: -3.5d
+		}
+		{
+			id: "1C08572061ECC6B1"
+			rewards: [{
+				id: "5059A461291449C7"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "rpgsmwlite:iron_greatsword"
+					tag: {
+						Damage: 0
+						mmorpg_custom_data: "{\"data\":{\"map\":{\"crafted\":\"true\",\"sl\":\"false\"}}}"
+						mmorpg_gear: "{\"baseStats\":{\"p\":88},\"imp\":{\"p\":31,\"imp\":\"hyperion_greatsword\"},\"affixes\":{\"suf\":[],\"pre\":[{\"p\":24,\"id\":\"catalyzing\",\"rar\":\"common\",\"ty\":\"prefix\"}],\"cor\":[]},\"sockets\":{\"so\":[],\"sl\":1,\"rw\":\"\",\"rp\":0},\"rar\":\"common\",\"lvl\":5,\"gtype\":\"greatsword\"}"
+						mmorpg_potential: "{\"potential\":5}"
+					}
+				}
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "46984F0AC2518BAF"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "rpgsmwlite:iron_greatsword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -11.0d
+			y: -3.5d
+		}
+		{
+			id: "2131242FF91DD61D"
+			rewards: [{
+				id: "278D78237BD3EE86"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "rpgsmwlite:iron_gauntlet"
+					tag: {
+						Damage: 0
+						mmorpg_custom_data: "{\"data\":{\"map\":{\"crafted\":\"true\",\"sl\":\"false\"}}}"
+						mmorpg_gear: "{\"baseStats\":{\"p\":36},\"imp\":{\"p\":89,\"imp\":\"brawlers_gauntlet\"},\"affixes\":{\"suf\":[],\"pre\":[{\"p\":10,\"id\":\"physical_wep_dmg\",\"rar\":\"common\",\"ty\":\"prefix\"}],\"cor\":[]},\"sockets\":{\"so\":[],\"sl\":1,\"rw\":\"\",\"rp\":0},\"rar\":\"common\",\"lvl\":5,\"gtype\":\"gauntlet\"}"
+						mmorpg_potential: "{\"potential\":5}"
+					}
+				}
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "1378BB1AE3761801"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "rpgsmwlite:iron_gauntlet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -11.0d
+			y: -4.5d
+		}
+		{
+			id: "0AF86DD953B2D695"
+			rewards: [{
+				id: "78CB085C0E105CE4"
+				item: {
+					Count: 1
+					id: "rpgsmwlite:iron_spear"
+					tag: {
+						Damage: 0
+						mmorpg_custom_data: "{\"data\":{\"map\":{\"crafted\":\"true\",\"sl\":\"false\"}}}"
+						mmorpg_gear: "{\"baseStats\":{\"p\":41},\"imp\":{\"p\":41,\"imp\":\"war_spear\"},\"affixes\":{\"suf\":[],\"pre\":[{\"p\":20,\"id\":\"catalyzing\",\"rar\":\"common\",\"ty\":\"prefix\"}],\"cor\":[]},\"sockets\":{\"so\":[],\"sl\":1,\"rw\":\"\",\"rp\":0},\"rar\":\"common\",\"lvl\":5,\"gtype\":\"spear\"}"
+						mmorpg_potential: "{\"potential\":5}"
+					}
+				}
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "3F0894139042262E"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "rpgsmwlite:iron_spear"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -9.0d
+			y: -3.5d
+		}
+		{
+			id: "04F76A9A8FE25503"
+			rewards: [{
+				id: "53556899F517A337"
+				item: {
+					Count: 1
+					id: "many_more_ores_and_crafts:tin_sword"
+					tag: {
+						Damage: 0
+						mmorpg_custom_data: "{\"data\":{\"map\":{\"crafted\":\"true\",\"sl\":\"false\"}}}"
+						mmorpg_gear: "{\"baseStats\":{\"p\":75},\"imp\":{\"p\":69,\"imp\":\"rusted_sword\"},\"affixes\":{\"suf\":[{\"p\":26,\"id\":\"of_ease\",\"rar\":\"common\",\"ty\":\"suffix\"}],\"pre\":[{\"p\":25,\"id\":\"physical_wep_dmg\",\"rar\":\"common\",\"ty\":\"prefix\"}],\"cor\":[]},\"sockets\":{\"so\":[],\"sl\":1,\"rw\":\"\",\"rp\":0},\"rar\":\"uncommon\",\"lvl\":5,\"gtype\":\"sword\"}"
+						mmorpg_potential: "{\"potential\":10}"
+					}
+				}
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "6EC840B55EDF3AC3"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "many_more_ores_and_crafts:tin_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -12.0d
+			y: -2.5d
+		}
+		{
+			id: "5F9454086F2F7904"
+			rewards: [{
+				id: "6F45B8D1E4B1A394"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "many_more_ores_and_crafts:silver_sword"
+					tag: {
+						Damage: 0
+						mmorpg_custom_data: "{\"data\":{\"map\":{\"crafted\":\"true\",\"sl\":\"false\"}}}"
+						mmorpg_gear: "{\"baseStats\":{\"p\":78},\"imp\":{\"p\":74,\"imp\":\"rusted_sword\"},\"affixes\":{\"suf\":[],\"pre\":[{\"p\":21,\"id\":\"berserkers\",\"rar\":\"common\",\"ty\":\"prefix\"}],\"cor\":[]},\"sockets\":{\"so\":[],\"sl\":1,\"rw\":\"\",\"rp\":0},\"rar\":\"common\",\"lvl\":10,\"gtype\":\"sword\"}"
+						mmorpg_potential: "{\"potential\":5}"
+					}
+				}
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "070C1C12F8DF0E14"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "many_more_ores_and_crafts:silver_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -12.0d
+			y: -3.5d
+		}
+		{
+			id: "2B05BCBD2AFED5C7"
+			rewards: [{
+				id: "2FF719D16DBB550E"
+				item: {
+					Count: 1
+					id: "many_more_ores_and_crafts:lead_sword"
+					tag: {
+						Damage: 0
+						mmorpg_custom_data: "{\"data\":{\"map\":{\"crafted\":\"true\",\"sl\":\"false\"}}}"
+						mmorpg_gear: "{\"baseStats\":{\"p\":84},\"imp\":{\"p\":85,\"imp\":\"rusted_sword\"},\"affixes\":{\"suf\":[{\"p\":9,\"id\":\"of_pene\",\"rar\":\"common\",\"ty\":\"suffix\"}],\"pre\":[{\"p\":30,\"id\":\"weaponmasters\",\"rar\":\"uncommon\",\"ty\":\"prefix\"}],\"cor\":[]},\"sockets\":{\"so\":[],\"sl\":2,\"rw\":\"\",\"rp\":0},\"rar\":\"uncommon\",\"lvl\":5,\"gtype\":\"sword\"}"
+						mmorpg_potential: "{\"potential\":10}"
+					}
+				}
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "407552E2833CD9DE"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "many_more_ores_and_crafts:lead_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -10.0d
+			y: -3.5d
+		}
+		{
+			id: "0E9F2E7050D31AC5"
+			rewards: [{
+				id: "44ACFEE731185F93"
+				item: {
+					Count: 1
+					id: "samurai_dynasty:katana"
+					tag: {
+						Damage: 0
+						mmorpg_custom_data: "{\"data\":{\"map\":{\"crafted\":\"true\",\"sl\":\"false\"}}}"
+						mmorpg_gear: "{\"baseStats\":{\"p\":11},\"imp\":{\"p\":24,\"imp\":\"rusted_sword\"},\"affixes\":{\"suf\":[],\"pre\":[{\"p\":0,\"id\":\"warlords\",\"rar\":\"common\",\"ty\":\"prefix\"}],\"cor\":[]},\"sockets\":{\"so\":[],\"sl\":1,\"rw\":\"\",\"rp\":0},\"rar\":\"common\",\"lvl\":5,\"gtype\":\"sword\"}"
+						mmorpg_potential: "{\"potential\":5}"
+					}
+				}
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "0468CA4B7965C1CF"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "samurai_dynasty:katana"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -9.0d
+			y: -2.5d
+		}
+		{
+			id: "435205F9C4116E97"
+			rewards: [{
+				id: "2D63BA21CD87E39A"
+				item: {
+					Count: 1
+					id: "minecraft:diamond_sword"
+					tag: {
+						Damage: 0
+						mmorpg_custom_data: "{\"data\":{\"map\":{\"crafted\":\"true\",\"sl\":\"false\"}}}"
+						mmorpg_gear: "{\"baseStats\":{\"p\":52},\"imp\":{\"p\":74,\"imp\":\"rusted_sword\"},\"affixes\":{\"suf\":[{\"p\":42,\"id\":\"of_vampirism\",\"rar\":\"uncommon\",\"ty\":\"suffix\"}],\"pre\":[{\"p\":30,\"id\":\"physical_wep_dmg\",\"rar\":\"common\",\"ty\":\"prefix\"}],\"cor\":[]},\"sockets\":{\"so\":[],\"sl\":1,\"rw\":\"\",\"rp\":0},\"rar\":\"uncommon\",\"lvl\":10,\"gtype\":\"sword\"}"
+						mmorpg_potential: "{\"potential\":10}"
+					}
+				}
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "544AE2210F723C6C"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "minecraft:diamond_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -12.0d
+			y: 0.5d
+		}
+		{
+			id: "5A3D73F96E198FE3"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "5BAB7A26FC1DEFD7"
+				title: "Poco comunes"
+				type: "checkmark"
+			}]
+			x: -13.5d
+			y: 1.5d
+		}
+		{
+			id: "56AA792BC3206B34"
+			rewards: [{
+				id: "6375CD69739A8315"
+				item: {
+					Count: 1
+					id: "rpgsmwlite:diamond_knife"
+					tag: {
+						Damage: 0
+						mmorpg_custom_data: "{\"data\":{\"map\":{\"crafted\":\"true\",\"sl\":\"false\"}}}"
+						mmorpg_gear: "{\"baseStats\":{\"p\":27},\"imp\":{\"p\":14,\"imp\":\"imp_dagger\"},\"affixes\":{\"suf\":[{\"p\":14,\"id\":\"of_fast_cast\",\"rar\":\"common\",\"ty\":\"suffix\"}],\"pre\":[{\"p\":16,\"id\":\"precise\",\"rar\":\"common\",\"ty\":\"prefix\"}],\"cor\":[]},\"sockets\":{\"so\":[],\"sl\":1,\"rw\":\"\",\"rp\":0},\"rar\":\"uncommon\",\"lvl\":10,\"gtype\":\"dagger\"}"
+						mmorpg_potential: "{\"potential\":10}"
+					}
+				}
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "17B92E5DC3A34F90"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "rpgsmwlite:diamond_knife"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -11.0d
+			y: 0.5d
+		}
+		{
+			id: "0DB08937ED491CB1"
+			rewards: [{
+				id: "1BFC4E156C8F2431"
+				item: {
+					Count: 1
+					id: "rpgsmwlite:diamond_battle_hammer"
+					tag: {
+						Damage: 0
+						mmorpg_custom_data: "{\"data\":{\"map\":{\"crafted\":\"true\",\"sl\":\"false\"}}}"
+						mmorpg_gear: "{\"baseStats\":{\"p\":89},\"imp\":{\"p\":88,\"imp\":\"cleric_staff\"},\"affixes\":{\"suf\":[{\"p\":24,\"id\":\"of_burning\",\"rar\":\"common\",\"ty\":\"suffix\"}],\"pre\":[{\"p\":28,\"id\":\"water_wep_dmg\",\"rar\":\"common\",\"ty\":\"prefix\"}],\"cor\":[]},\"sockets\":{\"so\":[],\"sl\":0,\"rw\":\"\",\"rp\":0},\"rar\":\"uncommon\",\"lvl\":10,\"gtype\":\"hammer\"}"
+						mmorpg_potential: "{\"potential\":10}"
+					}
+				}
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "3EB4A9251E290143"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "rpgsmwlite:diamond_battle_hammer"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -11.0d
+			y: 1.5d
+		}
+		{
+			id: "4BBD76FD149BD938"
+			rewards: [{
+				id: "1D5145EC4C920D2F"
+				item: {
+					Count: 1
+					id: "simplyswords:iron_scythe"
+					tag: {
+						Damage: 0
+						mmorpg_custom_data: "{\"data\":{\"map\":{\"crafted\":\"true\",\"sl\":\"false\"}}}"
+						mmorpg_gear: "{\"baseStats\":{\"p\":22},\"imp\":{\"p\":81,\"imp\":\"necromancers_scythe\"},\"affixes\":{\"suf\":[],\"pre\":[{\"p\":13,\"id\":\"wep_item_perc\",\"rar\":\"common\",\"ty\":\"prefix\"}],\"cor\":[]},\"sockets\":{\"so\":[],\"sl\":0,\"rw\":\"\",\"rp\":0},\"rar\":\"common\",\"lvl\":5,\"gtype\":\"scythe\"}"
+						mmorpg_potential: "{\"potential\":5}"
+					}
+				}
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "2FB1EC15C1A29205"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "rpgsmwlite:iron_scythe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -11.0d
+			y: -2.5d
+		}
+		{
+			id: "0ABB7E5F387A4360"
+			rewards: [{
+				id: "4AE5015CE6D02791"
+				item: {
+					Count: 1
+					id: "rpgsmwlite:diamond_spear"
+					tag: {
+						Damage: 0
+						mmorpg_custom_data: "{\"data\":{\"map\":{\"crafted\":\"true\",\"sl\":\"false\"}}}"
+						mmorpg_gear: "{\"baseStats\":{\"p\":93},\"imp\":{\"p\":90,\"imp\":\"war_spear\"},\"affixes\":{\"suf\":[{\"p\":28,\"id\":\"of_gluttony\",\"rar\":\"uncommon\",\"ty\":\"suffix\"}],\"pre\":[{\"p\":17,\"id\":\"fire_wep_dmg\",\"rar\":\"uncommon\",\"ty\":\"prefix\"}],\"cor\":[]},\"sockets\":{\"so\":[],\"sl\":0,\"rw\":\"\",\"rp\":0},\"rar\":\"uncommon\",\"lvl\":10,\"gtype\":\"spear\"}"
+						mmorpg_potential: "{\"potential\":10}"
+					}
+				}
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "423946E8D0FBADF6"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "rpgsmwlite:diamond_spear"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -9.0d
+			y: 0.5d
+		}
+		{
+			id: "2F358849C84CECDB"
+			rewards: [{
+				id: "4458779370CC91F3"
+				item: {
+					Count: 1
+					id: "rpgsmwlite:diamondbattleaxe"
+					tag: {
+						Damage: 0
+						mmorpg_custom_data: "{\"data\":{\"map\":{\"crafted\":\"true\",\"sl\":\"false\"}}}"
+						mmorpg_gear: "{\"baseStats\":{\"p\":60},\"imp\":{\"p\":33,\"imp\":\"war_axe\"},\"affixes\":{\"suf\":[{\"p\":12,\"id\":\"of_gluttony\",\"rar\":\"common\",\"ty\":\"suffix\"}],\"pre\":[{\"p\":13,\"id\":\"precise\",\"rar\":\"common\",\"ty\":\"prefix\"}],\"cor\":[]},\"sockets\":{\"so\":[],\"sl\":0,\"rw\":\"\",\"rp\":0},\"rar\":\"uncommon\",\"lvl\":10,\"gtype\":\"axe\"}"
+						mmorpg_potential: "{\"potential\":10}"
+					}
+				}
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "589920FA4C17157D"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "rpgsmwlite:diamondbattleaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -12.0d
+			y: 1.5d
+		}
+		{
+			id: "0AECFD09C9695F48"
+			rewards: [{
+				id: "7222D0379668FADE"
+				item: {
+					Count: 1
+					id: "rpgsmwlite:diamond_greatsword"
+					tag: {
+						Damage: 0
+						mmorpg_custom_data: "{\"data\":{\"map\":{\"crafted\":\"true\",\"sl\":\"false\"}}}"
+						mmorpg_gear: "{\"baseStats\":{\"p\":96},\"imp\":{\"p\":11,\"imp\":\"broad_greatsword\"},\"affixes\":{\"suf\":[{\"p\":21,\"id\":\"of_brutality\",\"rar\":\"common\",\"ty\":\"suffix\"}],\"pre\":[{\"p\":28,\"id\":\"physical_wep_dmg\",\"rar\":\"uncommon\",\"ty\":\"prefix\"}],\"cor\":[]},\"sockets\":{\"so\":[],\"sl\":1,\"rw\":\"\",\"rp\":0},\"rar\":\"uncommon\",\"lvl\":10,\"gtype\":\"greatsword\"}"
+						mmorpg_potential: "{\"potential\":10}"
+					}
+				}
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "45116E88D7EF4F9F"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "rpgsmwlite:diamond_greatsword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -8.0d
+			y: 0.5d
+		}
+		{
+			id: "26BC130A3A23D4BD"
+			rewards: [{
+				id: "4B7232CDA61710FC"
+				item: {
+					Count: 1
+					id: "simplyswords:diamond_scythe"
+					tag: {
+						Damage: 0
+						mmorpg_custom_data: "{\"data\":{\"map\":{\"crafted\":\"true\",\"sl\":\"false\"}}}"
+						mmorpg_gear: "{\"baseStats\":{\"p\":60},\"imp\":{\"p\":39,\"imp\":\"rusted_scythe\"},\"affixes\":{\"suf\":[{\"p\":2,\"id\":\"of_fast_cast\",\"rar\":\"common\",\"ty\":\"suffix\"}],\"pre\":[{\"p\":12,\"id\":\"water_wep_dmg\",\"rar\":\"common\",\"ty\":\"prefix\"}],\"cor\":[]},\"sockets\":{\"so\":[],\"sl\":1,\"rw\":\"\",\"rp\":0},\"rar\":\"uncommon\",\"lvl\":10,\"gtype\":\"scythe\"}"
+						mmorpg_potential: "{\"potential\":10}"
+					}
+				}
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "375D5C6F0DFA16B9"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "simplyswords:diamond_scythe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -10.0d
+			y: 1.5d
+		}
+		{
+			id: "6875629C3B9AD96B"
+			rewards: [{
+				id: "5E3D520ECAE277FC"
+				item: {
+					Count: 1
+					id: "many_more_ores_and_crafts:obsidian_sword"
+					tag: {
+						Damage: 0
+						mmorpg_custom_data: "{\"data\":{\"map\":{\"crafted\":\"true\",\"sl\":\"false\"}}}"
+						mmorpg_gear: "{\"baseStats\":{\"p\":34},\"imp\":{\"p\":33,\"imp\":\"rusted_sword\"},\"affixes\":{\"suf\":[{\"p\":31,\"id\":\"of_the_blade\",\"rar\":\"uncommon\",\"ty\":\"suffix\"}],\"pre\":[{\"p\":25,\"id\":\"wep_item_perc\",\"rar\":\"common\",\"ty\":\"prefix\"}],\"cor\":[]},\"sockets\":{\"so\":[],\"sl\":1,\"rw\":\"\",\"rp\":0},\"rar\":\"uncommon\",\"lvl\":10,\"gtype\":\"sword\"}"
+						mmorpg_potential: "{\"potential\":10}"
+					}
+				}
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "123628EEF39FE83A"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "many_more_ores_and_crafts:obsidian_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -10.0d
+			y: 0.5d
+		}
+		{
+			id: "3C7419CD180E7A1B"
+			rewards: [{
+				id: "5FFD9E14686695CD"
+				item: {
+					Count: 1
+					id: "many_more_ores_and_crafts:tungsten_sword"
+					tag: {
+						Damage: 0
+						mmorpg_custom_data: "{\"data\":{\"map\":{\"crafted\":\"true\",\"sl\":\"false\"}}}"
+						mmorpg_gear: "{\"baseStats\":{\"p\":82},\"imp\":{\"p\":64,\"imp\":\"rusted_sword\"},\"affixes\":{\"suf\":[{\"p\":26,\"id\":\"of_pene\",\"rar\":\"common\",\"ty\":\"suffix\"}],\"pre\":[{\"p\":42,\"id\":\"warlords\",\"rar\":\"uncommon\",\"ty\":\"prefix\"}],\"cor\":[]},\"sockets\":{\"so\":[],\"sl\":1,\"rw\":\"\",\"rp\":0},\"rar\":\"uncommon\",\"lvl\":10,\"gtype\":\"sword\"}"
+						mmorpg_potential: "{\"potential\":10}"
+					}
+				}
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "7AA2DCE7EC562034"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "many_more_ores_and_crafts:tungsten_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -8.0d
+			y: 1.5d
+		}
+		{
+			id: "58D07FD176D6F8B0"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "74F1412E5727C13F"
+				title: "Raro"
+				type: "checkmark"
+			}]
+			x: -13.5d
+			y: 6.5d
+		}
+		{
+			id: "5F02D15B4D2D2366"
+			shape: "square"
+			tasks: [{
+				id: "3D4186CF85CCD02D"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "legendary_monsters:the_great_frost"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -12.0d
+			y: 4.5d
+		}
+		{
+			id: "041B57FC25FBBBA1"
+			rewards: [{
+				id: "3FF1E44A24B66EE7"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "legendary_monsters:frostbitten_shield"
+					tag: {
+						Damage: 0
+						mmorpg_custom_data: "{\"data\":{\"map\":{\"crafted\":\"true\",\"sl\":\"false\"}}}"
+						mmorpg_gear: "{\"baseStats\":{\"p\":70},\"imp\":{\"p\":34,\"imp\":\"\"},\"affixes\":{\"suf\":[{\"p\":34,\"id\":\"water_res\",\"rar\":\"rare\",\"ty\":\"suffix\"}],\"pre\":[{\"p\":51,\"id\":\"immortal\",\"rar\":\"rare\",\"ty\":\"prefix\"},{\"p\":48,\"id\":\"item_flat_armor\",\"rar\":\"rare\",\"ty\":\"prefix\"}],\"cor\":[]},\"sockets\":{\"so\":[],\"sl\":0,\"rw\":\"\",\"rp\":0},\"rar\":\"rare\",\"lvl\":20,\"gtype\":\"shield\"}"
+						mmorpg_potential: "{\"potential\":25}"
+					}
+				}
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "3FC73B5E18C42221"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "legendary_monsters:frostbitten_shield"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -11.0d
+			y: 4.5d
+		}
+		{
+			id: "5F69CB1AD05A19E3"
+			rewards: [{
+				id: "267825058AEFE35A"
+				item: {
+					Count: 1
+					id: "legendary_monsters:monstrous_anchor"
+					tag: {
+						Damage: 0
+						mmorpg_custom_data: "{\"data\":{\"map\":{\"crafted\":\"true\",\"sl\":\"false\"}}}"
+						mmorpg_gear: "{\"baseStats\":{\"p\":99},\"imp\":{\"p\":53,\"imp\":\"cleric_staff\"},\"affixes\":{\"suf\":[{\"p\":54,\"id\":\"of_spell_dmg\",\"rar\":\"rare\",\"ty\":\"suffix\"}],\"pre\":[{\"p\":2,\"id\":\"heal_crit_prefix\",\"rar\":\"common\",\"ty\":\"prefix\"},{\"p\":24,\"id\":\"energy_thief\",\"rar\":\"uncommon\",\"ty\":\"prefix\"}],\"cor\":[]},\"sockets\":{\"so\":[],\"sl\":0,\"rw\":\"\",\"rp\":0},\"rar\":\"rare\",\"lvl\":20,\"gtype\":\"hammer\"}"
+						mmorpg_potential: "{\"potential\":25}"
+					}
+				}
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "10E7F422C511459C"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "legendary_monsters:monstrous_anchor"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -10.0d
+			y: 6.5d
+		}
+		{
+			id: "223B9A7818669744"
+			rewards: [{
+				id: "101ADD6B2B18962F"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "legendary_monsters:spiky_shield"
+					tag: {
+						Damage: 0
+						mmorpg_custom_data: "{\"data\":{\"map\":{\"crafted\":\"true\",\"sl\":\"false\"}}}"
+						mmorpg_gear: "{\"baseStats\":{\"p\":79},\"imp\":{\"p\":35,\"imp\":\"\"},\"affixes\":{\"suf\":[{\"p\":40,\"id\":\"chaos_res\",\"rar\":\"rare\",\"ty\":\"suffix\"}],\"pre\":[{\"p\":8,\"id\":\"bulwarks\",\"rar\":\"common\",\"ty\":\"prefix\"},{\"p\":18,\"id\":\"item_flat_armor\",\"rar\":\"common\",\"ty\":\"prefix\"}],\"cor\":[]},\"sockets\":{\"so\":[],\"sl\":1,\"rw\":\"\",\"rp\":0},\"rar\":\"rare\",\"lvl\":20,\"gtype\":\"shield\"}"
+						mmorpg_potential: "{\"potential\":25}"
+					}
+				}
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "4E2F7789C8622FBA"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "legendary_monsters:spiky_shield"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -9.0d
+			y: 6.5d
+		}
+		{
+			id: "60BCDA00C6295772"
+			rewards: [{
+				id: "7508C0EE069BEB1B"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "legendary_monsters:mossy_hammer"
+					tag: {
+						Damage: 0
+						mmorpg_custom_data: "{\"data\":{\"map\":{\"crafted\":\"true\",\"sl\":\"false\"}}}"
+						mmorpg_gear: "{\"baseStats\":{\"p\":85},\"imp\":{\"p\":76,\"imp\":\"ceremonial_hammer\"},\"affixes\":{\"suf\":[{\"p\":28,\"id\":\"of_devastation\",\"rar\":\"common\",\"ty\":\"suffix\"}],\"pre\":[{\"p\":46,\"id\":\"chaos_wep_dmg\",\"rar\":\"rare\",\"ty\":\"prefix\"},{\"p\":40,\"id\":\"warlords\",\"rar\":\"rare\",\"ty\":\"prefix\"}],\"cor\":[]},\"sockets\":{\"so\":[],\"sl\":0,\"rw\":\"\",\"rp\":0},\"rar\":\"rare\",\"lvl\":20,\"gtype\":\"hammer\"}"
+						mmorpg_potential: "{\"potential\":25}"
+					}
+				}
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "6E8CE2B13BC4BB12"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "legendary_monsters:mossy_hammer"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -8.0d
+			y: 5.5d
+		}
+		{
+			id: "011CD606D2D9E2A3"
+			rewards: [{
+				id: "29D00348EBE0DF9A"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "many_more_ores_and_crafts:cobalt_sword"
+					tag: {
+						Damage: 0
+						mmorpg_custom_data: "{\"data\":{\"map\":{\"crafted\":\"true\",\"sl\":\"false\"}}}"
+						mmorpg_gear: "{\"baseStats\":{\"p\":33},\"imp\":{\"p\":96,\"imp\":\"dusk_blade\"},\"affixes\":{\"suf\":[{\"p\":36,\"id\":\"of_vampirism\",\"rar\":\"rare\",\"ty\":\"suffix\"}],\"pre\":[{\"p\":25,\"id\":\"fire_wep_dmg\",\"rar\":\"common\",\"ty\":\"prefix\"},{\"p\":25,\"id\":\"crit_prefix\",\"rar\":\"common\",\"ty\":\"prefix\"}],\"cor\":[]},\"sockets\":{\"so\":[],\"sl\":0,\"rw\":\"\",\"rp\":0},\"rar\":\"rare\",\"lvl\":20,\"gtype\":\"sword\"}"
+						mmorpg_potential: "{\"potential\":25}"
+					}
+				}
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "52DE29E3E2312A31"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "many_more_ores_and_crafts:cobalt_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -12.0d
+			y: 6.5d
+		}
+		{
+			id: "21A3C7F408A481F1"
+			rewards: [{
+				id: "1850C549FB775F19"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "many_more_ores_and_crafts:palladium_sword"
+					tag: {
+						Damage: 0
+						mmorpg_custom_data: "{\"data\":{\"map\":{\"crafted\":\"true\",\"sl\":\"false\"}}}"
+						mmorpg_gear: "{\"baseStats\":{\"p\":36},\"imp\":{\"p\":67,\"imp\":\"rusted_sword\"},\"affixes\":{\"suf\":[{\"p\":22,\"id\":\"of_the_blade\",\"rar\":\"uncommon\",\"ty\":\"suffix\"}],\"pre\":[{\"p\":53,\"id\":\"berserkers\",\"rar\":\"rare\",\"ty\":\"prefix\"},{\"p\":24,\"id\":\"wep_item_flat\",\"rar\":\"common\",\"ty\":\"prefix\"}],\"cor\":[]},\"sockets\":{\"so\":[],\"sl\":0,\"rw\":\"\",\"rp\":0},\"rar\":\"rare\",\"lvl\":25,\"gtype\":\"sword\"}"
+						mmorpg_potential: "{\"potential\":25}"
+					}
+				}
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "12E33ED4CE008715"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "many_more_ores_and_crafts:palladium_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -11.0d
+			y: 6.5d
+		}
+		{
+			id: "4649751B75949085"
+			rewards: [{
+				id: "00CEEB96B50ACD80"
+				item: {
+					Count: 1
+					id: "legendary_monsters:soul_great_sword"
+					tag: {
+						Damage: 0
+						mmorpg_custom_data: "{\"data\":{\"map\":{\"crafted\":\"true\",\"sl\":\"false\"}}}"
+						mmorpg_gear: "{\"baseStats\":{\"p\":91},\"imp\":{\"p\":59,\"imp\":\"imperial_greatsword\"},\"affixes\":{\"suf\":[{\"p\":36,\"id\":\"of_gluttony\",\"rar\":\"rare\",\"ty\":\"suffix\"}],\"pre\":[{\"p\":53,\"id\":\"warlords\",\"rar\":\"rare\",\"ty\":\"prefix\"},{\"p\":43,\"id\":\"fire_wep_dmg\",\"rar\":\"uncommon\",\"ty\":\"prefix\"}],\"cor\":[]},\"sockets\":{\"so\":[],\"sl\":1,\"rw\":\"\",\"rp\":0},\"rar\":\"rare\",\"lvl\":25,\"gtype\":\"greatsword\"}"
+						mmorpg_potential: "{\"potential\":25}"
+					}
+				}
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "63DAC34D705B759F"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "legendary_monsters:soul_great_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -11.0d
+			y: 8.5d
+		}
+		{
+			id: "7DC224393D17C0B0"
+			rewards: [{
+				id: "275D5CC4CAD89745"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "too_many_bows:ironclad_bow"
+					tag: {
+						Damage: 0
+						mmorpg_custom_data: "{\"data\":{\"map\":{\"crafted\":\"true\",\"sl\":\"false\"}}}"
+						mmorpg_gear: "{\"baseStats\":{\"p\":80},\"imp\":{\"p\":0,\"imp\":\"thicket_bow\"},\"affixes\":{\"suf\":[{\"p\":21,\"id\":\"of_precision\",\"rar\":\"common\",\"ty\":\"suffix\"}],\"pre\":[{\"p\":40,\"id\":\"crit_prefix\",\"rar\":\"uncommon\",\"ty\":\"prefix\"},{\"p\":9,\"id\":\"chaos_wep_dmg\",\"rar\":\"common\",\"ty\":\"prefix\"}],\"cor\":[]},\"sockets\":{\"so\":[],\"sl\":0,\"rw\":\"\",\"rp\":0},\"rar\":\"rare\",\"lvl\":20,\"gtype\":\"bow\"}"
+						mmorpg_potential: "{\"potential\":25}"
+					}
+				}
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "300F3835209AB9FB"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "too_many_bows:ironclad_bow"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -8.0d
+			y: 6.5d
+		}
+		{
+			id: "2E29EC4115B96810"
+			rewards: [{
+				id: "6CD5FDAE31059562"
+				item: {
+					Count: 1
+					id: "too_many_bows:sentinels_wrath"
+					tag: {
+						Damage: 0
+						mmorpg_custom_data: "{\"data\":{\"map\":{\"crafted\":\"true\",\"sl\":\"false\"}}}"
+						mmorpg_gear: "{\"baseStats\":{\"p\":71},\"imp\":{\"p\":16,\"imp\":\"thicket_bow\"},\"affixes\":{\"suf\":[],\"pre\":[{\"p\":15,\"id\":\"chaos_wep_dmg\",\"rar\":\"common\",\"ty\":\"prefix\"}],\"cor\":[]},\"sockets\":{\"so\":[],\"sl\":0,\"rw\":\"\",\"rp\":0},\"rar\":\"common\",\"lvl\":5,\"gtype\":\"bow\"}"
+						mmorpg_potential: "{\"potential\":5}"
+					}
+				}
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "328B36D8D60EFFDB"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "too_many_bows:sentinels_wrath"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -10.0d
+			y: -1.5d
+		}
+		{
+			id: "2BFBFDCA3D1E33EB"
+			rewards: [{
+				id: "06687D8352B069B4"
+				item: {
+					Count: 1
+					id: "too_many_bows:emerald_sage_bow"
+					tag: {
+						Damage: 0
+						mmorpg_custom_data: "{\"data\":{\"map\":{\"crafted\":\"true\",\"sl\":\"false\"}}}"
+						mmorpg_gear: "{\"baseStats\":{\"p\":85},\"imp\":{\"p\":6,\"imp\":\"ass_bow\"},\"affixes\":{\"suf\":[{\"p\":6,\"id\":\"of_brutality\",\"rar\":\"common\",\"ty\":\"suffix\"}],\"pre\":[{\"p\":43,\"id\":\"true_hit\",\"rar\":\"uncommon\",\"ty\":\"prefix\"}],\"cor\":[]},\"sockets\":{\"so\":[],\"sl\":0,\"rw\":\"\",\"rp\":0},\"rar\":\"uncommon\",\"lvl\":10,\"gtype\":\"bow\"}"
+						mmorpg_potential: "{\"potential\":10}"
+					}
+				}
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "63E0985AD541D937"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "too_many_bows:emerald_sage_bow"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -11.0d
+			y: 2.5d
+		}
+		{
+			id: "12948B6D74D66850"
+			rewards: [{
+				id: "10FDA5CEC9FFF22A"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "rpgsmwlite:amethist_scythe"
+					tag: {
+						Damage: 0
+						mmorpg_custom_data: "{\"data\":{\"map\":{\"crafted\":\"true\",\"sl\":\"false\"}}}"
+						mmorpg_gear: "{\"baseStats\":{\"p\":67},\"imp\":{\"p\":84,\"imp\":\"necromancers_scythe\"},\"affixes\":{\"suf\":[{\"p\":28,\"id\":\"of_vampirism\",\"rar\":\"common\",\"ty\":\"suffix\"}],\"pre\":[{\"p\":18,\"id\":\"warlords\",\"rar\":\"uncommon\",\"ty\":\"prefix\"},{\"p\":23,\"id\":\"runic\",\"rar\":\"uncommon\",\"ty\":\"prefix\"}],\"cor\":[]},\"sockets\":{\"so\":[],\"sl\":0,\"rw\":\"\",\"rp\":0},\"rar\":\"rare\",\"lvl\":30,\"gtype\":\"scythe\"}"
+						mmorpg_potential: "{\"potential\":25}"
+					}
+				}
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				consume_items: true
+				id: "4782FA1E07914990"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "rpgsmwlite:amethist_scythe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -11.0d
+			y: 9.5d
+		}
+		{
+			id: "55E131C960E9DCD1"
+			rewards: [{
+				id: "4BEE67DD4804EAD5"
+				item: {
+					Count: 1
+					id: "mowziesmobs:sculptor_staff"
+					tag: {
+						Damage: 0
+						mmorpg_custom_data: "{\"data\":{\"map\":{\"crafted\":\"true\",\"sl\":\"false\"}}}"
+						mmorpg_gear: "{\"baseStats\":{\"p\":89},\"imp\":{\"p\":4,\"imp\":\"arcane_staff\"},\"affixes\":{\"suf\":[{\"p\":26,\"id\":\"of_consumption\",\"rar\":\"common\",\"ty\":\"suffix\"}],\"pre\":[{\"p\":22,\"id\":\"warlords\",\"rar\":\"uncommon\",\"ty\":\"prefix\"},{\"p\":29,\"id\":\"wep_item_both\",\"rar\":\"common\",\"ty\":\"prefix\"}],\"cor\":[]},\"sockets\":{\"so\":[],\"sl\":0,\"rw\":\"\",\"rp\":0},\"rar\":\"rare\",\"lvl\":30,\"gtype\":\"staff\"}"
+						mmorpg_potential: "{\"potential\":25}"
+					}
+				}
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "25CE6FBD9AD09DD8"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "mowziesmobs:sculptor_staff"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -8.0d
+			y: 9.5d
+		}
+		{
+			id: "4E59956FA84C0FCC"
+			shape: "square"
+			tasks: [{
+				id: "481BEA610574C18D"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "irons_spellbooks:lightning_rod"
+				}
+				type: "item"
+			}]
+			x: -9.0d
+			y: 1.5d
+		}
+		{
+			id: "1FD75A401377BA88"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "680292AF5E527725"
+				title: "Epico"
+				type: "checkmark"
+			}]
+			x: -13.5d
+			y: 12.5d
+		}
+		{
+			id: "1271EA7BF20DADC6"
+			shape: "square"
+			tasks: [{
+				id: "16F5C9A15D053424"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "warriorsofpastepoch:surgical_saw"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -12.0d
+			y: 5.5d
+		}
+		{
+			id: "1DDE5E61B0B24B03"
+			rewards: [{
+				id: "7FB0201CF20FEEC3"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:amethyst_rapier"
+					tag: {
+						Damage: 0
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "irons_spellbooks:echoing_strikes"
+								index: 0
+								level: 5
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 1b
+						}
+						mmorpg_custom_data: "{\"data\":{\"map\":{\"crafted\":\"true\",\"sl\":\"false\"}}}"
+						mmorpg_gear: "{\"baseStats\":{\"p\":100},\"imp\":{\"p\":88,\"imp\":\"imp_dagger\"},\"affixes\":{\"suf\":[{\"p\":2,\"id\":\"of_devastation\",\"rar\":\"common\",\"ty\":\"suffix\"}],\"pre\":[{\"p\":4,\"id\":\"basic\",\"rar\":\"common\",\"ty\":\"prefix\"},{\"p\":21,\"id\":\"true_hit\",\"rar\":\"uncommon\",\"ty\":\"prefix\"}],\"cor\":[]},\"sockets\":{\"so\":[],\"sl\":0,\"rw\":\"\",\"rp\":0},\"rar\":\"rare\",\"lvl\":30,\"gtype\":\"dagger\"}"
+						mmorpg_potential: "{\"potential\":25}"
+					}
+				}
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "4426F9F031934853"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "irons_spellbooks:amethyst_rapier"
+					tag: {
+						Damage: 0
+						ISB_Spells: {
+							data: [{
+								id: "irons_spellbooks:echoing_strikes"
+								index: 0
+								level: 5
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -12.0d
+			y: 9.5d
+		}
+		{
+			id: "6644F867C9CFA80B"
+			rewards: [{
+				id: "6A7A16764AAFB878"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "rpgsmwlite:ice_scythe"
+					tag: {
+						Damage: 0
+						mmorpg_custom_data: "{\"data\":{\"map\":{\"crafted\":\"true\",\"sl\":\"false\"}}}"
+						mmorpg_gear: "{\"baseStats\":{\"p\":53},\"imp\":{\"p\":8,\"imp\":\"rusted_scythe\"},\"affixes\":{\"suf\":[{\"p\":41,\"id\":\"of_ice\",\"rar\":\"uncommon\",\"ty\":\"suffix\"}],\"pre\":[{\"p\":21,\"id\":\"wep_item_flat_2h\",\"rar\":\"uncommon\",\"ty\":\"prefix\"},{\"p\":17,\"id\":\"warlords\",\"rar\":\"uncommon\",\"ty\":\"prefix\"}],\"cor\":[]},\"sockets\":{\"so\":[],\"sl\":0,\"rw\":\"\",\"rp\":0},\"rar\":\"rare\",\"lvl\":20,\"gtype\":\"scythe\"}"
+						mmorpg_potential: "{\"potential\":25}"
+					}
+				}
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "4A0D4AC1C14F206E"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "rpgsmwlite:ice_scythe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -10.0d
+			y: 4.5d
+		}
+		{
+			id: "3FFC23E6C0988D4C"
+			rewards: [{
+				id: "62F2239FA4DAACFD"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "rpgsmwlite:netherite_knife"
+					tag: {
+						Damage: 0
+						mmorpg_custom_data: "{\"data\":{\"map\":{\"crafted\":\"true\",\"sl\":\"false\"}}}"
+						mmorpg_gear: "{\"baseStats\":{\"p\":53},\"imp\":{\"p\":19,\"imp\":\"imp_dagger\"},\"affixes\":{\"suf\":[{\"p\":55,\"id\":\"of_brutality\",\"rar\":\"rare\",\"ty\":\"suffix\"},{\"p\":61,\"id\":\"of_devastation\",\"rar\":\"epic\",\"ty\":\"suffix\"}],\"pre\":[{\"p\":54,\"id\":\"crit_prefix\",\"rar\":\"epic\",\"ty\":\"prefix\"},{\"p\":40,\"id\":\"physical_wep_dmg\",\"rar\":\"uncommon\",\"ty\":\"prefix\"}],\"cor\":[]},\"sockets\":{\"so\":[],\"sl\":0,\"rw\":\"\",\"rp\":0},\"rar\":\"epic\",\"lvl\":30,\"gtype\":\"dagger\"}"
+						mmorpg_potential: "{\"potential\":50}"
+					}
+				}
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "6350746A6CE334E6"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "rpgsmwlite:netherite_knife"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -10.0d
+			y: 12.5d
+		}
+		{
+			id: "1F20C53260B71185"
+			rewards: [{
+				id: "141B0166EA4288D8"
+				item: {
+					Count: 1
+					id: "rpgsmwlite:netherite_spear"
+					tag: {
+						Damage: 0
+						mmorpg_custom_data: "{\"data\":{\"map\":{\"crafted\":\"true\",\"sl\":\"false\"}}}"
+						mmorpg_gear: "{\"baseStats\":{\"p\":82},\"imp\":{\"p\":35,\"imp\":\"war_spear\"},\"affixes\":{\"suf\":[{\"p\":39,\"id\":\"of_electricity\",\"rar\":\"rare\",\"ty\":\"suffix\"},{\"p\":71,\"id\":\"of_ease\",\"rar\":\"epic\",\"ty\":\"suffix\"}],\"pre\":[{\"p\":65,\"id\":\"fire_wep_dmg\",\"rar\":\"epic\",\"ty\":\"prefix\"},{\"p\":8,\"id\":\"basic\",\"rar\":\"common\",\"ty\":\"prefix\"}],\"cor\":[]},\"sockets\":{\"so\":[],\"sl\":1,\"rw\":\"\",\"rp\":0},\"rar\":\"epic\",\"lvl\":35,\"gtype\":\"spear\"}"
+						mmorpg_potential: "{\"potential\":50}"
+					}
+				}
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "1878BD37558BBC64"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "rpgsmwlite:netherite_spear"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -11.0d
+			y: 12.5d
+		}
+		{
+			id: "2A60EF056486006B"
+			rewards: [{
+				id: "2C449666D46BD275"
+				item: {
+					Count: 1
+					id: "rpgsmwlite:netherite_battle_axe"
+					tag: {
+						Damage: 0
+						mmorpg_custom_data: "{\"data\":{\"map\":{\"crafted\":\"true\",\"sl\":\"false\"}}}"
+						mmorpg_gear: "{\"baseStats\":{\"p\":71},\"imp\":{\"p\":69,\"imp\":\"broad_axe\"},\"affixes\":{\"suf\":[{\"p\":54,\"id\":\"of_pene\",\"rar\":\"epic\",\"ty\":\"suffix\"},{\"p\":38,\"id\":\"of_burning\",\"rar\":\"uncommon\",\"ty\":\"suffix\"}],\"pre\":[{\"p\":27,\"id\":\"wep_item_perc\",\"rar\":\"uncommon\",\"ty\":\"prefix\"},{\"p\":38,\"id\":\"fire_wep_dmg\",\"rar\":\"rare\",\"ty\":\"prefix\"}],\"cor\":[]},\"sockets\":{\"so\":[],\"sl\":1,\"rw\":\"\",\"rp\":0},\"rar\":\"epic\",\"lvl\":35,\"gtype\":\"axe\"}"
+						mmorpg_potential: "{\"potential\":50}"
+					}
+				}
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "27322EAE44D7A842"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "rpgsmwlite:netherite_battle_axe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -9.0d
+			y: 11.5d
+		}
+		{
+			id: "3B24FC01E96B7712"
+			rewards: [{
+				id: "17A20428D76B85A7"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "simplyswords:netherite_scythe"
+					tag: {
+						Damage: 0
+						mmorpg_custom_data: "{\"data\":{\"map\":{\"crafted\":\"true\",\"sl\":\"false\"}}}"
+						mmorpg_gear: "{\"baseStats\":{\"p\":96},\"imp\":{\"p\":49,\"imp\":\"rusted_scythe\"},\"affixes\":{\"suf\":[{\"p\":33,\"id\":\"of_consumption\",\"rar\":\"uncommon\",\"ty\":\"suffix\"},{\"p\":19,\"id\":\"of_sweeping\",\"rar\":\"common\",\"ty\":\"suffix\"}],\"pre\":[{\"p\":39,\"id\":\"weaponmasters\",\"rar\":\"uncommon\",\"ty\":\"prefix\"},{\"p\":56,\"id\":\"runic\",\"rar\":\"epic\",\"ty\":\"prefix\"}],\"cor\":[]},\"sockets\":{\"so\":[],\"sl\":1,\"rw\":\"\",\"rp\":0},\"rar\":\"epic\",\"lvl\":35,\"gtype\":\"scythe\"}"
+						mmorpg_potential: "{\"potential\":50}"
+					}
+				}
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "3C78B0B80D3269BA"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "simplyswords:netherite_scythe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -12.0d
+			y: 12.5d
+		}
+		{
+			id: "68AFC031D9CAD094"
+			shape: "square"
+			tasks: [{
+				id: "10E69490DED1D918"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "legendary_monsters:dinosaur_bone_club"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -9.0d
+			y: 12.5d
+		}
+		{
+			id: "37CBA83786DC5AE6"
+			shape: "square"
+			tasks: [{
+				id: "5B6D03DA2D0FD01F"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "legendary_monsters:dinosaur_bone_shield"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -10.0d
+			y: 13.5d
+		}
+		{
+			id: "48D124BE4BF28154"
+			rewards: [{
+				id: "3A9E4D585AA1CFE5"
+				item: {
+					Count: 1
+					id: "rpgsmwlite:diamond_gauntlet"
+					tag: {
+						Damage: 0
+						mmorpg_custom_data: "{\"data\":{\"map\":{\"crafted\":\"true\",\"sl\":\"false\"}}}"
+						mmorpg_gear: "{\"baseStats\":{\"p\":23},\"imp\":{\"p\":36,\"imp\":\"gladiators_gauntlet\"},\"affixes\":{\"suf\":[{\"p\":21,\"id\":\"of_pene\",\"rar\":\"common\",\"ty\":\"suffix\"}],\"pre\":[{\"p\":27,\"id\":\"fire_wep_dmg\",\"rar\":\"common\",\"ty\":\"prefix\"}],\"cor\":[]},\"sockets\":{\"so\":[],\"sl\":0,\"rw\":\"\",\"rp\":0},\"rar\":\"uncommon\",\"lvl\":10,\"gtype\":\"gauntlet\"}"
+						mmorpg_potential: "{\"potential\":10}"
+					}
+				}
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "4972EAFEEBF4F14C"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "rpgsmwlite:diamond_gauntlet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -9.0d
+			y: 2.5d
+		}
+		{
+			id: "047CB3DB3F101492"
+			rewards: [{
+				id: "7E96085323561B45"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "rpgsmwlite:miphrilgauntlet"
+					tag: {
+						Damage: 0
+						mmorpg_custom_data: "{\"data\":{\"map\":{\"crafted\":\"true\",\"sl\":\"false\"}}}"
+						mmorpg_gear: "{\"baseStats\":{\"p\":46},\"imp\":{\"p\":34,\"imp\":\"gladiators_gauntlet\"},\"affixes\":{\"suf\":[{\"p\":49,\"id\":\"of_gluttony\",\"rar\":\"rare\",\"ty\":\"suffix\"},{\"p\":51,\"id\":\"of_force\",\"rar\":\"rare\",\"ty\":\"suffix\"}],\"pre\":[{\"p\":12,\"id\":\"crit_prefix\",\"rar\":\"common\",\"ty\":\"prefix\"},{\"p\":72,\"id\":\"wep_item_perc\",\"rar\":\"epic\",\"ty\":\"prefix\"}],\"cor\":[]},\"sockets\":{\"so\":[],\"sl\":1,\"rw\":\"\",\"rp\":0},\"rar\":\"epic\",\"lvl\":30,\"gtype\":\"gauntlet\"}"
+						mmorpg_potential: "{\"potential\":50}"
+					}
+				}
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "75F4D826460398CF"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "rpgsmwlite:miphrilgauntlet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -12.0d
+			y: 11.5d
+		}
+		{
+			id: "7ABD42E7E3C775AE"
+			shape: "square"
+			tasks: [{
+				id: "1251D32ACAF03732"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "irons_spellbooks:blood_staff"
+				}
+				type: "item"
+			}]
+			x: -9.0d
+			y: 14.5d
+		}
+		{
+			id: "62EA32157A687B72"
+			rewards: [{
+				id: "39DD64A7AC8ABA07"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "rpgsmwlite:netherite_greatsword"
+					tag: {
+						Damage: 0
+						mmorpg_custom_data: "{\"data\":{\"map\":{\"crafted\":\"true\",\"sl\":\"false\"}}}"
+						mmorpg_gear: "{\"baseStats\":{\"p\":71},\"imp\":{\"p\":95,\"imp\":\"hyperion_greatsword\"},\"affixes\":{\"suf\":[{\"p\":53,\"id\":\"of_the_blade\",\"rar\":\"epic\",\"ty\":\"suffix\"},{\"p\":30,\"id\":\"of_consumption\",\"rar\":\"rare\",\"ty\":\"suffix\"}],\"pre\":[{\"p\":43,\"id\":\"weaponmasters\",\"rar\":\"uncommon\",\"ty\":\"prefix\"},{\"p\":2,\"id\":\"wep_item_perc\",\"rar\":\"common\",\"ty\":\"prefix\"}],\"cor\":[]},\"sockets\":{\"so\":[],\"sl\":1,\"rw\":\"\",\"rp\":0},\"rar\":\"epic\",\"lvl\":35,\"gtype\":\"greatsword\"}"
+						mmorpg_potential: "{\"potential\":50}"
+					}
+				}
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "3086BEA0AB856046"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "rpgsmwlite:netherite_greatsword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -8.0d
+			y: 11.5d
+		}
+		{
+			id: "4210ABE2242FA1F4"
+			shape: "square"
+			tasks: [{
+				id: "36B7848747D1D266"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "irons_spellbooks:keeper_flamberge"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -12.0d
+			y: 14.5d
+		}
+		{
+			id: "0451ECEA78129E34"
+			rewards: [{
+				id: "4F02EF3646109C88"
+				item: {
+					Count: 1
+					id: "rpgsmwlite:iron_hammer"
+					tag: {
+						Damage: 0
+						mmorpg_custom_data: "{\"data\":{\"map\":{\"crafted\":\"true\",\"sl\":\"false\"}}}"
+						mmorpg_gear: "{\"baseStats\":{\"p\":56},\"imp\":{\"p\":48,\"imp\":\"ceremonial_hammer\"},\"affixes\":{\"suf\":[],\"pre\":[{\"p\":22,\"id\":\"focused\",\"rar\":\"common\",\"ty\":\"prefix\"}],\"cor\":[]},\"sockets\":{\"so\":[],\"sl\":1,\"rw\":\"\",\"rp\":0},\"rar\":\"common\",\"lvl\":5,\"gtype\":\"hammer\"}"
+						mmorpg_potential: "{\"potential\":5}"
+					}
+				}
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "2D95563DDE8BEAD0"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "rpgsmwlite:iron_hammer"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -8.0d
+			y: -2.5d
+		}
+		{
+			id: "3232F5FFAA4A35B5"
+			rewards: [{
+				id: "5061A272D1EA3943"
+				item: {
+					Count: 1
+					id: "born_in_chaos_v1:spider_bite_sword"
+					tag: {
+						Damage: 0
+						mmorpg_custom_data: "{\"data\":{\"map\":{\"crafted\":\"true\",\"sl\":\"false\"}}}"
+						mmorpg_gear: "{\"baseStats\":{\"p\":77},\"imp\":{\"p\":24,\"imp\":\"rusted_sword\"},\"affixes\":{\"suf\":[{\"p\":39,\"id\":\"of_brutality\",\"rar\":\"uncommon\",\"ty\":\"suffix\"},{\"p\":18,\"id\":\"of_ease\",\"rar\":\"common\",\"ty\":\"suffix\"}],\"pre\":[{\"p\":11,\"id\":\"chaos_wep_dmg\",\"rar\":\"common\",\"ty\":\"prefix\"},{\"p\":65,\"id\":\"wep_item_both\",\"rar\":\"epic\",\"ty\":\"prefix\"}],\"cor\":[]},\"sockets\":{\"so\":[],\"sl\":0,\"rw\":\"\",\"rp\":0},\"rar\":\"epic\",\"lvl\":40,\"gtype\":\"sword\"}"
+						mmorpg_potential: "{\"potential\":50}"
+					}
+				}
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "5A5D81FC613DF82A"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "born_in_chaos_v1:spider_bite_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: -4.5d
+		}
+		{
+			id: "09960FE65E4D67E3"
+			rewards: [{
+				id: "427E18BA2AEF9764"
+				item: {
+					Count: 1
+					id: "many_more_ores_and_crafts:infernal_sword"
+					tag: {
+						Damage: 0
+						mmorpg_custom_data: "{\"data\":{\"map\":{\"crafted\":\"true\",\"sl\":\"false\"}}}"
+						mmorpg_gear: "{\"baseStats\":{\"p\":92},\"imp\":{\"p\":99,\"imp\":\"dusk_blade\"},\"affixes\":{\"suf\":[{\"p\":55,\"id\":\"of_vampirism\",\"rar\":\"epic\",\"ty\":\"suffix\"},{\"p\":30,\"id\":\"of_brutality\",\"rar\":\"rare\",\"ty\":\"suffix\"}],\"pre\":[{\"p\":28,\"id\":\"weaponmasters\",\"rar\":\"uncommon\",\"ty\":\"prefix\"},{\"p\":74,\"id\":\"catalyzing\",\"rar\":\"epic\",\"ty\":\"prefix\"}],\"cor\":[]},\"sockets\":{\"so\":[],\"sl\":0,\"rw\":\"\",\"rp\":0},\"rar\":\"epic\",\"lvl\":45,\"gtype\":\"sword\"}"
+						mmorpg_potential: "{\"potential\":50}"
+					}
+				}
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "16E5283441BA3A69"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "many_more_ores_and_crafts:infernal_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: -4.5d
+		}
+		{
+			id: "0F5A0A35BC10CE5C"
+			rewards: [{
+				id: "527DCE5775F9A521"
+				item: {
+					Count: 1
+					id: "eeeabsmobs:guardian_axe"
+					tag: {
+						CodeAddFlag: 1b
+						Damage: 0
+						Unbreakable: 1b
+						mmorpg_custom_data: "{\"data\":{\"map\":{\"crafted\":\"true\",\"sl\":\"false\"}}}"
+						mmorpg_gear: "{\"baseStats\":{\"p\":96},\"imp\":{\"p\":44,\"imp\":\"broad_axe\"},\"affixes\":{\"suf\":[{\"p\":72,\"id\":\"of_gluttony\",\"rar\":\"epic\",\"ty\":\"suffix\"},{\"p\":58,\"id\":\"of_tree_felling\",\"rar\":\"epic\",\"ty\":\"suffix\"}],\"pre\":[{\"p\":46,\"id\":\"physical_wep_dmg\",\"rar\":\"epic\",\"ty\":\"prefix\"},{\"p\":42,\"id\":\"fire_wep_dmg\",\"rar\":\"uncommon\",\"ty\":\"prefix\"}],\"cor\":[]},\"sockets\":{\"so\":[],\"sl\":0,\"rw\":\"\",\"rp\":0},\"rar\":\"epic\",\"lvl\":45,\"gtype\":\"axe\"}"
+						mmorpg_potential: "{\"potential\":50}"
+					}
+				}
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "7C3859ED54E3483A"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "eeeabsmobs:guardian_axe"
+					tag: {
+						CodeAddFlag: 1b
+						Damage: 0
+						Unbreakable: 1b
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: -2.5d
+		}
+		{
+			description: ["lv 50"]
+			id: "38017DC52014F947"
+			rewards: [{
+				id: "42FA9D57CE4DE841"
+				item: {
+					Count: 1
+					id: "born_in_chaos_v1:nightmare_scythe"
+					tag: {
+						Damage: 0
+						mmorpg_custom_data: "{\"data\":{\"map\":{\"crafted\":\"true\",\"sl\":\"false\"}}}"
+						mmorpg_gear: "{\"baseStats\":{\"p\":57},\"imp\":{\"p\":82,\"imp\":\"necromancers_scythe\"},\"affixes\":{\"suf\":[{\"p\":41,\"id\":\"of_consumption\",\"rar\":\"uncommon\",\"ty\":\"suffix\"},{\"p\":55,\"id\":\"of_electricity\",\"rar\":\"epic\",\"ty\":\"suffix\"}],\"pre\":[{\"p\":61,\"id\":\"wep_item_flat_2h\",\"rar\":\"epic\",\"ty\":\"prefix\"},{\"p\":11,\"id\":\"chaos_wep_dmg\",\"rar\":\"common\",\"ty\":\"prefix\"}],\"cor\":[]},\"sockets\":{\"so\":[],\"sl\":1,\"rw\":\"\",\"rp\":0},\"rar\":\"epic\",\"lvl\":50,\"gtype\":\"scythe\"}"
+						mmorpg_potential: "{\"potential\":50}"
+					}
+				}
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "26606BEEEDC4C9A0"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "born_in_chaos_v1:nightmare_scythe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: -1.5d
+		}
+		{
+			description: ["lv 55"]
+			id: "58D6C7CA144F82D9"
+			rewards: [{
+				id: "2476D892DD114932"
+				item: {
+					Count: 1
+					id: "born_in_chaos_v1:great_reaper_axe"
+					tag: {
+						Damage: 0
+						mmorpg_custom_data: "{\"data\":{\"map\":{\"crafted\":\"true\",\"sl\":\"false\"}}}"
+						mmorpg_gear: "{\"baseStats\":{\"p\":48},\"imp\":{\"p\":84,\"imp\":\"broad_axe\"},\"affixes\":{\"suf\":[{\"p\":7,\"id\":\"of_ease\",\"rar\":\"common\",\"ty\":\"suffix\"},{\"p\":41,\"id\":\"of_gluttony\",\"rar\":\"uncommon\",\"ty\":\"suffix\"}],\"pre\":[{\"p\":31,\"id\":\"wep_item_perc\",\"rar\":\"rare\",\"ty\":\"prefix\"},{\"p\":70,\"id\":\"energy_thief\",\"rar\":\"epic\",\"ty\":\"prefix\"}],\"cor\":[]},\"sockets\":{\"so\":[],\"sl\":1,\"rw\":\"\",\"rp\":0},\"rar\":\"epic\",\"lvl\":50,\"gtype\":\"axe\"}"
+						mmorpg_potential: "{\"potential\":50}"
+					}
+				}
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "7B809E113C792C67"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "born_in_chaos_v1:great_reaper_axe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: -1.5d
+		}
+		{
+			description: ["lv 55"]
+			id: "77DB9E413A523767"
+			rewards: [{
+				id: "494286BB558FAEB5"
+				item: {
+					Count: 1
+					id: "born_in_chaos_v1:darkwarblade"
+					tag: {
+						Damage: 0
+						mmorpg_custom_data: "{\"data\":{\"map\":{\"crafted\":\"true\",\"sl\":\"false\"}}}"
+						mmorpg_gear: "{\"baseStats\":{\"p\":92},\"imp\":{\"p\":78,\"imp\":\"imperial_greatsword\"},\"affixes\":{\"suf\":[{\"p\":27,\"id\":\"of_the_blade\",\"rar\":\"uncommon\",\"ty\":\"suffix\"},{\"p\":60,\"id\":\"of_gluttony\",\"rar\":\"rare\",\"ty\":\"suffix\"}],\"pre\":[{\"p\":75,\"id\":\"wep_item_perc\",\"rar\":\"legendary\",\"ty\":\"prefix\"},{\"p\":43,\"id\":\"basic\",\"rar\":\"rare\",\"ty\":\"prefix\"},{\"p\":17,\"id\":\"fire_wep_dmg\",\"rar\":\"uncommon\",\"ty\":\"prefix\"}],\"cor\":[]},\"sockets\":{\"so\":[],\"sl\":0,\"rw\":\"\",\"rp\":0},\"rar\":\"legendary\",\"lvl\":55,\"gtype\":\"greatsword\"}"
+						mmorpg_potential: "{\"potential\":75}"
+					}
+				}
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "478DEB996E2085C9"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "born_in_chaos_v1:darkwarblade"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			id: "0842FA9394A9FBB6"
+			rewards: [{
+				id: "005B9372B5051A9C"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:graybeard_staff"
+					tag: {
+						mmorpg_custom_data: "{\"data\":{\"map\":{\"crafted\":\"true\",\"sl\":\"false\"}}}"
+						mmorpg_gear: "{\"baseStats\":{\"p\":45},\"imp\":{\"p\":19,\"imp\":\"arcane_staff\"},\"affixes\":{\"suf\":[],\"pre\":[{\"p\":19,\"id\":\"heal_crit_prefix\",\"rar\":\"common\",\"ty\":\"prefix\"}],\"cor\":[]},\"sockets\":{\"so\":[],\"sl\":2,\"rw\":\"\",\"rp\":0},\"rar\":\"common\",\"lvl\":5,\"gtype\":\"staff\"}"
+						mmorpg_potential: "{\"potential\":5}"
+					}
+				}
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "726A598F2A084E61"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "irons_spellbooks:graybeard_staff"
+				}
+				type: "item"
+			}]
+			x: -9.0d
+			y: -4.5d
+		}
+		{
+			description: [""]
+			id: "0B4B68AA3F20A28C"
+			shape: "square"
+			tasks: [{
+				id: "6FD7324A6655E3DB"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "simplyswords:brimstone_claymore"
+					tag: {
+						Damage: 0
+						nether_power: "no_socket"
+						runic_power: "no_socket"
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			id: "558A0F36A2A8BCB5"
+			rewards: [{
+				id: "1E82D425A3E50F24"
+				item: {
+					Count: 1
+					id: "simplyswords:emberlash"
+					tag: {
+						Damage: 0
+						mmorpg_custom_data: "{\"data\":{\"map\":{\"crafted\":\"true\",\"sl\":\"false\"}}}"
+						mmorpg_gear: "{\"baseStats\":{\"p\":91},\"imp\":{\"p\":62,\"imp\":\"imp_dagger\"},\"affixes\":{\"suf\":[{\"p\":46,\"id\":\"of_devastation\",\"rar\":\"rare\",\"ty\":\"suffix\"},{\"p\":41,\"id\":\"of_decay\",\"rar\":\"uncommon\",\"ty\":\"suffix\"}],\"pre\":[{\"p\":45,\"id\":\"basic\",\"rar\":\"epic\",\"ty\":\"prefix\"},{\"p\":32,\"id\":\"warlords\",\"rar\":\"rare\",\"ty\":\"prefix\"}],\"cor\":[]},\"sockets\":{\"so\":[],\"sl\":0,\"rw\":\"\",\"rp\":0},\"rar\":\"epic\",\"lvl\":50,\"gtype\":\"dagger\"}"
+						mmorpg_potential: "{\"potential\":50}"
+						nether_power: "socket_empty"
+						runic_power: "socket_empty"
+					}
+				}
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "341469B22C7F8077"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "simplyswords:emberlash"
+					tag: {
+						Damage: 0
+						nether_power: "socket_empty"
+						runic_power: "socket_empty"
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: -1.5d
+		}
+		{
+			id: "73A4C5358A9FB0E5"
+			rewards: [{
+				id: "608D542F14FE41FB"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "irons_spellbooks:ice_staff"
+					tag: {
+						mmorpg_custom_data: "{\"data\":{\"map\":{\"crafted\":\"true\",\"sl\":\"false\"}}}"
+						mmorpg_gear: "{\"baseStats\":{\"p\":63},\"imp\":{\"p\":91,\"imp\":\"cursed_staff\"},\"affixes\":{\"suf\":[{\"p\":30,\"id\":\"of_precision\",\"rar\":\"uncommon\",\"ty\":\"suffix\"}],\"pre\":[{\"p\":30,\"id\":\"physical_wep_dmg\",\"rar\":\"rare\",\"ty\":\"prefix\"},{\"p\":48,\"id\":\"true_hit\",\"rar\":\"rare\",\"ty\":\"prefix\"}],\"cor\":[]},\"sockets\":{\"so\":[],\"sl\":0,\"rw\":\"\",\"rp\":0},\"rar\":\"rare\",\"lvl\":20,\"gtype\":\"staff\"}"
+						mmorpg_potential: "{\"potential\":25}"
+					}
+				}
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "0C3D1DA6ECFF4542"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "irons_spellbooks:ice_staff"
+				}
+				type: "item"
+			}]
+			x: -9.0d
+			y: 4.5d
+		}
+		{
+			id: "0DF4767EB190274C"
+			rewards: [{
+				id: "1465BCAD01ED0E99"
+				item: {
+					Count: 1
+					id: "mine_and_staff:heliodor_staff"
+					tag: {
+						Damage: 0
+						mmorpg_custom_data: "{\"data\":{\"map\":{\"crafted\":\"true\",\"sl\":\"false\"}}}"
+						mmorpg_gear: "{\"baseStats\":{\"p\":93},\"imp\":{\"p\":8,\"imp\":\"arcane_staff\"},\"affixes\":{\"suf\":[{\"p\":51,\"id\":\"heal_suff\",\"rar\":\"rare\",\"ty\":\"suffix\"},{\"p\":20,\"id\":\"of_electricity\",\"rar\":\"common\",\"ty\":\"suffix\"}],\"pre\":[{\"p\":19,\"id\":\"heal_crit_prefix\",\"rar\":\"common\",\"ty\":\"prefix\"},{\"p\":63,\"id\":\"warlords\",\"rar\":\"epic\",\"ty\":\"prefix\"}],\"cor\":[]},\"sockets\":{\"so\":[],\"sl\":1,\"rw\":\"\",\"rp\":0},\"rar\":\"epic\",\"lvl\":45,\"gtype\":\"staff\"}"
+						mmorpg_potential: "{\"potential\":50}"
+					}
+				}
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "6CBC9788F7757201"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "mine_and_staff:heliodor_staff"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: -3.5d
+		}
+		{
+			id: "393476138015F5C4"
+			rewards: [{
+				id: "26B39AD1327418F2"
+				item: {
+					Count: 1
+					id: "mine_and_staff:emerald_staff"
+					tag: {
+						Damage: 0
+						mmorpg_custom_data: "{\"data\":{\"map\":{\"crafted\":\"true\",\"sl\":\"false\"}}}"
+						mmorpg_gear: "{\"baseStats\":{\"p\":89},\"imp\":{\"p\":57,\"imp\":\"cursed_staff\"},\"affixes\":{\"suf\":[{\"p\":34,\"id\":\"of_vampirism\",\"rar\":\"uncommon\",\"ty\":\"suffix\"}],\"pre\":[{\"p\":35,\"id\":\"efficient\",\"rar\":\"uncommon\",\"ty\":\"prefix\"}],\"cor\":[]},\"sockets\":{\"so\":[],\"sl\":0,\"rw\":\"\",\"rp\":0},\"rar\":\"uncommon\",\"lvl\":10,\"gtype\":\"staff\"}"
+						mmorpg_potential: "{\"potential\":10}"
+					}
+				}
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "025E305072888D30"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "mine_and_staff:emerald_staff"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -10.0d
+			y: 2.5d
+		}
+		{
+			id: "42819DDCD62894B8"
+			rewards: [{
+				id: "4973EF004F762D2E"
+				item: {
+					Count: 1
+					id: "too_many_bows:flame_bow"
+					tag: {
+						Damage: 0
+						mmorpg_custom_data: "{\"data\":{\"map\":{\"crafted\":\"true\",\"sl\":\"false\"}}}"
+						mmorpg_gear: "{\"baseStats\":{\"p\":100},\"imp\":{\"p\":32,\"imp\":\"imperial_bow\"},\"affixes\":{\"suf\":[{\"p\":11,\"id\":\"of_vampirism\",\"rar\":\"common\",\"ty\":\"suffix\"},{\"p\":14,\"id\":\"of_impatience\",\"rar\":\"common\",\"ty\":\"suffix\"}],\"pre\":[{\"p\":74,\"id\":\"fire_wep_dmg\",\"rar\":\"epic\",\"ty\":\"prefix\"},{\"p\":46,\"id\":\"water_wep_dmg\",\"rar\":\"epic\",\"ty\":\"prefix\"}],\"cor\":[]},\"sockets\":{\"so\":[],\"sl\":0,\"rw\":\"\",\"rp\":0},\"rar\":\"epic\",\"lvl\":45,\"gtype\":\"bow\"}"
+						mmorpg_potential: "{\"potential\":50}"
+					}
+				}
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "085925F2D6C8D7D0"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "too_many_bows:flame_bow"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: -3.5d
+		}
+		{
+			id: "0639B644A3D12AE8"
+			rewards: [{
+				id: "3FE16F7190870664"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "too_many_bows:verdant_vigor"
+					tag: {
+						Damage: 0
+						mmorpg_custom_data: "{\"data\":{\"map\":{\"crafted\":\"true\",\"sl\":\"false\"}}}"
+						mmorpg_gear: "{\"baseStats\":{\"p\":82},\"imp\":{\"p\":31,\"imp\":\"imperial_bow\"},\"affixes\":{\"suf\":[{\"p\":53,\"id\":\"of_brutality\",\"rar\":\"rare\",\"ty\":\"suffix\"}],\"pre\":[{\"p\":23,\"id\":\"chaos_wep_dmg\",\"rar\":\"common\",\"ty\":\"prefix\"},{\"p\":6,\"id\":\"water_wep_dmg\",\"rar\":\"common\",\"ty\":\"prefix\"}],\"cor\":[]},\"sockets\":{\"so\":[],\"sl\":1,\"rw\":\"\",\"rp\":0},\"rar\":\"rare\",\"lvl\":20,\"gtype\":\"bow\"}"
+						mmorpg_potential: "{\"potential\":25}"
+					}
+				}
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "23936B55A11B2517"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "too_many_bows:verdant_vigor"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -10.0d
+			y: 5.5d
+		}
+		{
+			id: "42E1E8E4DB19821E"
+			rewards: [{
+				id: "2EBDD8C64AB5369C"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "minecraft:bow"
+					tag: {
+						Damage: 0
+						mmorpg_custom_data: "{\"data\":{\"map\":{\"crafted\":\"true\",\"sl\":\"false\"}}}"
+						mmorpg_gear: "{\"baseStats\":{\"p\":49},\"imp\":{\"p\":55,\"imp\":\"ass_bow\"},\"affixes\":{\"suf\":[],\"pre\":[{\"p\":10,\"id\":\"crit_prefix\",\"rar\":\"common\",\"ty\":\"prefix\"}],\"cor\":[]},\"sockets\":{\"so\":[],\"sl\":0,\"rw\":\"\",\"rp\":0},\"rar\":\"common\",\"lvl\":5,\"gtype\":\"bow\"}"
+						mmorpg_potential: "{\"potential\":5}"
+					}
+				}
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "3E500F93CB3703D0"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "minecraft:bow"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -8.0d
+			y: -4.5d
+		}
+		{
+			id: "198EA0920F947B66"
+			rewards: [{
+				id: "7DC9C63D22943A47"
+				item: {
+					Count: 1
+					id: "samurai_dynasty:katana_netherite"
+					tag: {
+						Damage: 0
+						mmorpg_custom_data: "{\"data\":{\"map\":{\"crafted\":\"true\",\"sl\":\"false\"}}}"
+						mmorpg_gear: "{\"baseStats\":{\"p\":100},\"imp\":{\"p\":89,\"imp\":\"rusted_sword\"},\"affixes\":{\"suf\":[{\"p\":14,\"id\":\"of_precision\",\"rar\":\"common\",\"ty\":\"suffix\"},{\"p\":31,\"id\":\"of_pene\",\"rar\":\"uncommon\",\"ty\":\"suffix\"}],\"pre\":[{\"p\":31,\"id\":\"catalyzing\",\"rar\":\"rare\",\"ty\":\"prefix\"},{\"p\":56,\"id\":\"wep_item_flat\",\"rar\":\"rare\",\"ty\":\"prefix\"}],\"cor\":[]},\"sockets\":{\"so\":[],\"sl\":1,\"rw\":\"\",\"rp\":0},\"rar\":\"epic\",\"lvl\":35,\"gtype\":\"sword\"}"
+						mmorpg_potential: "{\"potential\":50}"
+					}
+				}
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "447D6AF203D8FFF9"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "samurai_dynasty:katana_netherite"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -8.0d
+			y: 12.5d
+		}
+		{
+			id: "4AC6002989F788F5"
+			rewards: [{
+				id: "5F7400C5657B2C76"
+				item: {
+					Count: 1
+					id: "samurai_dynasty:katana_oni"
+					tag: {
+						Damage: 0
+						mmorpg_custom_data: "{\"data\":{\"map\":{\"crafted\":\"true\",\"sl\":\"false\"}}}"
+						mmorpg_gear: "{\"baseStats\":{\"p\":92},\"imp\":{\"p\":81,\"imp\":\"rusted_sword\"},\"affixes\":{\"suf\":[{\"p\":12,\"id\":\"of_pene\",\"rar\":\"common\",\"ty\":\"suffix\"},{\"p\":58,\"id\":\"of_precision\",\"rar\":\"epic\",\"ty\":\"suffix\"}],\"pre\":[{\"p\":53,\"id\":\"catalyzing\",\"rar\":\"rare\",\"ty\":\"prefix\"},{\"p\":4,\"id\":\"efficient\",\"rar\":\"common\",\"ty\":\"prefix\"}],\"cor\":[]},\"sockets\":{\"so\":[],\"sl\":0,\"rw\":\"\",\"rp\":0},\"rar\":\"epic\",\"lvl\":40,\"gtype\":\"sword\"}"
+						mmorpg_potential: "{\"potential\":50}"
+					}
+				}
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "00B6584E6773B4A8"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "samurai_dynasty:katana_oni"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -8.0d
+			y: 13.5d
+		}
+		{
+			id: "44055E532C0A78E2"
+			rewards: [{
+				id: "0919D47023BA1166"
+				item: {
+					Count: 1
+					id: "samurai_dynasty:katana_kitsune"
+					tag: {
+						Damage: 0
+						mmorpg_custom_data: "{\"data\":{\"map\":{\"crafted\":\"true\",\"sl\":\"false\"}}}"
+						mmorpg_gear: "{\"baseStats\":{\"p\":78},\"imp\":{\"p\":92,\"imp\":\"rusted_sword\"},\"affixes\":{\"suf\":[{\"p\":15,\"id\":\"of_burning\",\"rar\":\"uncommon\",\"ty\":\"suffix\"},{\"p\":41,\"id\":\"of_consumption\",\"rar\":\"uncommon\",\"ty\":\"suffix\"}],\"pre\":[{\"p\":39,\"id\":\"fire_wep_dmg\",\"rar\":\"uncommon\",\"ty\":\"prefix\"},{\"p\":47,\"id\":\"wep_item_flat\",\"rar\":\"rare\",\"ty\":\"prefix\"}],\"cor\":[]},\"sockets\":{\"so\":[],\"sl\":0,\"rw\":\"\",\"rp\":0},\"rar\":\"epic\",\"lvl\":40,\"gtype\":\"sword\"}"
+						mmorpg_potential: "{\"potential\":50}"
+					}
+				}
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "54A4339F6CBDF0EA"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "samurai_dynasty:katana_kitsune"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -12.0d
+			y: 13.5d
+		}
+		{
+			id: "71B3CC1B040FC279"
+			rewards: [{
+				id: "3A20301F1C66F30F"
+				item: {
+					Count: 1
+					id: "samurai_dynasty:katana_akaname"
+					tag: {
+						Damage: 0
+						mmorpg_custom_data: "{\"data\":{\"map\":{\"crafted\":\"true\",\"sl\":\"false\"}}}"
+						mmorpg_gear: "{\"baseStats\":{\"p\":100},\"imp\":{\"p\":82,\"imp\":\"dusk_blade\"},\"affixes\":{\"suf\":[{\"p\":58,\"id\":\"of_consumption\",\"rar\":\"rare\",\"ty\":\"suffix\"},{\"p\":60,\"id\":\"of_poison\",\"rar\":\"epic\",\"ty\":\"suffix\"}],\"pre\":[{\"p\":47,\"id\":\"basic\",\"rar\":\"epic\",\"ty\":\"prefix\"},{\"p\":16,\"id\":\"true_hit\",\"rar\":\"uncommon\",\"ty\":\"prefix\"}],\"cor\":[]},\"sockets\":{\"so\":[],\"sl\":1,\"rw\":\"\",\"rp\":0},\"rar\":\"epic\",\"lvl\":40,\"gtype\":\"sword\"}"
+						mmorpg_potential: "{\"potential\":50}"
+					}
+				}
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "20DDD5FD88BBCAC2"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "samurai_dynasty:katana_akaname"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -11.0d
+			y: 13.5d
+		}
+		{
+			id: "0A1B3D1D3AC6FBBE"
+			rewards: [{
+				id: "72238EA02622BD9F"
+				item: {
+					Count: 1
+					id: "samurai_dynasty:katana_kitsune_blue"
+					tag: {
+						Damage: 0
+						mmorpg_custom_data: "{\"data\":{\"map\":{\"crafted\":\"true\",\"sl\":\"false\"}}}"
+						mmorpg_gear: "{\"baseStats\":{\"p\":85},\"imp\":{\"p\":11,\"imp\":\"dusk_blade\"},\"affixes\":{\"suf\":[{\"p\":34,\"id\":\"of_pene\",\"rar\":\"rare\",\"ty\":\"suffix\"},{\"p\":30,\"id\":\"of_gluttony\",\"rar\":\"common\",\"ty\":\"suffix\"}],\"pre\":[{\"p\":60,\"id\":\"warlords\",\"rar\":\"rare\",\"ty\":\"prefix\"},{\"p\":16,\"id\":\"precise\",\"rar\":\"uncommon\",\"ty\":\"prefix\"}],\"cor\":[]},\"sockets\":{\"so\":[],\"sl\":0,\"rw\":\"\",\"rp\":0},\"rar\":\"epic\",\"lvl\":40,\"gtype\":\"sword\"}"
+						mmorpg_potential: "{\"potential\":50}"
+					}
+				}
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "010EB79D0EDDABE2"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "samurai_dynasty:katana_kitsune_blue"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -11.0d
+			y: 14.5d
+		}
+		{
+			id: "508D8C666ABECB3F"
+			rewards: [{
+				id: "7D7F71F8A7E961B3"
+				item: {
+					Count: 1
+					id: "samurai_dynasty:katana_jorogumo"
+					tag: {
+						Damage: 0
+						mmorpg_custom_data: "{\"data\":{\"map\":{\"crafted\":\"true\",\"sl\":\"false\"}}}"
+						mmorpg_gear: "{\"baseStats\":{\"p\":95},\"imp\":{\"p\":50,\"imp\":\"rusted_sword\"},\"affixes\":{\"suf\":[{\"p\":22,\"id\":\"of_pene\",\"rar\":\"uncommon\",\"ty\":\"suffix\"},{\"p\":15,\"id\":\"of_consumption\",\"rar\":\"common\",\"ty\":\"suffix\"}],\"pre\":[{\"p\":55,\"id\":\"fire_wep_dmg\",\"rar\":\"rare\",\"ty\":\"prefix\"},{\"p\":28,\"id\":\"berserkers\",\"rar\":\"uncommon\",\"ty\":\"prefix\"}],\"cor\":[]},\"sockets\":{\"so\":[],\"sl\":1,\"rw\":\"\",\"rp\":0},\"rar\":\"epic\",\"lvl\":40,\"gtype\":\"sword\"}"
+						mmorpg_potential: "{\"potential\":50}"
+					}
+				}
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "23BA637FD92033D7"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "samurai_dynasty:katana_jorogumo"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -9.0d
+			y: 13.5d
+		}
+		{
+			id: "49321967B48DDCC5"
+			rewards: [{
+				id: "25758004470C5C3A"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "too_many_bows:vitality_weaver"
+					tag: {
+						Damage: 0
+						mmorpg_custom_data: "{\"data\":{\"map\":{\"crafted\":\"true\",\"sl\":\"false\"}}}"
+						mmorpg_gear: "{\"baseStats\":{\"p\":78},\"imp\":{\"p\":39,\"imp\":\"thicket_bow\"},\"affixes\":{\"suf\":[{\"p\":0,\"id\":\"of_brutality\",\"rar\":\"common\",\"ty\":\"suffix\"}],\"pre\":[{\"p\":58,\"id\":\"rapid\",\"rar\":\"rare\",\"ty\":\"prefix\"},{\"p\":21,\"id\":\"fire_wep_dmg\",\"rar\":\"uncommon\",\"ty\":\"prefix\"}],\"cor\":[]},\"sockets\":{\"so\":[],\"sl\":0,\"rw\":\"\",\"rp\":0},\"rar\":\"rare\",\"lvl\":30,\"gtype\":\"bow\"}"
+						mmorpg_potential: "{\"potential\":25}"
+					}
+				}
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "151B5C8FDE408F1A"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "too_many_bows:vitality_weaver"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -9.0d
+			y: 8.5d
+		}
+		{
+			description: [""]
+			id: "048B7D78C1BA169A"
+			rewards: [{
+				id: "071FCB6CD24F6A3F"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "born_in_chaos_v1:intoxicating_dagger"
+					tag: {
+						Damage: 0
+						mmorpg_custom_data: "{\"data\":{\"map\":{\"crafted\":\"true\",\"sl\":\"false\"}}}"
+						mmorpg_gear: "{\"baseStats\":{\"p\":68},\"imp\":{\"p\":41,\"imp\":\"imp_dagger\"},\"affixes\":{\"suf\":[{\"p\":41,\"id\":\"of_ice\",\"rar\":\"uncommon\",\"ty\":\"suffix\"}],\"pre\":[{\"p\":42,\"id\":\"chaos_wep_dmg\",\"rar\":\"rare\",\"ty\":\"prefix\"},{\"p\":17,\"id\":\"crit_prefix\",\"rar\":\"common\",\"ty\":\"prefix\"}],\"cor\":[]},\"sockets\":{\"so\":[],\"sl\":0,\"rw\":\"\",\"rp\":0},\"rar\":\"rare\",\"lvl\":30,\"gtype\":\"dagger\"}"
+						mmorpg_potential: "{\"potential\":25}"
+					}
+				}
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "50406802149028EB"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "born_in_chaos_v1:intoxicating_dagger"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -9.0d
+			y: 9.5d
+		}
+		{
+			id: "0083C60FED8AD25B"
+			rewards: [{
+				id: "6720BA11A72890B0"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "born_in_chaos_v1:sharpened_dark_metal_sword"
+					tag: {
+						Damage: 0
+						mmorpg_custom_data: "{\"data\":{\"map\":{\"crafted\":\"true\",\"sl\":\"false\"}}}"
+						mmorpg_gear: "{\"baseStats\":{\"p\":78},\"imp\":{\"p\":70,\"imp\":\"dusk_blade\"},\"affixes\":{\"suf\":[{\"p\":31,\"id\":\"of_poison\",\"rar\":\"rare\",\"ty\":\"suffix\"}],\"pre\":[{\"p\":29,\"id\":\"basic\",\"rar\":\"common\",\"ty\":\"prefix\"},{\"p\":28,\"id\":\"chaos_wep_dmg\",\"rar\":\"uncommon\",\"ty\":\"prefix\"}],\"cor\":[]},\"sockets\":{\"so\":[],\"sl\":1,\"rw\":\"\",\"rp\":0},\"rar\":\"rare\",\"lvl\":25,\"gtype\":\"sword\"}"
+						mmorpg_potential: "{\"potential\":25}"
+					}
+				}
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "17709B436416A4DA"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "born_in_chaos_v1:sharpened_dark_metal_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -12.0d
+			y: 7.5d
+		}
+		{
+			id: "1C341F78DE723946"
+			rewards: [{
+				id: "42C562A85FA5AF93"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "born_in_chaos_v1:spiritual_sword"
+					tag: {
+						Damage: 0
+						mmorpg_custom_data: "{\"data\":{\"map\":{\"crafted\":\"true\",\"sl\":\"false\"}}}"
+						mmorpg_gear: "{\"baseStats\":{\"p\":65},\"imp\":{\"p\":69,\"imp\":\"rusted_sword\"},\"affixes\":{\"suf\":[{\"p\":44,\"id\":\"of_consumption\",\"rar\":\"rare\",\"ty\":\"suffix\"}],\"pre\":[{\"p\":52,\"id\":\"true_hit\",\"rar\":\"rare\",\"ty\":\"prefix\"},{\"p\":45,\"id\":\"precise\",\"rar\":\"rare\",\"ty\":\"prefix\"}],\"cor\":[]},\"sockets\":{\"so\":[],\"sl\":1,\"rw\":\"\",\"rp\":0},\"rar\":\"rare\",\"lvl\":25,\"gtype\":\"sword\"}"
+						mmorpg_potential: "{\"potential\":25}"
+					}
+				}
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "37868A7132EFC5BC"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "born_in_chaos_v1:spiritual_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -10.0d
+			y: 7.5d
+		}
+		{
+			id: "76199A1CE0F8E246"
+			rewards: [{
+				id: "4017A469529ACFBC"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "born_in_chaos_v1:staff_of_magic_arrows"
+					tag: {
+						Damage: 0
+						geckoAnim: ""
+						mmorpg_custom_data: "{\"data\":{\"map\":{\"crafted\":\"true\",\"sl\":\"false\"}}}"
+						mmorpg_gear: "{\"baseStats\":{\"p\":68},\"imp\":{\"p\":100,\"imp\":\"bone_bow\"},\"affixes\":{\"suf\":[{\"p\":28,\"id\":\"of_impatience\",\"rar\":\"common\",\"ty\":\"suffix\"}],\"pre\":[{\"p\":11,\"id\":\"wep_item_perc\",\"rar\":\"common\",\"ty\":\"prefix\"}],\"cor\":[]},\"sockets\":{\"so\":[],\"sl\":2,\"rw\":\"\",\"rp\":0},\"rar\":\"uncommon\",\"lvl\":30,\"gtype\":\"bow\"}"
+						mmorpg_potential: "{\"potential\":10}"
+					}
+				}
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "415BA00DF526FB89"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "born_in_chaos_v1:staff_of_magic_arrows"
+					tag: {
+						Damage: 0
+						geckoAnim: ""
+					}
+				}
+				type: "item"
+			}]
+			x: -8.0d
+			y: 8.5d
+		}
+		{
+			id: "22F06C4B34BF5545"
+			rewards: [{
+				id: "6CE453E9F60ECF96"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "born_in_chaos_v1:wood_splitter_axe"
+					tag: {
+						Damage: 0
+						mmorpg_custom_data: "{\"data\":{\"map\":{\"crafted\":\"true\",\"sl\":\"false\"}}}"
+						mmorpg_gear: "{\"baseStats\":{\"p\":85},\"imp\":{\"p\":95,\"imp\":\"war_axe\"},\"affixes\":{\"suf\":[{\"p\":1,\"id\":\"of_brutality\",\"rar\":\"common\",\"ty\":\"suffix\"}],\"pre\":[{\"p\":45,\"id\":\"weaponmasters\",\"rar\":\"uncommon\",\"ty\":\"prefix\"},{\"p\":25,\"id\":\"physical_wep_dmg\",\"rar\":\"common\",\"ty\":\"prefix\"}],\"cor\":[]},\"sockets\":{\"so\":[],\"sl\":1,\"rw\":\"\",\"rp\":0},\"rar\":\"rare\",\"lvl\":20,\"gtype\":\"axe\"}"
+						mmorpg_potential: "{\"potential\":25}"
+					}
+				}
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "0387B555B4FEF840"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "born_in_chaos_v1:wood_splitter_axe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -9.0d
+			y: 5.5d
+		}
+		{
+			id: "620B956AD2AC5F27"
+			rewards: [{
+				id: "11EB54397EF63E3E"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "simplyswords:toxic_longsword"
+					tag: {
+						Damage: 0
+						mmorpg_custom_data: "{\"data\":{\"map\":{\"crafted\":\"true\",\"sl\":\"false\"}}}"
+						mmorpg_gear: "{\"baseStats\":{\"p\":58},\"imp\":{\"p\":70,\"imp\":\"dusk_blade\"},\"affixes\":{\"suf\":[{\"p\":17,\"id\":\"of_poison\",\"rar\":\"uncommon\",\"ty\":\"suffix\"}],\"pre\":[{\"p\":44,\"id\":\"berserkers\",\"rar\":\"uncommon\",\"ty\":\"prefix\"},{\"p\":12,\"id\":\"basic\",\"rar\":\"common\",\"ty\":\"prefix\"}],\"cor\":[]},\"sockets\":{\"so\":[],\"sl\":0,\"rw\":\"\",\"rp\":0},\"rar\":\"rare\",\"lvl\":30,\"gtype\":\"sword\"}"
+						mmorpg_potential: "{\"potential\":25}"
+						nether_power: "no_socket"
+						runic_power: "no_socket"
+					}
+				}
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "0126054E5B4F54E5"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "simplyswords:toxic_longsword"
+					tag: {
+						Damage: 0
+						nether_power: "socket_empty"
+						runic_power: "no_socket"
+					}
+				}
+				type: "item"
+			}]
+			x: -10.0d
+			y: 8.5d
+		}
+		{
+			id: "421853ABC6E587EF"
+			rewards: [{
+				id: "344E5FB78079F648"
+				item: {
+					Count: 1
+					id: "simplyswords:flamewind"
+					tag: {
+						Damage: 0
+						mmorpg_custom_data: "{\"data\":{\"map\":{\"crafted\":\"true\",\"sl\":\"false\"}}}"
+						mmorpg_gear: "{\"baseStats\":{\"p\":91},\"imp\":{\"p\":33,\"imp\":\"hyperion_spear\"},\"affixes\":{\"suf\":[{\"p\":1,\"id\":\"of_vampirism\",\"rar\":\"common\",\"ty\":\"suffix\"},{\"p\":26,\"id\":\"of_brutality\",\"rar\":\"common\",\"ty\":\"suffix\"}],\"pre\":[{\"p\":59,\"id\":\"crit_prefix\",\"rar\":\"epic\",\"ty\":\"prefix\"},{\"p\":25,\"id\":\"wep_item_flat_2h\",\"rar\":\"uncommon\",\"ty\":\"prefix\"}],\"cor\":[]},\"sockets\":{\"so\":[],\"sl\":0,\"rw\":\"\",\"rp\":0},\"rar\":\"epic\",\"lvl\":50,\"gtype\":\"spear\"}"
+						mmorpg_potential: "{\"potential\":50}"
+						nether_power: "no_socket"
+						runic_power: "no_socket"
+					}
+				}
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "4979D8CFD84165E7"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "simplyswords:flamewind"
+					tag: {
+						Damage: 0
+						nether_power: "no_socket"
+						runic_power: "socket_empty"
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: -2.5d
+		}
+		{
+			id: "7048370776505004"
+			rewards: [{
+				id: "6EC0ADAB43A075F6"
+				item: {
+					Count: 1
+					id: "cataclysm:infernal_forge"
+					tag: {
+						Damage: 0
+						mmorpg_custom_data: "{\"data\":{\"map\":{\"crafted\":\"true\",\"sl\":\"false\"}}}"
+						mmorpg_gear: "{\"baseStats\":{\"p\":92},\"imp\":{\"p\":96,\"imp\":\"cleric_staff\"},\"affixes\":{\"suf\":[{\"p\":73,\"id\":\"of_the_forge\",\"rar\":\"epic\",\"ty\":\"suffix\"},{\"p\":32,\"id\":\"of_devastation\",\"rar\":\"rare\",\"ty\":\"suffix\"}],\"pre\":[{\"p\":24,\"id\":\"true_hit\",\"rar\":\"common\",\"ty\":\"prefix\"},{\"p\":60,\"id\":\"physical_wep_dmg\",\"rar\":\"rare\",\"ty\":\"prefix\"}],\"cor\":[]},\"sockets\":{\"so\":[],\"sl\":1,\"rw\":\"\",\"rp\":0},\"rar\":\"epic\",\"lvl\":50,\"gtype\":\"hammer\"}"
+						mmorpg_potential: "{\"potential\":50}"
+					}
+				}
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "7D839370C1CAF235"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "cataclysm:infernal_forge"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: -2.5d
+		}
+		{
+			id: "5DFFE187498592B5"
+			rewards: [{
+				id: "654232E969CD2F98"
+				item: {
+					Count: 1
+					id: "rpgsmwlite:miphril_battle_hammer"
+					tag: {
+						Damage: 0
+						mmorpg_custom_data: "{\"data\":{\"map\":{\"crafted\":\"true\",\"sl\":\"false\"}}}"
+						mmorpg_gear: "{\"baseStats\":{\"p\":83},\"imp\":{\"p\":90,\"imp\":\"ceremonial_hammer\"},\"affixes\":{\"suf\":[{\"p\":49,\"id\":\"of_brutality\",\"rar\":\"epic\",\"ty\":\"suffix\"},{\"p\":13,\"id\":\"of_the_forge\",\"rar\":\"common\",\"ty\":\"suffix\"}],\"pre\":[{\"p\":18,\"id\":\"fire_spell_ele_dmg\",\"rar\":\"common\",\"ty\":\"prefix\"},{\"p\":52,\"id\":\"wep_item_both\",\"rar\":\"epic\",\"ty\":\"prefix\"}],\"cor\":[]},\"sockets\":{\"so\":[],\"sl\":1,\"rw\":\"\",\"rp\":0},\"rar\":\"epic\",\"lvl\":30,\"gtype\":\"hammer\"}"
+						mmorpg_potential: "{\"potential\":50}"
+					}
+				}
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "6259A6BF9B43BF1B"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "rpgsmwlite:miphril_battle_hammer"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -11.0d
+			y: 11.5d
+		}
+		{
+			id: "25551E4B778A1183"
+			rewards: [{
+				id: "68A5E89274B2C076"
+				item: {
+					Count: 1
+					id: "rpgsmwlite:netherite_hammer"
+					tag: {
+						Damage: 0
+						mmorpg_custom_data: "{\"data\":{\"map\":{\"crafted\":\"true\",\"sl\":\"false\"}}}"
+						mmorpg_gear: "{\"baseStats\":{\"p\":62},\"imp\":{\"p\":31,\"imp\":\"ceremonial_hammer\"},\"affixes\":{\"suf\":[{\"p\":43,\"id\":\"of_consumption\",\"rar\":\"uncommon\",\"ty\":\"suffix\"},{\"p\":48,\"id\":\"of_pene\",\"rar\":\"epic\",\"ty\":\"suffix\"}],\"pre\":[{\"p\":7,\"id\":\"physical_wep_dmg\",\"rar\":\"common\",\"ty\":\"prefix\"},{\"p\":63,\"id\":\"fire_wep_dmg\",\"rar\":\"epic\",\"ty\":\"prefix\"}],\"cor\":[]},\"sockets\":{\"so\":[],\"sl\":0,\"rw\":\"\",\"rp\":0},\"rar\":\"epic\",\"lvl\":45,\"gtype\":\"hammer\"}"
+						mmorpg_potential: "{\"potential\":50}"
+					}
+				}
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "6F7445D2C404EE6A"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "rpgsmwlite:netherite_hammer"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: -3.5d
+		}
+		{
+			id: "4EB5BBBAA5FF7195"
+			rewards: [{
+				id: "6673E315A0C1EF20"
+				item: {
+					Count: 1
+					id: "rpgsmwlite:netheritegauntlet"
+					tag: {
+						Damage: 0
+						mmorpg_custom_data: "{\"data\":{\"map\":{\"crafted\":\"true\",\"sl\":\"false\"}}}"
+						mmorpg_gear: "{\"baseStats\":{\"p\":87},\"imp\":{\"p\":65,\"imp\":\"brawlers_gauntlet\"},\"affixes\":{\"suf\":[{\"p\":52,\"id\":\"of_precision\",\"rar\":\"epic\",\"ty\":\"suffix\"},{\"p\":63,\"id\":\"of_wounds\",\"rar\":\"epic\",\"ty\":\"suffix\"}],\"pre\":[{\"p\":25,\"id\":\"precise\",\"rar\":\"common\",\"ty\":\"prefix\"},{\"p\":45,\"id\":\"warlords\",\"rar\":\"epic\",\"ty\":\"prefix\"}],\"cor\":[]},\"sockets\":{\"so\":[],\"sl\":1,\"rw\":\"\",\"rp\":0},\"rar\":\"epic\",\"lvl\":45,\"gtype\":\"gauntlet\"}"
+						mmorpg_potential: "{\"potential\":50}"
+					}
+				}
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "7289772E6D88E16E"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "rpgsmwlite:netheritegauntlet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.5d
+		}
+		{
+			id: "2C32D2C4B06D2D9B"
+			rewards: [{
+				id: "49F30F99AA007A7F"
+				item: {
+					Count: 1
+					id: "born_in_chaos_v1:skullbreaker_hammer"
+					tag: {
+						Damage: 0
+						mmorpg_custom_data: "{\"data\":{\"map\":{\"crafted\":\"true\",\"sl\":\"false\"}}}"
+						mmorpg_gear: "{\"baseStats\":{\"p\":93},\"imp\":{\"p\":70,\"imp\":\"cleric_staff\"},\"affixes\":{\"suf\":[{\"p\":35,\"id\":\"of_spell_dmg\",\"rar\":\"uncommon\",\"ty\":\"suffix\"},{\"p\":47,\"id\":\"of_brutality\",\"rar\":\"epic\",\"ty\":\"suffix\"}],\"pre\":[{\"p\":30,\"id\":\"chaos_wep_dmg\",\"rar\":\"rare\",\"ty\":\"prefix\"},{\"p\":50,\"id\":\"anarchists\",\"rar\":\"epic\",\"ty\":\"prefix\"}],\"cor\":[]},\"sockets\":{\"so\":[],\"sl\":0,\"rw\":\"\",\"rp\":0},\"rar\":\"epic\",\"lvl\":50,\"gtype\":\"hammer\"}"
+						mmorpg_potential: "{\"potential\":50}"
+					}
+				}
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "67091807FA99B5ED"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "born_in_chaos_v1:skullbreaker_hammer"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: -1.5d
+		}
+		{
+			id: "3A444EB0AB96F62E"
+			rewards: [{
+				id: "2FEBBC849A4E8E11"
+				item: {
+					Count: 1
+					id: "legendary_monsters:wand_of_clouds"
+					tag: {
+						Damage: 0
+						mmorpg_custom_data: "{\"data\":{\"map\":{\"crafted\":\"true\",\"sl\":\"false\"}}}"
+						mmorpg_gear: "{\"baseStats\":{\"p\":56},\"imp\":{\"p\":37,\"imp\":\"ceremonial_hammer\"},\"affixes\":{\"suf\":[{\"p\":63,\"id\":\"of_gluttony\",\"rar\":\"epic\",\"ty\":\"suffix\"},{\"p\":31,\"id\":\"of_spell_dmg\",\"rar\":\"uncommon\",\"ty\":\"suffix\"}],\"pre\":[{\"p\":33,\"id\":\"warlords\",\"rar\":\"uncommon\",\"ty\":\"prefix\"},{\"p\":36,\"id\":\"water_wep_dmg\",\"rar\":\"uncommon\",\"ty\":\"prefix\"}],\"cor\":[]},\"sockets\":{\"so\":[],\"sl\":1,\"rw\":\"\",\"rp\":0},\"rar\":\"epic\",\"lvl\":55,\"gtype\":\"hammer\"}"
+						mmorpg_potential: "{\"potential\":50}"
+					}
+				}
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "2E55FF5F43F03F7E"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "legendary_monsters:wand_of_clouds"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 0.5d
+		}
+		{
+			description: ["45"]
+			id: "6869C846BD64C64A"
+			rewards: [{
+				id: "005D0350BC93719F"
+				item: {
+					Count: 1
+					id: "aquamirae:fin_cutter"
+					tag: {
+						Damage: 0
+						mmorpg_custom_data: "{\"data\":{\"map\":{\"crafted\":\"true\",\"sl\":\"false\"}}}"
+						mmorpg_gear: "{\"baseStats\":{\"p\":82},\"imp\":{\"p\":79,\"imp\":\"rusted_sword\"},\"affixes\":{\"suf\":[{\"p\":41,\"id\":\"of_the_blade\",\"rar\":\"uncommon\",\"ty\":\"suffix\"},{\"p\":43,\"id\":\"of_ice\",\"rar\":\"uncommon\",\"ty\":\"suffix\"}],\"pre\":[{\"p\":72,\"id\":\"efficient\",\"rar\":\"epic\",\"ty\":\"prefix\"},{\"p\":40,\"id\":\"wep_item_flat\",\"rar\":\"uncommon\",\"ty\":\"prefix\"}],\"cor\":[]},\"sockets\":{\"so\":[],\"sl\":1,\"rw\":\"\",\"rp\":0},\"rar\":\"epic\",\"lvl\":45,\"gtype\":\"sword\"}"
+						mmorpg_potential: "{\"potential\":50}"
+					}
+				}
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "338C8D86C806ED1F"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "aquamirae:fin_cutter"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.5d
+		}
+		{
+			id: "3F2E80DE99337C70"
+			rewards: [{
+				id: "3656312A517A7B8F"
+				item: {
+					Count: 1
+					id: "aquamirae:terrible_sword"
+					tag: {
+						Damage: 0
+						mmorpg_custom_data: "{\"data\":{\"map\":{\"crafted\":\"true\",\"sl\":\"false\"}}}"
+						mmorpg_gear: "{\"baseStats\":{\"p\":53},\"imp\":{\"p\":43,\"imp\":\"rusted_sword\"},\"affixes\":{\"suf\":[{\"p\":48,\"id\":\"of_consumption\",\"rar\":\"rare\",\"ty\":\"suffix\"},{\"p\":49,\"id\":\"of_precision\",\"rar\":\"rare\",\"ty\":\"suffix\"}],\"pre\":[{\"p\":23,\"id\":\"weaponmasters\",\"rar\":\"common\",\"ty\":\"prefix\"},{\"p\":45,\"id\":\"wep_item_perc\",\"rar\":\"epic\",\"ty\":\"prefix\"}],\"cor\":[]},\"sockets\":{\"so\":[],\"sl\":0,\"rw\":\"\",\"rp\":0},\"rar\":\"epic\",\"lvl\":45,\"gtype\":\"sword\"}"
+						mmorpg_potential: "{\"potential\":50}"
+					}
+				}
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "5F11368FD0EF0EF4"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "aquamirae:terrible_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: -4.5d
+		}
+		{
+			id: "49C172C82F8AD348"
+			rewards: [{
+				id: "7C5575F3B501DA23"
+				item: {
+					Count: 1
+					id: "iceandfire:dragonbone_sword_fire"
+					tag: {
+						Damage: 0
+						mmorpg_custom_data: "{\"data\":{\"map\":{\"crafted\":\"true\",\"sl\":\"false\"}}}"
+						mmorpg_gear: "{\"baseStats\":{\"p\":93},\"imp\":{\"p\":26,\"imp\":\"rusted_sword\"},\"affixes\":{\"suf\":[{\"p\":11,\"id\":\"of_brutality\",\"rar\":\"common\",\"ty\":\"suffix\"},{\"p\":72,\"id\":\"of_pene\",\"rar\":\"epic\",\"ty\":\"suffix\"}],\"pre\":[{\"p\":5,\"id\":\"wep_item_both\",\"rar\":\"common\",\"ty\":\"prefix\"},{\"p\":70,\"id\":\"fire_wep_dmg\",\"rar\":\"epic\",\"ty\":\"prefix\"}],\"cor\":[]},\"sockets\":{\"so\":[],\"sl\":0,\"rw\":\"\",\"rp\":0},\"rar\":\"epic\",\"lvl\":55,\"gtype\":\"sword\"}"
+						mmorpg_potential: "{\"potential\":50}"
+					}
+				}
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "61154E0DC27CD343"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "iceandfire:dragonbone_sword_fire"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: -0.5d
+		}
+		{
+			description: ["55"]
+			id: "3AACB4F37C90DDBE"
+			rewards: [{
+				id: "4C0453DE150AFB8D"
+				item: {
+					Count: 1
+					id: "iceandfire:dragonbone_sword_ice"
+					tag: {
+						Damage: 0
+						mmorpg_custom_data: "{\"data\":{\"map\":{\"crafted\":\"true\",\"sl\":\"false\"}}}"
+						mmorpg_gear: "{\"baseStats\":{\"p\":79},\"imp\":{\"p\":82,\"imp\":\"dusk_blade\"},\"affixes\":{\"suf\":[{\"p\":53,\"id\":\"of_poison\",\"rar\":\"rare\",\"ty\":\"suffix\"},{\"p\":15,\"id\":\"of_the_blade\",\"rar\":\"uncommon\",\"ty\":\"suffix\"}],\"pre\":[{\"p\":20,\"id\":\"water_wep_dmg\",\"rar\":\"common\",\"ty\":\"prefix\"},{\"p\":20,\"id\":\"wep_item_perc\",\"rar\":\"common\",\"ty\":\"prefix\"}],\"cor\":[]},\"sockets\":{\"so\":[],\"sl\":0,\"rw\":\"\",\"rp\":0},\"rar\":\"epic\",\"lvl\":55,\"gtype\":\"sword\"}"
+						mmorpg_potential: "{\"potential\":50}"
+					}
+				}
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "7C7DBE14DD7D5BCC"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "iceandfire:dragonbone_sword_ice"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: -0.5d
+		}
+		{
+			id: "64BD6965CFC20686"
+			rewards: [{
+				id: "18F05776357022BC"
+				item: {
+					Count: 1
+					id: "iceandfire:dragonbone_sword_lightning"
+					tag: {
+						Damage: 0
+						mmorpg_custom_data: "{\"data\":{\"map\":{\"crafted\":\"true\",\"sl\":\"false\"}}}"
+						mmorpg_gear: "{\"baseStats\":{\"p\":63},\"imp\":{\"p\":24,\"imp\":\"rusted_sword\"},\"affixes\":{\"suf\":[{\"p\":43,\"id\":\"of_electricity\",\"rar\":\"rare\",\"ty\":\"suffix\"},{\"p\":4,\"id\":\"of_precision\",\"rar\":\"common\",\"ty\":\"suffix\"}],\"pre\":[{\"p\":58,\"id\":\"warlords\",\"rar\":\"rare\",\"ty\":\"prefix\"},{\"p\":10,\"id\":\"wep_item_perc\",\"rar\":\"common\",\"ty\":\"prefix\"}],\"cor\":[]},\"sockets\":{\"so\":[],\"sl\":1,\"rw\":\"\",\"rp\":0},\"rar\":\"epic\",\"lvl\":55,\"gtype\":\"sword\"}"
+						mmorpg_potential: "{\"potential\":50}"
+					}
+				}
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "1634DB3646891A09"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "iceandfire:dragonbone_sword_lightning"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -0.5d
+		}
+		{
+			id: "6ACDBF4ADC5BA3D9"
+			rewards: [{
+				id: "0EFAB02B3912E978"
+				item: {
+					Count: 1
+					id: "simplyswords:icewhisper"
+					tag: {
+						Damage: 0
+						mmorpg_custom_data: "{\"data\":{\"map\":{\"crafted\":\"true\",\"sl\":\"false\"}}}"
+						mmorpg_gear: "{\"baseStats\":{\"p\":88},\"imp\":{\"p\":69,\"imp\":\"war_axe\"},\"affixes\":{\"suf\":[{\"p\":48,\"id\":\"of_vampirism\",\"rar\":\"rare\",\"ty\":\"suffix\"},{\"p\":58,\"id\":\"of_ease\",\"rar\":\"rare\",\"ty\":\"suffix\"}],\"pre\":[{\"p\":30,\"id\":\"water_wep_dmg\",\"rar\":\"common\",\"ty\":\"prefix\"},{\"p\":49,\"id\":\"warlords\",\"rar\":\"rare\",\"ty\":\"prefix\"}],\"cor\":[]},\"sockets\":{\"so\":[],\"sl\":1,\"rw\":\"\",\"rp\":0},\"rar\":\"epic\",\"lvl\":55,\"gtype\":\"axe\"}"
+						mmorpg_potential: "{\"potential\":50}"
+						nether_power: "no_socket"
+						runic_power: "socket_empty"
+					}
+				}
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "1A2F1EB2FB33B629"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "simplyswords:icewhisper"
+					tag: {
+						Damage: 0
+						nether_power: "no_socket"
+						runic_power: "no_socket"
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.5d
+		}
+		{
+			id: "0ED32C949010C0C5"
+			rewards: [{
+				id: "2A78078BFC55D02E"
+				item: {
+					Count: 1
+					id: "cataclysm:ceraunus"
+					tag: {
+						mmorpg_custom_data: "{\"data\":{\"map\":{\"crafted\":\"true\",\"sl\":\"false\"}}}"
+						mmorpg_gear: "{\"baseStats\":{\"p\":70},\"imp\":{\"p\":82,\"imp\":\"cleric_staff\"},\"affixes\":{\"suf\":[{\"p\":81,\"id\":\"of_ease\",\"rar\":\"legendary\",\"ty\":\"suffix\"},{\"p\":75,\"id\":\"of_the_forge\",\"rar\":\"legendary\",\"ty\":\"suffix\"}],\"pre\":[{\"p\":22,\"id\":\"wep_item_both\",\"rar\":\"uncommon\",\"ty\":\"prefix\"},{\"p\":36,\"id\":\"wep_item_perc\",\"rar\":\"rare\",\"ty\":\"prefix\"},{\"p\":8,\"id\":\"heal_crit_prefix\",\"rar\":\"common\",\"ty\":\"prefix\"}],\"cor\":[]},\"sockets\":{\"so\":[],\"sl\":0,\"rw\":\"\",\"rp\":0},\"rar\":\"legendary\",\"lvl\":60,\"gtype\":\"hammer\"}"
+						mmorpg_potential: "{\"potential\":75}"
+					}
+				}
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "03B9927D5FC766BD"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "cataclysm:ceraunus"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 3.5d
+		}
+		{
+			id: "61AEBAE452811A6E"
+			rewards: [{
+				id: "392688681836E599"
+				item: {
+					Count: 1
+					id: "cataclysm:astrape"
+					tag: {
+						mmorpg_custom_data: "{\"data\":{\"map\":{\"crafted\":\"true\",\"sl\":\"false\"}}}"
+						mmorpg_gear: "{\"baseStats\":{\"p\":91},\"imp\":{\"p\":20,\"imp\":\"war_axe\"},\"affixes\":{\"suf\":[{\"p\":83,\"id\":\"of_ice\",\"rar\":\"legendary\",\"ty\":\"suffix\"},{\"p\":75,\"id\":\"of_wounds\",\"rar\":\"legendary\",\"ty\":\"suffix\"}],\"pre\":[{\"p\":38,\"id\":\"warlords\",\"rar\":\"uncommon\",\"ty\":\"prefix\"},{\"p\":59,\"id\":\"true_hit\",\"rar\":\"rare\",\"ty\":\"prefix\"},{\"p\":23,\"id\":\"wep_item_perc\",\"rar\":\"uncommon\",\"ty\":\"prefix\"}],\"cor\":[]},\"sockets\":{\"so\":[],\"sl\":0,\"rw\":\"\",\"rp\":0},\"rar\":\"legendary\",\"lvl\":60,\"gtype\":\"axe\"}"
+						mmorpg_potential: "{\"potential\":75}"
+					}
+				}
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "7D25F0741EE22AAE"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "cataclysm:astrape"
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.5d
+		}
+		{
+			id: "58F3AA11BA9D562C"
+			rewards: [{
+				id: "74ECF848B541771E"
+				item: {
+					Count: 1
+					id: "legendary_monsters:withered_scythe"
+					tag: {
+						Damage: 0
+						mmorpg_custom_data: "{\"data\":{\"map\":{\"crafted\":\"true\",\"sl\":\"false\"}}}"
+						mmorpg_gear: "{\"baseStats\":{\"p\":69},\"imp\":{\"p\":48,\"imp\":\"rusted_scythe\"},\"affixes\":{\"suf\":[{\"p\":50,\"id\":\"of_sweeping\",\"rar\":\"rare\",\"ty\":\"suffix\"},{\"p\":43,\"id\":\"of_devastation\",\"rar\":\"rare\",\"ty\":\"suffix\"}],\"pre\":[{\"p\":21,\"id\":\"wep_item_both\",\"rar\":\"common\",\"ty\":\"prefix\"},{\"p\":12,\"id\":\"wep_item_perc\",\"rar\":\"common\",\"ty\":\"prefix\"}],\"cor\":[]},\"sockets\":{\"so\":[],\"sl\":1,\"rw\":\"\",\"rp\":0},\"rar\":\"epic\",\"lvl\":45,\"gtype\":\"scythe\"}"
+						mmorpg_potential: "{\"potential\":50}"
+					}
+				}
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "3B39F4ECFEF4E204"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "legendary_monsters:withered_scythe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: -3.5d
+		}
+		{
+			id: "64140F338FE2047D"
+			rewards: [{
+				id: "0313692250DE14E2"
+				item: {
+					Count: 1
+					id: "aquamirae:divider"
+					tag: {
+						Damage: 0
+						mmorpg_custom_data: "{\"data\":{\"map\":{\"crafted\":\"true\",\"sl\":\"false\"}}}"
+						mmorpg_gear: "{\"baseStats\":{\"p\":94},\"imp\":{\"p\":82,\"imp\":\"dusk_blade\"},\"affixes\":{\"suf\":[{\"p\":19,\"id\":\"of_brutality\",\"rar\":\"uncommon\",\"ty\":\"suffix\"},{\"p\":22,\"id\":\"of_the_blade\",\"rar\":\"uncommon\",\"ty\":\"suffix\"}],\"pre\":[{\"p\":33,\"id\":\"true_hit\",\"rar\":\"uncommon\",\"ty\":\"prefix\"},{\"p\":25,\"id\":\"wep_item_both\",\"rar\":\"uncommon\",\"ty\":\"prefix\"},{\"p\":60,\"id\":\"catalyzing\",\"rar\":\"legendary\",\"ty\":\"prefix\"}],\"cor\":[]},\"sockets\":{\"so\":[],\"sl\":0,\"rw\":\"\",\"rp\":0},\"rar\":\"legendary\",\"lvl\":65,\"gtype\":\"sword\"}"
+						mmorpg_potential: "{\"potential\":75}"
+					}
+				}
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "0FB4D07158727AF1"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "aquamirae:divider"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: 4.5d
+		}
+		{
+			id: "1FE54A41058BC272"
+			rewards: [{
+				id: "34E485800A30F1CB"
+				item: {
+					Count: 1
+					id: "aquamirae:whisper_of_the_abyss"
+					tag: {
+						Damage: 0
+						mmorpg_custom_data: "{\"data\":{\"map\":{\"crafted\":\"true\",\"sl\":\"false\"}}}"
+						mmorpg_gear: "{\"baseStats\":{\"p\":94},\"imp\":{\"p\":59,\"imp\":\"war_spear\"},\"affixes\":{\"suf\":[{\"p\":24,\"id\":\"of_brutality\",\"rar\":\"common\",\"ty\":\"suffix\"},{\"p\":80,\"id\":\"of_sweeping\",\"rar\":\"legendary\",\"ty\":\"suffix\"}],\"pre\":[{\"p\":66,\"id\":\"warlords\",\"rar\":\"legendary\",\"ty\":\"prefix\"},{\"p\":67,\"id\":\"basic\",\"rar\":\"epic\",\"ty\":\"prefix\"},{\"p\":24,\"id\":\"wep_item_flat_2h\",\"rar\":\"uncommon\",\"ty\":\"prefix\"}],\"cor\":[]},\"sockets\":{\"so\":[],\"sl\":0,\"rw\":\"\",\"rp\":0},\"rar\":\"legendary\",\"lvl\":65,\"gtype\":\"spear\"}"
+						mmorpg_potential: "{\"potential\":75}"
+					}
+				}
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "239DD008005B26DC"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "aquamirae:whisper_of_the_abyss"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: 4.5d
+		}
+		{
+			id: "16EF682CADAC1752"
+			rewards: [{
+				id: "178271720E22FC7C"
+				item: {
+					Count: 1
+					id: "simplyswords:soulkeeper"
+					tag: {
+						Damage: 0
+						mmorpg_custom_data: "{\"data\":{\"map\":{\"crafted\":\"true\",\"sl\":\"false\"}}}"
+						mmorpg_gear: "{\"baseStats\":{\"p\":82},\"imp\":{\"p\":70,\"imp\":\"cleric_staff\"},\"affixes\":{\"suf\":[{\"p\":40,\"id\":\"of_consumption\",\"rar\":\"uncommon\",\"ty\":\"suffix\"},{\"p\":64,\"id\":\"of_spell_dmg\",\"rar\":\"legendary\",\"ty\":\"suffix\"}],\"pre\":[{\"p\":72,\"id\":\"wep_item_flat\",\"rar\":\"epic\",\"ty\":\"prefix\"},{\"p\":49,\"id\":\"true_hit\",\"rar\":\"epic\",\"ty\":\"prefix\"},{\"p\":87,\"id\":\"anarchists\",\"rar\":\"legendary\",\"ty\":\"prefix\"}],\"cor\":[]},\"sockets\":{\"so\":[],\"sl\":1,\"rw\":\"\",\"rp\":0},\"rar\":\"legendary\",\"lvl\":65,\"gtype\":\"hammer\"}"
+						mmorpg_potential: "{\"potential\":75}"
+						nether_power: "no_socket"
+						runic_power: "socket_empty"
+					}
+				}
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "4125E6F6D5905DB1"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "simplyswords:soulkeeper"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: 5.5d
+		}
+		{
+			id: "341CEDED7BFCC12C"
+			rewards: [{
+				id: "521BDE954549E417"
+				item: {
+					Count: 1
+					id: "too_many_bows:dusk_reaper"
+					tag: {
+						Damage: 0
+						mmorpg_custom_data: "{\"data\":{\"map\":{\"crafted\":\"true\",\"sl\":\"false\"}}}"
+						mmorpg_gear: "{\"baseStats\":{\"p\":99},\"imp\":{\"p\":61,\"imp\":\"imperial_bow\"},\"affixes\":{\"suf\":[{\"p\":25,\"id\":\"of_brutality\",\"rar\":\"uncommon\",\"ty\":\"suffix\"},{\"p\":49,\"id\":\"of_vampirism\",\"rar\":\"rare\",\"ty\":\"suffix\"}],\"pre\":[{\"p\":32,\"id\":\"wep_item_both\",\"rar\":\"uncommon\",\"ty\":\"prefix\"},{\"p\":46,\"id\":\"chaos_wep_dmg\",\"rar\":\"rare\",\"ty\":\"prefix\"},{\"p\":45,\"id\":\"rapid\",\"rar\":\"uncommon\",\"ty\":\"prefix\"}],\"cor\":[]},\"sockets\":{\"so\":[],\"sl\":0,\"rw\":\"\",\"rp\":0},\"rar\":\"legendary\",\"lvl\":65,\"gtype\":\"bow\"}"
+						mmorpg_potential: "{\"potential\":75}"
+					}
+				}
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "525903B77CF2E40A"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "too_many_bows:dusk_reaper"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 4.5d
+		}
+		{
+			id: "22F6430875FDFD63"
+			rewards: [{
+				id: "20E15CFEA3DDD56B"
+				item: {
+					Count: 1
+					id: "too_many_bows:arcane_bow"
+					tag: {
+						Damage: 0
+						mmorpg_custom_data: "{\"data\":{\"map\":{\"crafted\":\"true\",\"sl\":\"false\"}}}"
+						mmorpg_gear: "{\"baseStats\":{\"p\":92},\"imp\":{\"p\":56,\"imp\":\"ass_bow\"},\"affixes\":{\"suf\":[{\"p\":20,\"id\":\"of_vampirism\",\"rar\":\"common\",\"ty\":\"suffix\"},{\"p\":28,\"id\":\"of_brutality\",\"rar\":\"common\",\"ty\":\"suffix\"}],\"pre\":[{\"p\":22,\"id\":\"wep_item_perc\",\"rar\":\"common\",\"ty\":\"prefix\"},{\"p\":84,\"id\":\"physical_wep_dmg\",\"rar\":\"legendary\",\"ty\":\"prefix\"},{\"p\":68,\"id\":\"rapid\",\"rar\":\"legendary\",\"ty\":\"prefix\"}],\"cor\":[]},\"sockets\":{\"so\":[],\"sl\":0,\"rw\":\"\",\"rp\":0},\"rar\":\"legendary\",\"lvl\":60,\"gtype\":\"bow\"}"
+						mmorpg_potential: "{\"potential\":75}"
+					}
+				}
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "0AEFAE7D85088115"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "too_many_bows:arcane_bow"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			id: "572DF96F25FC8B4D"
+			rewards: [{
+				id: "4F9EFB33A9967287"
+				item: {
+					Count: 1
+					id: "too_many_bows:webstring"
+					tag: {
+						Damage: 0
+						mmorpg_custom_data: "{\"data\":{\"map\":{\"crafted\":\"true\",\"sl\":\"false\"}}}"
+						mmorpg_gear: "{\"baseStats\":{\"p\":78},\"imp\":{\"p\":61,\"imp\":\"bone_bow\"},\"affixes\":{\"suf\":[{\"p\":61,\"id\":\"of_vampirism\",\"rar\":\"epic\",\"ty\":\"suffix\"},{\"p\":49,\"id\":\"of_gluttony\",\"rar\":\"rare\",\"ty\":\"suffix\"}],\"pre\":[{\"p\":30,\"id\":\"chaos_wep_dmg\",\"rar\":\"common\",\"ty\":\"prefix\"},{\"p\":3,\"id\":\"water_wep_dmg\",\"rar\":\"common\",\"ty\":\"prefix\"}],\"cor\":[]},\"sockets\":{\"so\":[],\"sl\":0,\"rw\":\"\",\"rp\":0},\"rar\":\"epic\",\"lvl\":40,\"gtype\":\"bow\"}"
+						mmorpg_potential: "{\"potential\":50}"
+					}
+				}
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "03312441BC7CBE7C"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "too_many_bows:webstring"
+					tag: {
+						Damage: 0
+						mmorpg_custom_data: "{\"data\":{\"map\":{\"crafted\":\"true\",\"sl\":\"false\"}}}"
+						mmorpg_gear: "{\"baseStats\":{\"p\":82},\"imp\":{\"p\":39,\"imp\":\"imperial_bow\"},\"affixes\":{\"suf\":[],\"pre\":[{\"p\":16,\"id\":\"wep_item_flat\",\"rar\":\"common\",\"ty\":\"prefix\"}],\"cor\":[]},\"sockets\":{\"so\":[],\"sl\":0,\"rw\":\"\",\"rp\":0},\"rar\":\"common\",\"lvl\":8,\"gtype\":\"bow\"}"
+						mmorpg_potential: "{\"potential\":5}"
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: -4.5d
+		}
+		{
+			id: "25513193CED4A7E7"
+			rewards: [{
+				id: "781F13BE2E788EE0"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "too_many_bows:aethers_call"
+					tag: {
+						Damage: 0
+						mmorpg_custom_data: "{\"data\":{\"map\":{\"crafted\":\"true\",\"sl\":\"false\"}}}"
+						mmorpg_gear: "{\"baseStats\":{\"p\":80},\"imp\":{\"p\":89,\"imp\":\"imperial_bow\"},\"affixes\":{\"suf\":[{\"p\":34,\"id\":\"of_pene\",\"rar\":\"uncommon\",\"ty\":\"suffix\"}],\"pre\":[{\"p\":7,\"id\":\"water_wep_dmg\",\"rar\":\"common\",\"ty\":\"prefix\"},{\"p\":41,\"id\":\"fire_wep_dmg\",\"rar\":\"rare\",\"ty\":\"prefix\"}],\"cor\":[]},\"sockets\":{\"so\":[],\"sl\":0,\"rw\":\"\",\"rp\":0},\"rar\":\"rare\",\"lvl\":25,\"gtype\":\"bow\"}"
+						mmorpg_potential: "{\"potential\":25}"
+					}
+				}
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "169418E83C148FF6"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "too_many_bows:aethers_call"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -12.0d
+			y: 8.5d
+		}
+		{
+			id: "122DCDA9C05AD66D"
+			rewards: [{
+				id: "60A67B2A3BD9FB9A"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "simplyswords:dormant_relic"
+					tag: {
+						Damage: 0
+						mmorpg_custom_data: "{\"data\":{\"map\":{\"crafted\":\"true\",\"sl\":\"false\"}}}"
+						mmorpg_gear: "{\"baseStats\":{\"p\":79},\"imp\":{\"p\":78,\"imp\":\"rusted_sword\"},\"affixes\":{\"suf\":[{\"p\":43,\"id\":\"of_vampirism\",\"rar\":\"rare\",\"ty\":\"suffix\"}],\"pre\":[{\"p\":20,\"id\":\"fire_wep_dmg\",\"rar\":\"uncommon\",\"ty\":\"prefix\"},{\"p\":6,\"id\":\"weaponmasters\",\"rar\":\"common\",\"ty\":\"prefix\"}],\"cor\":[]},\"sockets\":{\"so\":[],\"sl\":0,\"rw\":\"\",\"rp\":0},\"rar\":\"rare\",\"lvl\":25,\"gtype\":\"sword\"}"
+						mmorpg_potential: "{\"potential\":25}"
+						nether_power: "socket_empty"
+						runic_power: "socket_empty"
+					}
+				}
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "630A1983314BFA53"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "simplyswords:dormant_relic"
+					tag: {
+						Damage: 0
+						nether_power: "socket_empty"
+						runic_power: "socket_empty"
+					}
+				}
+				optional_task: true
+				type: "item"
+			}]
+			x: -9.0d
+			y: 7.5d
+		}
+		{
+			id: "1749A19F5CE3F3FA"
+			rewards: [{
+				id: "46606572D0D533E2"
+				item: {
+					Count: 1
+					id: "born_in_chaos_v1:dark_ritual_dagger"
+					tag: {
+						Damage: 0
+						mmorpg_custom_data: "{\"data\":{\"map\":{\"crafted\":\"true\",\"sl\":\"false\"}}}"
+						mmorpg_gear: "{\"baseStats\":{\"p\":97},\"imp\":{\"p\":51,\"imp\":\"imp_dagger\"},\"affixes\":{\"suf\":[{\"p\":33,\"id\":\"of_devastation\",\"rar\":\"rare\",\"ty\":\"suffix\"}],\"pre\":[{\"p\":23,\"id\":\"lightning_spell_ele_dmg\",\"rar\":\"uncommon\",\"ty\":\"prefix\"},{\"p\":43,\"id\":\"crit_prefix\",\"rar\":\"uncommon\",\"ty\":\"prefix\"}],\"cor\":[]},\"sockets\":{\"so\":[],\"sl\":0,\"rw\":\"\",\"rp\":0},\"rar\":\"rare\",\"lvl\":25,\"gtype\":\"dagger\"}"
+						mmorpg_potential: "{\"potential\":25}"
+					}
+				}
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "1B46C2B523FE563D"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "born_in_chaos_v1:dark_ritual_dagger"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -11.0d
+			y: 7.5d
+		}
+		{
+			id: "24D4751F14C5D610"
+			rewards: [{
+				id: "3B76180E5FED7367"
+				item: {
+					Count: 1
+					id: "warriorsofpastepoch:musketeer_rapier"
+					tag: {
+						Damage: 0
+						mmorpg_custom_data: "{\"data\":{\"map\":{\"crafted\":\"true\",\"sl\":\"false\"}}}"
+						mmorpg_gear: "{\"baseStats\":{\"p\":92},\"imp\":{\"p\":4,\"imp\":\"rusted_sword\"},\"affixes\":{\"suf\":[{\"p\":38,\"id\":\"of_brutality\",\"rar\":\"uncommon\",\"ty\":\"suffix\"}],\"pre\":[{\"p\":52,\"id\":\"wep_item_both\",\"rar\":\"rare\",\"ty\":\"prefix\"},{\"p\":26,\"id\":\"warlords\",\"rar\":\"uncommon\",\"ty\":\"prefix\"}],\"cor\":[]},\"sockets\":{\"so\":[],\"sl\":1,\"rw\":\"\",\"rp\":0},\"rar\":\"rare\",\"lvl\":20,\"gtype\":\"sword\"}"
+						mmorpg_potential: "{\"potential\":25}"
+					}
+				}
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "7CA145266EB8C0AE"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "warriorsofpastepoch:musketeer_rapier"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -8.0d
+			y: 4.5d
+		}
+		{
+			id: "5E8B2676B7B563B4"
+			rewards: [{
+				id: "153450EB5BD7DAAA"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "born_in_chaos_v1:trident_hayfork"
+					tag: {
+						Damage: 0
+						mmorpg_custom_data: "{\"data\":{\"map\":{\"crafted\":\"true\",\"sl\":\"false\"}}}"
+						mmorpg_gear: "{\"baseStats\":{\"p\":76},\"imp\":{\"p\":21,\"imp\":\"war_spear\"},\"affixes\":{\"suf\":[{\"p\":21,\"id\":\"of_gluttony\",\"rar\":\"common\",\"ty\":\"suffix\"}],\"pre\":[{\"p\":57,\"id\":\"crit_prefix\",\"rar\":\"rare\",\"ty\":\"prefix\"},{\"p\":30,\"id\":\"true_hit\",\"rar\":\"rare\",\"ty\":\"prefix\"}],\"cor\":[]},\"sockets\":{\"so\":[],\"sl\":1,\"rw\":\"\",\"rp\":0},\"rar\":\"rare\",\"lvl\":20,\"gtype\":\"spear\"}"
+						mmorpg_potential: "{\"potential\":25}"
+					}
+				}
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "753DE082731E9527"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "born_in_chaos_v1:trident_hayfork"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -11.0d
+			y: 5.5d
+		}
+		{
+			id: "08ED2683FF5B8EF3"
+			rewards: [{
+				id: "525709985374AADB"
+				item: {
+					Count: 1
+					id: "aquaculture:neptunium_sword"
+					tag: {
+						Damage: 0
+						mmorpg_custom_data: "{\"data\":{\"map\":{\"crafted\":\"true\",\"sl\":\"false\"}}}"
+						mmorpg_gear: "{\"baseStats\":{\"p\":67},\"imp\":{\"p\":97,\"imp\":\"rusted_sword\"},\"affixes\":{\"suf\":[{\"p\":40,\"id\":\"of_brutality\",\"rar\":\"rare\",\"ty\":\"suffix\"},{\"p\":18,\"id\":\"of_gluttony\",\"rar\":\"uncommon\",\"ty\":\"suffix\"}],\"pre\":[{\"p\":23,\"id\":\"fire_wep_dmg\",\"rar\":\"common\",\"ty\":\"prefix\"},{\"p\":46,\"id\":\"wep_item_perc\",\"rar\":\"rare\",\"ty\":\"prefix\"},{\"p\":87,\"id\":\"water_wep_dmg\",\"rar\":\"legendary\",\"ty\":\"prefix\"}],\"cor\":[]},\"sockets\":{\"so\":[],\"sl\":0,\"rw\":\"\",\"rp\":0},\"rar\":\"legendary\",\"lvl\":60,\"gtype\":\"sword\"}"
+						mmorpg_potential: "{\"potential\":75}"
+					}
+				}
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "26BCF05A2D302930"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "aquaculture:neptunium_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: 2.5d
+		}
+		{
+			id: "3335D5087958C2EE"
+			rewards: [{
+				id: "0C8D129BE4011767"
+				item: {
+					Count: 1
+					id: "born_in_chaos_v1:soulbane"
+					tag: {
+						Damage: 0
+						mmorpg_custom_data: "{\"data\":{\"map\":{\"crafted\":\"true\",\"sl\":\"false\"}}}"
+						mmorpg_gear: "{\"baseStats\":{\"p\":63},\"imp\":{\"p\":17,\"imp\":\"rusted_sword\"},\"affixes\":{\"suf\":[{\"p\":72,\"id\":\"of_brutality\",\"rar\":\"legendary\",\"ty\":\"suffix\"},{\"p\":84,\"id\":\"of_gluttony\",\"rar\":\"legendary\",\"ty\":\"suffix\"}],\"pre\":[{\"p\":84,\"id\":\"basic\",\"rar\":\"legendary\",\"ty\":\"prefix\"},{\"p\":59,\"id\":\"wep_item_perc\",\"rar\":\"rare\",\"ty\":\"prefix\"},{\"p\":70,\"id\":\"wep_item_both\",\"rar\":\"legendary\",\"ty\":\"prefix\"}],\"cor\":[]},\"sockets\":{\"so\":[],\"sl\":1,\"rw\":\"\",\"rp\":0},\"rar\":\"legendary\",\"lvl\":65,\"gtype\":\"sword\"}"
+						mmorpg_potential: "{\"potential\":75}"
+					}
+				}
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "18FC70F1925948B8"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "born_in_chaos_v1:soulbane"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 5.5d
+		}
+		{
+			id: "13804A415416CB3A"
+			shape: "square"
+			tasks: [{
+				id: "5AB464F4DE357E96"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "born_in_chaos_v1:pumpkinstaffa"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 5.5d
+		}
+		{
+			id: "4142791A1265B1E0"
+			rewards: [{
+				id: "00DB822B74C55F24"
+				item: {
+					Count: 1
+					id: "alexscaves:desolate_dagger"
+					tag: {
+						Damage: 0
+						mmorpg_custom_data: "{\"data\":{\"map\":{\"crafted\":\"true\",\"sl\":\"false\"}}}"
+						mmorpg_gear: "{\"baseStats\":{\"p\":90},\"imp\":{\"p\":20,\"imp\":\"imp_dagger\"},\"affixes\":{\"suf\":[{\"p\":58,\"id\":\"of_the_shadows\",\"rar\":\"rare\",\"ty\":\"suffix\"},{\"p\":38,\"id\":\"of_ease\",\"rar\":\"rare\",\"ty\":\"suffix\"}],\"pre\":[{\"p\":48,\"id\":\"crit_prefix\",\"rar\":\"epic\",\"ty\":\"prefix\"},{\"p\":44,\"id\":\"fire_spell_ele_dmg\",\"rar\":\"uncommon\",\"ty\":\"prefix\"},{\"p\":50,\"id\":\"warlords\",\"rar\":\"rare\",\"ty\":\"prefix\"}],\"cor\":[]},\"sockets\":{\"so\":[],\"sl\":0,\"rw\":\"\",\"rp\":0},\"rar\":\"legendary\",\"lvl\":65,\"gtype\":\"dagger\"}"
+						mmorpg_potential: "{\"potential\":75}"
+					}
+				}
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "5C7553C3938D1062"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "alexscaves:desolate_dagger"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 5.5d
+		}
+		{
+			id: "35F292117010412D"
+			rewards: [{
+				id: "11B1456A134C60F9"
+				item: {
+					Count: 1
+					id: "alexscaves:dreadbow"
+					tag: {
+						Damage: 0
+						mmorpg_custom_data: "{\"data\":{\"map\":{\"crafted\":\"true\",\"sl\":\"false\"}}}"
+						mmorpg_gear: "{\"baseStats\":{\"p\":97},\"imp\":{\"p\":21,\"imp\":\"imperial_bow\"},\"affixes\":{\"suf\":[{\"p\":89,\"id\":\"of_precision\",\"rar\":\"legendary\",\"ty\":\"suffix\"},{\"p\":33,\"id\":\"of_consumption\",\"rar\":\"rare\",\"ty\":\"suffix\"}],\"pre\":[{\"p\":53,\"id\":\"wep_item_perc\",\"rar\":\"epic\",\"ty\":\"prefix\"},{\"p\":22,\"id\":\"precise\",\"rar\":\"common\",\"ty\":\"prefix\"},{\"p\":29,\"id\":\"catalyzing\",\"rar\":\"common\",\"ty\":\"prefix\"}],\"cor\":[]},\"sockets\":{\"so\":[],\"sl\":0,\"rw\":\"\",\"rp\":0},\"rar\":\"legendary\",\"lvl\":65,\"gtype\":\"bow\"}"
+						mmorpg_potential: "{\"potential\":75}"
+					}
+				}
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "7C912289972A6704"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "alexscaves:dreadbow"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 4.5d
+		}
+		{
+			id: "76345805D75D841D"
+			rewards: [{
+				id: "6E2F25DFB0776449"
+				item: {
+					Count: 1
+					id: "legendary_monsters:fiery_jaw"
+					tag: {
+						Damage: 0
+						mmorpg_custom_data: "{\"data\":{\"map\":{\"crafted\":\"true\",\"sl\":\"false\"}}}"
+						mmorpg_gear: "{\"baseStats\":{\"p\":96},\"imp\":{\"p\":0,\"imp\":\"ceremonial_gauntlet\"},\"affixes\":{\"suf\":[{\"p\":16,\"id\":\"of_smiting\",\"rar\":\"uncommon\",\"ty\":\"suffix\"},{\"p\":11,\"id\":\"of_poison\",\"rar\":\"common\",\"ty\":\"suffix\"}],\"pre\":[{\"p\":68,\"id\":\"wep_item_perc\",\"rar\":\"legendary\",\"ty\":\"prefix\"},{\"p\":65,\"id\":\"warlords\",\"rar\":\"epic\",\"ty\":\"prefix\"},{\"p\":49,\"id\":\"energy_thief\",\"rar\":\"rare\",\"ty\":\"prefix\"}],\"cor\":[]},\"sockets\":{\"so\":[],\"sl\":1,\"rw\":\"\",\"rp\":0},\"rar\":\"legendary\",\"lvl\":75,\"gtype\":\"gauntlet\"}"
+						mmorpg_potential: "{\"potential\":75}"
+					}
+				}
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "5DEAA1FD9D316192"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "legendary_monsters:fiery_jaw"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 8.5d
+		}
+		{
+			id: "3AC13ED800EAE2F2"
+			rewards: [{
+				id: "1C9CB91654DB2241"
+				item: {
+					Count: 1
+					id: "simplyswords:watcher_claymore"
+					tag: {
+						Damage: 0
+						mmorpg_custom_data: "{\"data\":{\"map\":{\"crafted\":\"true\",\"sl\":\"false\"}}}"
+						mmorpg_gear: "{\"baseStats\":{\"p\":92},\"imp\":{\"p\":22,\"imp\":\"imperial_greatsword\"},\"affixes\":{\"suf\":[{\"p\":70,\"id\":\"of_ease\",\"rar\":\"legendary\",\"ty\":\"suffix\"},{\"p\":69,\"id\":\"of_sweeping\",\"rar\":\"legendary\",\"ty\":\"suffix\"}],\"pre\":[{\"p\":70,\"id\":\"wep_item_both\",\"rar\":\"epic\",\"ty\":\"prefix\"},{\"p\":16,\"id\":\"basic\",\"rar\":\"common\",\"ty\":\"prefix\"},{\"p\":66,\"id\":\"berserkers\",\"rar\":\"legendary\",\"ty\":\"prefix\"}],\"cor\":[]},\"sockets\":{\"so\":[],\"sl\":1,\"rw\":\"\",\"rp\":0},\"rar\":\"legendary\",\"lvl\":65,\"gtype\":\"greatsword\"}"
+						mmorpg_potential: "{\"potential\":75}"
+						nether_power: "socket_empty"
+						runic_power: "no_socket"
+					}
+				}
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "2E0E31441A510206"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "simplyswords:watcher_claymore"
+					tag: {
+						Damage: 0
+						nether_power: "socket_empty"
+						runic_power: "no_socket"
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: 5.5d
+		}
+		{
+			id: "50E418CADDD68D17"
+			rewards: [{
+				id: "1CAEA74871BF19B6"
+				item: {
+					Count: 1
+					id: "aquamirae:dagger_of_greed"
+					tag: {
+						Damage: 0
+						mmorpg_custom_data: "{\"data\":{\"map\":{\"crafted\":\"true\",\"sl\":\"false\"}}}"
+						mmorpg_gear: "{\"baseStats\":{\"p\":97},\"imp\":{\"p\":42,\"imp\":\"imp_dagger\"},\"affixes\":{\"suf\":[{\"p\":22,\"id\":\"of_less_cd\",\"rar\":\"common\",\"ty\":\"suffix\"},{\"p\":70,\"id\":\"of_vampirism\",\"rar\":\"legendary\",\"ty\":\"suffix\"}],\"pre\":[{\"p\":79,\"id\":\"crit_prefix\",\"rar\":\"legendary\",\"ty\":\"prefix\"},{\"p\":78,\"id\":\"focused\",\"rar\":\"legendary\",\"ty\":\"prefix\"},{\"p\":69,\"id\":\"water_wep_dmg\",\"rar\":\"legendary\",\"ty\":\"prefix\"}],\"cor\":[]},\"sockets\":{\"so\":[],\"sl\":0,\"rw\":\"\",\"rp\":0},\"rar\":\"legendary\",\"lvl\":65,\"gtype\":\"dagger\"}"
+						mmorpg_potential: "{\"potential\":75}"
+					}
+				}
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "0538E5126F0997B6"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "aquamirae:dagger_of_greed"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			id: "5B02BC927930E39F"
+			rewards: [{
+				id: "26B780C2A9C5549C"
+				item: {
+					Count: 1
+					id: "born_in_chaos_v1:frostbitten_blade"
+					tag: {
+						Damage: 0
+						mmorpg_custom_data: "{\"data\":{\"map\":{\"crafted\":\"true\",\"sl\":\"false\"}}}"
+						mmorpg_gear: "{\"baseStats\":{\"p\":100},\"imp\":{\"p\":81,\"imp\":\"dusk_blade\"},\"affixes\":{\"suf\":[{\"p\":67,\"id\":\"of_the_blade\",\"rar\":\"epic\",\"ty\":\"suffix\"},{\"p\":8,\"id\":\"of_ease\",\"rar\":\"common\",\"ty\":\"suffix\"}],\"pre\":[{\"p\":30,\"id\":\"crit_prefix\",\"rar\":\"common\",\"ty\":\"prefix\"},{\"p\":57,\"id\":\"fire_wep_dmg\",\"rar\":\"rare\",\"ty\":\"prefix\"}],\"cor\":[]},\"sockets\":{\"so\":[],\"sl\":1,\"rw\":\"\",\"rp\":0},\"rar\":\"epic\",\"lvl\":55,\"gtype\":\"sword\"}"
+						mmorpg_potential: "{\"potential\":50}"
+					}
+				}
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "541344B12CD819F3"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "born_in_chaos_v1:frostbitten_blade"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: 0.5d
+		}
+		{
+			id: "75A29248BC91B59D"
+			rewards: [{
+				id: "1F48658FB9448F3E"
+				item: {
+					Count: 1
+					id: "mine_and_staff:alexandrite_staff"
+					tag: {
+						Damage: 0
+						mmorpg_custom_data: "{\"data\":{\"map\":{\"crafted\":\"true\",\"sl\":\"false\"}}}"
+						mmorpg_gear: "{\"baseStats\":{\"p\":70},\"imp\":{\"p\":28,\"imp\":\"cursed_staff\"},\"affixes\":{\"suf\":[{\"p\":15,\"id\":\"of_spell_dmg\",\"rar\":\"uncommon\",\"ty\":\"suffix\"},{\"p\":9,\"id\":\"of_brutality\",\"rar\":\"common\",\"ty\":\"suffix\"}],\"pre\":[{\"p\":46,\"id\":\"chaos_wep_dmg\",\"rar\":\"epic\",\"ty\":\"prefix\"},{\"p\":31,\"id\":\"wep_item_both\",\"rar\":\"uncommon\",\"ty\":\"prefix\"},{\"p\":18,\"id\":\"heal_crit_prefix\",\"rar\":\"uncommon\",\"ty\":\"prefix\"}],\"cor\":[]},\"sockets\":{\"so\":[],\"sl\":1,\"rw\":\"\",\"rp\":0},\"rar\":\"legendary\",\"lvl\":70,\"gtype\":\"staff\"}"
+						mmorpg_potential: "{\"potential\":75}"
+					}
+				}
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "0C9427A187A92703"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "mine_and_staff:alexandrite_staff"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 6.5d
+		}
+		{
+			id: "7A841C6CE6F92700"
+			rewards: [{
+				id: "21FBFF9CF493152E"
+				item: {
+					Count: 1
+					id: "simplyswords:bramblethorn"
+					tag: {
+						Damage: 0
+						mmorpg_custom_data: "{\"data\":{\"map\":{\"crafted\":\"true\",\"sl\":\"false\"}}}"
+						mmorpg_gear: "{\"baseStats\":{\"p\":86},\"imp\":{\"p\":80,\"imp\":\"rusted_sword\"},\"affixes\":{\"suf\":[{\"p\":30,\"id\":\"of_consumption\",\"rar\":\"uncommon\",\"ty\":\"suffix\"},{\"p\":17,\"id\":\"of_brutality\",\"rar\":\"uncommon\",\"ty\":\"suffix\"}],\"pre\":[{\"p\":79,\"id\":\"energy_thief\",\"rar\":\"legendary\",\"ty\":\"prefix\"},{\"p\":80,\"id\":\"wep_item_both\",\"rar\":\"legendary\",\"ty\":\"prefix\"},{\"p\":0,\"id\":\"crit_prefix\",\"rar\":\"common\",\"ty\":\"prefix\"}],\"cor\":[]},\"sockets\":{\"so\":[],\"sl\":0,\"rw\":\"\",\"rp\":0},\"rar\":\"legendary\",\"lvl\":70,\"gtype\":\"sword\"}"
+						mmorpg_potential: "{\"potential\":75}"
+						nether_power: "socket_empty"
+						runic_power: "no_socket"
+					}
+				}
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "37EAB508DB20430C"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "simplyswords:bramblethorn"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 6.5d
+		}
+		{
+			id: "74DE0AAF9B697499"
+			shape: "square"
+			tasks: [{
+				id: "088B6F459F1B11BF"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "simplyswords:magiscythe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: 7.5d
+		}
+		{
+			id: "7879F512A3882F44"
+			rewards: [{
+				id: "619D19D134C1A9E4"
+				item: {
+					Count: 1
+					id: "alexscaves:extinction_spear"
+					tag: {
+						Damage: 0
+						mmorpg_custom_data: "{\"data\":{\"map\":{\"crafted\":\"true\",\"sl\":\"false\"}}}"
+						mmorpg_gear: "{\"baseStats\":{\"p\":80},\"imp\":{\"p\":14,\"imp\":\"war_spear\"},\"affixes\":{\"suf\":[{\"p\":33,\"id\":\"of_consumption\",\"rar\":\"uncommon\",\"ty\":\"suffix\"},{\"p\":57,\"id\":\"of_vampirism\",\"rar\":\"epic\",\"ty\":\"suffix\"}],\"pre\":[{\"p\":81,\"id\":\"warlords\",\"rar\":\"legendary\",\"ty\":\"prefix\"},{\"p\":0,\"id\":\"water_wep_dmg\",\"rar\":\"common\",\"ty\":\"prefix\"},{\"p\":79,\"id\":\"wep_item_both\",\"rar\":\"legendary\",\"ty\":\"prefix\"}],\"cor\":[]},\"sockets\":{\"so\":[],\"sl\":1,\"rw\":\"\",\"rp\":0},\"rar\":\"legendary\",\"lvl\":75,\"gtype\":\"spear\"}"
+						mmorpg_potential: "{\"potential\":75}"
+					}
+				}
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "47632543355C9335"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "alexscaves:extinction_spear"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 7.5d
+		}
+		{
+			id: "3004DF08E70E903A"
+			rewards: [{
+				id: "2B3A6A1DF61F5A8B"
+				item: {
+					Count: 1
+					id: "simplyswords:emberblade"
+					tag: {
+						Damage: 0
+						mmorpg_custom_data: "{\"data\":{\"map\":{\"crafted\":\"true\",\"sl\":\"false\"}}}"
+						mmorpg_gear: "{\"baseStats\":{\"p\":99},\"imp\":{\"p\":50,\"imp\":\"dusk_blade\"},\"affixes\":{\"suf\":[{\"p\":71,\"id\":\"of_the_blade\",\"rar\":\"epic\",\"ty\":\"suffix\"},{\"p\":30,\"id\":\"of_ice\",\"rar\":\"rare\",\"ty\":\"suffix\"}],\"pre\":[{\"p\":56,\"id\":\"precise\",\"rar\":\"epic\",\"ty\":\"prefix\"},{\"p\":19,\"id\":\"energy_thief\",\"rar\":\"common\",\"ty\":\"prefix\"},{\"p\":72,\"id\":\"wep_item_perc\",\"rar\":\"epic\",\"ty\":\"prefix\"}],\"cor\":[]},\"sockets\":{\"so\":[],\"sl\":1,\"rw\":\"\",\"rp\":0},\"rar\":\"legendary\",\"lvl\":75,\"gtype\":\"sword\"}"
+						mmorpg_potential: "{\"potential\":75}"
+						nether_power: "no_socket"
+						runic_power: "no_socket"
+					}
+				}
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "27DFD5258B6B1ED1"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "simplyswords:emberblade"
+					tag: {
+						Damage: 0
+						nether_power: "no_socket"
+						runic_power: "no_socket"
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 7.5d
+		}
+		{
+			id: "1D94C76294D7E2D4"
+			rewards: [{
+				id: "1CC0C0B64886530B"
+				item: {
+					Count: 1
+					id: "simplyswords:hearthflame"
+					tag: {
+						Damage: 0
+						mmorpg_custom_data: "{\"data\":{\"map\":{\"crafted\":\"true\",\"sl\":\"false\"}}}"
+						mmorpg_gear: "{\"baseStats\":{\"p\":75},\"imp\":{\"p\":45,\"imp\":\"cleric_staff\"},\"affixes\":{\"suf\":[{\"p\":82,\"id\":\"of_the_forge\",\"rar\":\"legendary\",\"ty\":\"suffix\"},{\"p\":42,\"id\":\"of_less_cd\",\"rar\":\"uncommon\",\"ty\":\"suffix\"}],\"pre\":[{\"p\":51,\"id\":\"fire_wep_dmg\",\"rar\":\"rare\",\"ty\":\"prefix\"},{\"p\":87,\"id\":\"wep_item_both\",\"rar\":\"legendary\",\"ty\":\"prefix\"},{\"p\":58,\"id\":\"heal_crit_prefix\",\"rar\":\"epic\",\"ty\":\"prefix\"}],\"cor\":[]},\"sockets\":{\"so\":[],\"sl\":1,\"rw\":\"\",\"rp\":0},\"rar\":\"legendary\",\"lvl\":75,\"gtype\":\"hammer\"}"
+						mmorpg_potential: "{\"potential\":75}"
+						nether_power: "no_socket"
+						runic_power: "socket_empty"
+					}
+				}
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "7E023F4A7CA0F9DF"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "simplyswords:hearthflame"
+					tag: {
+						Damage: 0
+						nether_power: "no_socket"
+						runic_power: "no_socket"
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 7.5d
+		}
+		{
+			id: "247C22272F47365C"
+			rewards: [{
+				id: "6142868E229E37ED"
+				item: {
+					Count: 1
+					id: "simplyswords:molten_edge"
+					tag: {
+						Damage: 0
+						mmorpg_custom_data: "{\"data\":{\"map\":{\"crafted\":\"true\",\"sl\":\"false\"}}}"
+						mmorpg_gear: "{\"baseStats\":{\"p\":94},\"imp\":{\"p\":33,\"imp\":\"broad_axe\"},\"affixes\":{\"suf\":[{\"p\":35,\"id\":\"of_poison\",\"rar\":\"uncommon\",\"ty\":\"suffix\"},{\"p\":66,\"id\":\"of_ease\",\"rar\":\"legendary\",\"ty\":\"suffix\"}],\"pre\":[{\"p\":79,\"id\":\"water_wep_dmg\",\"rar\":\"legendary\",\"ty\":\"prefix\"},{\"p\":37,\"id\":\"wep_item_perc\",\"rar\":\"rare\",\"ty\":\"prefix\"},{\"p\":19,\"id\":\"crit_prefix\",\"rar\":\"uncommon\",\"ty\":\"prefix\"}],\"cor\":[]},\"sockets\":{\"so\":[],\"sl\":0,\"rw\":\"\",\"rp\":0},\"rar\":\"legendary\",\"lvl\":75,\"gtype\":\"axe\"}"
+						mmorpg_potential: "{\"potential\":75}"
+						nether_power: "no_socket"
+						runic_power: "socket_empty"
+					}
+				}
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "79FF9C143C6DD433"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "simplyswords:molten_edge"
+					tag: {
+						Damage: 0
+						nether_power: "no_socket"
+						runic_power: "no_socket"
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: 7.5d
+		}
+		{
+			id: "39D13D5AAC9FF963"
+			shape: "square"
+			tasks: [{
+				id: "00DA57204F14D445"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "legendary_monsters:chorus_blade"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: 10.5d
+		}
+		{
+			id: "6456836EDA0FF3AE"
+			rewards: [{
+				id: "3CED661230B6503E"
+				item: {
+					Count: 1
+					id: "many_more_ores_and_crafts:titanium_sword"
+					tag: {
+						Damage: 0
+						mmorpg_custom_data: "{\"data\":{\"map\":{\"crafted\":\"true\",\"sl\":\"false\"}}}"
+						mmorpg_gear: "{\"baseStats\":{\"p\":100},\"imp\":{\"p\":59,\"imp\":\"rusted_sword\"},\"affixes\":{\"suf\":[{\"p\":66,\"id\":\"of_precision\",\"rar\":\"legendary\",\"ty\":\"suffix\"},{\"p\":31,\"id\":\"of_gluttony\",\"rar\":\"uncommon\",\"ty\":\"suffix\"}],\"pre\":[{\"p\":87,\"id\":\"warlords\",\"rar\":\"legendary\",\"ty\":\"prefix\"},{\"p\":28,\"id\":\"catalyzing\",\"rar\":\"uncommon\",\"ty\":\"prefix\"},{\"p\":3,\"id\":\"wep_item_perc\",\"rar\":\"common\",\"ty\":\"prefix\"}],\"cor\":[]},\"sockets\":{\"so\":[],\"sl\":1,\"rw\":\"\",\"rp\":0},\"rar\":\"legendary\",\"lvl\":70,\"gtype\":\"sword\"}"
+						mmorpg_potential: "{\"potential\":75}"
+					}
+				}
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "27FB0A7CE01F937B"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "many_more_ores_and_crafts:titanium_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: 6.5d
+		}
+		{
+			id: "4BB766B2C504B656"
+			rewards: [{
+				id: "7B9321B680999F92"
+				item: {
+					Count: 1
+					id: "too_many_bows:astral_bound"
+					tag: {
+						Damage: 0
+						mmorpg_custom_data: "{\"data\":{\"map\":{\"crafted\":\"true\",\"sl\":\"false\"}}}"
+						mmorpg_gear: "{\"baseStats\":{\"p\":90},\"imp\":{\"p\":74,\"imp\":\"imperial_bow\"},\"affixes\":{\"suf\":[{\"p\":64,\"id\":\"of_brutality\",\"rar\":\"legendary\",\"ty\":\"suffix\"},{\"p\":48,\"id\":\"of_consumption\",\"rar\":\"epic\",\"ty\":\"suffix\"}],\"pre\":[{\"p\":65,\"id\":\"catalyzing\",\"rar\":\"epic\",\"ty\":\"prefix\"},{\"p\":43,\"id\":\"wep_item_both\",\"rar\":\"uncommon\",\"ty\":\"prefix\"},{\"p\":73,\"id\":\"true_hit\",\"rar\":\"epic\",\"ty\":\"prefix\"}],\"cor\":[]},\"sockets\":{\"so\":[],\"sl\":0,\"rw\":\"\",\"rp\":0},\"rar\":\"legendary\",\"lvl\":70,\"gtype\":\"bow\"}"
+						mmorpg_potential: "{\"potential\":75}"
+					}
+				}
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "76B3BA6A2205990D"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "too_many_bows:astral_bound"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: 6.5d
+		}
+		{
+			id: "64405DB9F910F6C7"
+			rewards: [{
+				id: "4B03C999EC0DDAEC"
+				item: {
+					Count: 1
+					id: "many_more_ores_and_crafts:mythril_sword"
+					tag: {
+						Damage: 0
+						mmorpg_custom_data: "{\"data\":{\"map\":{\"crafted\":\"true\",\"sl\":\"false\"}}}"
+						mmorpg_gear: "{\"baseStats\":{\"p\":75},\"imp\":{\"p\":58,\"imp\":\"rusted_sword\"},\"affixes\":{\"suf\":[{\"p\":0,\"id\":\"of_precision\",\"rar\":\"common\",\"ty\":\"suffix\"},{\"p\":81,\"id\":\"of_ease\",\"rar\":\"legendary\",\"ty\":\"suffix\"}],\"pre\":[{\"p\":84,\"id\":\"wep_item_perc\",\"rar\":\"legendary\",\"ty\":\"prefix\"},{\"p\":83,\"id\":\"physical_wep_dmg\",\"rar\":\"legendary\",\"ty\":\"prefix\"},{\"p\":72,\"id\":\"efficient\",\"rar\":\"legendary\",\"ty\":\"prefix\"}],\"cor\":[]},\"sockets\":{\"so\":[],\"sl\":0,\"rw\":\"\",\"rp\":0},\"rar\":\"legendary\",\"lvl\":70,\"gtype\":\"sword\"}"
+						mmorpg_potential: "{\"potential\":75}"
+					}
+				}
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "36C8DD931CB82591"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "many_more_ores_and_crafts:mythril_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 6.5d
+		}
+		{
+			id: "435A6A8C8302EEF6"
+			rewards: [{
+				id: "6B46FF9FF0A09465"
+				item: {
+					Count: 1
+					id: "aquaculture:neptunium_bow"
+					tag: {
+						Damage: 0
+						mmorpg_custom_data: "{\"data\":{\"map\":{\"crafted\":\"true\",\"sl\":\"false\"}}}"
+						mmorpg_gear: "{\"baseStats\":{\"p\":88},\"imp\":{\"p\":49,\"imp\":\"imperial_bow\"},\"affixes\":{\"suf\":[{\"p\":70,\"id\":\"of_precision\",\"rar\":\"legendary\",\"ty\":\"suffix\"},{\"p\":45,\"id\":\"of_impatience\",\"rar\":\"rare\",\"ty\":\"suffix\"}],\"pre\":[{\"p\":34,\"id\":\"wep_item_both\",\"rar\":\"rare\",\"ty\":\"prefix\"},{\"p\":63,\"id\":\"water_wep_dmg\",\"rar\":\"legendary\",\"ty\":\"prefix\"},{\"p\":35,\"id\":\"rapid\",\"rar\":\"uncommon\",\"ty\":\"prefix\"}],\"cor\":[]},\"sockets\":{\"so\":[],\"sl\":1,\"rw\":\"\",\"rp\":0},\"rar\":\"legendary\",\"lvl\":60,\"gtype\":\"bow\"}"
+						mmorpg_potential: "{\"potential\":75}"
+					}
+				}
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "33820C310CA98EDA"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "aquaculture:neptunium_bow"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: 2.5d
+		}
+		{
+			id: "17BC0CC0938427F5"
+			shape: "square"
+			tasks: [{
+				id: "708AB5629BB90527"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "too_many_bows:shulker_blast"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: 10.5d
+		}
+		{
+			id: "19489AB36E2C1D30"
+			rewards: [{
+				id: "47EAB8C1B422C504"
+				item: {
+					Count: 1
+					id: "simplyswords:wickpiercer"
+					tag: {
+						Damage: 0
+						mmorpg_custom_data: "{\"data\":{\"map\":{\"crafted\":\"true\",\"sl\":\"false\"}}}"
+						mmorpg_gear: "{\"baseStats\":{\"p\":97},\"imp\":{\"p\":15,\"imp\":\"hyperion_spear\"},\"affixes\":{\"suf\":[{\"p\":16,\"id\":\"of_pragmatism\",\"rar\":\"common\",\"ty\":\"suffix\"}],\"pre\":[{\"p\":25,\"id\":\"warlords\",\"rar\":\"common\",\"ty\":\"prefix\"},{\"p\":23,\"id\":\"precise\",\"rar\":\"uncommon\",\"ty\":\"prefix\"}],\"cor\":[]},\"sockets\":{\"so\":[],\"sl\":0,\"rw\":\"\",\"rp\":0},\"rar\":\"rare\",\"lvl\":25,\"gtype\":\"spear\"}"
+						mmorpg_potential: "{\"potential\":25}"
+						nether_power: "socket_empty"
+						runic_power: "socket_empty"
+					}
+				}
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "0158EC6E22024BB7"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "simplyswords:wickpiercer"
+					tag: {
+						Damage: 0
+						nether_power: "socket_empty"
+						runic_power: "no_socket"
+					}
+				}
+				type: "item"
+			}]
+			x: -8.0d
+			y: 7.5d
+		}
+		{
+			id: "21AE345744BB7D9D"
+			rewards: [{
+				id: "68AAD6D91D476979"
+				item: {
+					Count: 1
+					id: "many_more_ores_and_crafts:orichalcum_sword"
+					tag: {
+						Damage: 0
+						mmorpg_custom_data: "{\"data\":{\"map\":{\"crafted\":\"true\",\"sl\":\"false\"}}}"
+						mmorpg_gear: "{\"baseStats\":{\"p\":63},\"imp\":{\"p\":50,\"imp\":\"dusk_blade\"},\"affixes\":{\"suf\":[{\"p\":28,\"id\":\"of_gluttony\",\"rar\":\"uncommon\",\"ty\":\"suffix\"},{\"p\":20,\"id\":\"of_brutality\",\"rar\":\"uncommon\",\"ty\":\"suffix\"}],\"pre\":[{\"p\":81,\"id\":\"wep_item_perc\",\"rar\":\"legendary\",\"ty\":\"prefix\"},{\"p\":27,\"id\":\"energy_thief\",\"rar\":\"common\",\"ty\":\"prefix\"},{\"p\":37,\"id\":\"berserkers\",\"rar\":\"uncommon\",\"ty\":\"prefix\"}],\"cor\":[]},\"sockets\":{\"so\":[],\"sl\":0,\"rw\":\"\",\"rp\":0},\"rar\":\"legendary\",\"lvl\":60,\"gtype\":\"sword\"}"
+						mmorpg_potential: "{\"potential\":75}"
+					}
+				}
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "798E5ED08A7DE4F4"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "many_more_ores_and_crafts:orichalcum_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 2.5d
+		}
+		{
+			id: "0F95496714EE9235"
+			shape: "square"
+			tasks: [{
+				id: "219840AA7F37EC6B"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "simplyswords:righteous_relic"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -8.0d
+			y: 14.5d
+		}
+		{
+			id: "3077EFAE83D5052A"
+			shape: "square"
+			tasks: [{
+				id: "634CFBF42C73958D"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "simplyswords:caelestis"
+					tag: {
+						Damage: 0
+						nether_power: "socket_empty"
+						runic_power: "no_socket"
+					}
+				}
+				type: "item"
+			}]
+			x: 8.0d
+			y: -4.5d
+		}
+		{
+			id: "04C25C691A4991B2"
+			shape: "square"
+			tasks: [{
+				id: "5D72E3B76F784D54"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "simplyswords:arcanethyst"
+					tag: {
+						Damage: 0
+						nether_power: "no_socket"
+						runic_power: "socket_empty"
+					}
+				}
+				type: "item"
+			}]
+			x: 9.0d
+			y: -4.5d
+		}
+		{
+			id: "07FFAE779B454A2A"
+			shape: "square"
+			tasks: [{
+				id: "4C9809F15D2D345C"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "rpgsmwlite:nephrys_greatsword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 10.5d
+		}
+		{
+			id: "0B218CE7612200D0"
+			shape: "square"
+			tasks: [{
+				id: "278F50B60C5F87F1"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "rpgsmwlite:nephris_battle_axe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 10.5d
+		}
+		{
+			id: "04735CC55250BE48"
+			shape: "square"
+			tasks: [{
+				id: "058BA2AE2B03B7A0"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "rpgsmwlite:nephrisspear"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 10.5d
+		}
+		{
+			id: "28E669486099246C"
+			shape: "square"
+			tasks: [{
+				id: "1D4D0EB3E7084EA7"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "rpgsmwlite:nephris_scythe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: 11.5d
+		}
+		{
+			id: "448A6F52CEE4C4C4"
+			shape: "square"
+			tasks: [{
+				id: "48D17ECF047977E5"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "rpgsmwlite:nephris_knife"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: 11.5d
+		}
+		{
+			id: "0638B770E971A183"
+			shape: "square"
+			tasks: [{
+				id: "0857C8C97C778625"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "simplyswords:soulrender"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 11.0d
+			y: -4.5d
+		}
+		{
+			id: "19AD4F67D7CC6AF2"
+			shape: "square"
+			tasks: [{
+				id: "787F38A468507DC8"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "simplyswords:soulstealer"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 12.0d
+			y: -4.5d
+		}
+		{
+			id: "602F725875C60ACE"
+			shape: "square"
+			tasks: [{
+				id: "44D7A3A3A97B9B9F"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "bosses_of_mass_destruction:earthdive_spear"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 10.0d
+			y: -4.5d
+		}
+		{
+			id: "3DA994DAF6F52A9C"
+			shape: "square"
+			tasks: [{
+				id: "5EA88291BD1AC06F"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "mine_and_staff:iolite_staff"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 8.0d
+			y: -3.5d
+		}
+		{
+			id: "2047E57CE578C9E0"
+			shape: "square"
+			tasks: [{
+				id: "1BC48062479C4CF7"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "celestisynth:solaris"
+					tag: {
+						Damage: 0
+						csController: { }
+					}
+				}
+				type: "item"
+			}]
+			x: 9.0d
+			y: -3.5d
+		}
+		{
+			id: "4F16A2941EC54EBA"
+			shape: "square"
+			tasks: [{
+				id: "7958817F3D6D1068"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "celestisynth:crescentia"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 10.0d
+			y: -3.5d
+		}
+		{
+			id: "5587DA4F39E2B759"
+			shape: "square"
+			tasks: [{
+				id: "397E7D1E089467C7"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "celestisynth:breezebreaker"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 11.0d
+			y: -3.5d
+		}
+		{
+			id: "12352D6A2A14C9D3"
+			shape: "square"
+			tasks: [{
+				id: "49B4E705EE92A52F"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "celestisynth:poltergeist"
+					tag: {
+						Damage: 0
+						csExtras: { }
+					}
+				}
+				type: "item"
+			}]
+			x: 12.0d
+			y: -3.5d
+		}
+		{
+			id: "36280235080B7F73"
+			shape: "square"
+			tasks: [{
+				id: "14CC2479C4226019"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "celestisynth:aquaflora"
+					tag: {
+						Damage: 0
+						csController: { }
+					}
+				}
+				type: "item"
+			}]
+			x: 8.0d
+			y: -2.5d
+		}
+		{
+			id: "6E8758E13D95FAC3"
+			shape: "square"
+			tasks: [{
+				id: "13FFC654F58B6803"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "celestisynth:rainfall_serenity"
+					tag: {
+						Damage: 0
+						csExtras: { }
+					}
+				}
+				type: "item"
+			}]
+			x: 9.0d
+			y: -2.5d
+		}
+		{
+			id: "295B767B8EDB3C6E"
+			shape: "square"
+			tasks: [{
+				id: "411DE4D72C1AF726"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "celestisynth:keres"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 11.0d
+			y: -2.5d
+		}
+		{
+			id: "40A43434AB64C94F"
+			shape: "square"
+			tasks: [{
+				id: "39C083E7052479D5"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "celestisynth:frostbound"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 10.0d
+			y: -2.5d
+		}
+		{
+			id: "19EC3E4D9BCDEA25"
+			rewards: [{
+				id: "20C2A7EFA1A8C307"
+				item: {
+					Count: 1
+					id: "simplyswords:sunfire"
+					tag: {
+						Damage: 0
+						mmorpg_custom_data: "{\"data\":{\"map\":{\"crafted\":\"true\",\"sl\":\"false\"}}}"
+						mmorpg_gear: "{\"baseStats\":{\"p\":65},\"imp\":{\"p\":1,\"imp\":\"rusted_sword\"},\"affixes\":{\"suf\":[{\"p\":22,\"id\":\"of_wounds\",\"rar\":\"common\",\"ty\":\"suffix\"},{\"p\":17,\"id\":\"of_pene\",\"rar\":\"uncommon\",\"ty\":\"suffix\"}],\"pre\":[{\"p\":26,\"id\":\"wep_item_flat\",\"rar\":\"uncommon\",\"ty\":\"prefix\"},{\"p\":68,\"id\":\"fire_wep_dmg\",\"rar\":\"epic\",\"ty\":\"prefix\"}],\"cor\":[]},\"sockets\":{\"so\":[],\"sl\":1,\"rw\":\"\",\"rp\":0},\"rar\":\"epic\",\"lvl\":50,\"gtype\":\"sword\"}"
+						mmorpg_potential: "{\"potential\":50}"
+						nether_power: "no_socket"
+						runic_power: "socket_empty"
+					}
+				}
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "405C69B29B50000E"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "simplyswords:sunfire"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: -2.5d
+		}
+		{
+			id: "0ACEB2D7C4DC6C8D"
+			rewards: [{
+				id: "4DC5E6296F786538"
+				item: {
+					Count: 1
+					id: "too_many_bows:radiance"
+					tag: {
+						Damage: 0
+						mmorpg_custom_data: "{\"data\":{\"map\":{\"crafted\":\"true\",\"sl\":\"false\"}}}"
+						mmorpg_gear: "{\"baseStats\":{\"p\":84},\"imp\":{\"p\":97,\"imp\":\"thicket_bow\"},\"affixes\":{\"suf\":[{\"p\":27,\"id\":\"of_skill\",\"rar\":\"common\",\"ty\":\"suffix\"},{\"p\":14,\"id\":\"of_wounds\",\"rar\":\"common\",\"ty\":\"suffix\"}],\"pre\":[{\"p\":44,\"id\":\"catalyzing\",\"rar\":\"uncommon\",\"ty\":\"prefix\"},{\"p\":16,\"id\":\"wep_item_flat\",\"rar\":\"uncommon\",\"ty\":\"prefix\"}],\"cor\":[]},\"sockets\":{\"so\":[],\"sl\":1,\"rw\":\"\",\"rp\":0},\"rar\":\"epic\",\"lvl\":50,\"gtype\":\"bow\"}"
+						mmorpg_potential: "{\"potential\":50}"
+					}
+				}
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "661758DD4EC2A99C"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "too_many_bows:radiance"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: -0.5d
+		}
+		{
+			id: "29AB74208214CBD7"
+			shape: "square"
+			tasks: [{
+				id: "06CF35938AF501A3"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "simplyswords:waxweaver"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: -0.5d
+		}
+		{
+			id: "2FA583824047C024"
+			shape: "square"
+			tasks: [{
+				id: "62A7C0862BF66276"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "rpgsmwlite:nephrishammer"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 11.5d
+		}
+		{
+			id: "65393D7E0056DF91"
+			shape: "square"
+			tasks: [{
+				id: "6382B9D5D8B04085"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "simplyswords:tainted_relic"
+					tag: {
+						Damage: 0
+						nether_power: "no_socket"
+						runic_power: "no_socket"
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.5d
+		}
+		{
+			id: "2C70DA48F6E7B3D8"
+			shape: "square"
+			tasks: [{
+				id: "7120F895E79235D5"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "simplyswords:harbinger"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 12.0d
+			y: -2.5d
+		}
+		{
+			id: "214AA4436D3C5DCE"
+			rewards: [{
+				id: "58801AA7AA7E139B"
+				item: {
+					Count: 1
+					id: "mine_and_staff:topaz_staff"
+					tag: {
+						Damage: 0
+						mmorpg_custom_data: "{\"data\":{\"map\":{\"crafted\":\"true\",\"sl\":\"false\"}}}"
+						mmorpg_gear: "{\"baseStats\":{\"p\":90},\"imp\":{\"p\":81,\"imp\":\"arcane_staff\"},\"affixes\":{\"suf\":[{\"p\":61,\"id\":\"of_less_cd\",\"rar\":\"epic\",\"ty\":\"suffix\"},{\"p\":74,\"id\":\"of_vampirism\",\"rar\":\"epic\",\"ty\":\"suffix\"}],\"pre\":[{\"p\":30,\"id\":\"water_wep_dmg\",\"rar\":\"rare\",\"ty\":\"prefix\"},{\"p\":70,\"id\":\"wep_item_both\",\"rar\":\"epic\",\"ty\":\"prefix\"}],\"cor\":[]},\"sockets\":{\"so\":[],\"sl\":0,\"rw\":\"\",\"rp\":0},\"rar\":\"epic\",\"lvl\":35,\"gtype\":\"staff\"}"
+						mmorpg_potential: "{\"potential\":50}"
+					}
+				}
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "428DB021CD275501"
+				item: {
+					Count: 1
+					id: "mine_and_staff:topaz_staff"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -10.0d
+			y: 11.5d
+		}
+		{
+			id: "042B32AD2F2C238B"
+			rewards: [{
+				id: "3E753B591AF0B557"
+				item: {
+					Count: 1
+					id: "alexscaves:sea_staff"
+					tag: {
+						Damage: 0
+						mmorpg_custom_data: "{\"data\":{\"map\":{\"crafted\":\"true\",\"sl\":\"false\"}}}"
+						mmorpg_gear: "{\"baseStats\":{\"p\":62},\"imp\":{\"p\":9,\"imp\":\"arcane_staff\"},\"affixes\":{\"suf\":[{\"p\":81,\"id\":\"heal_suff\",\"rar\":\"legendary\",\"ty\":\"suffix\"},{\"p\":90,\"id\":\"of_the_magus\",\"rar\":\"legendary\",\"ty\":\"suffix\"}],\"pre\":[{\"p\":64,\"id\":\"catalyzing\",\"rar\":\"epic\",\"ty\":\"prefix\"},{\"p\":30,\"id\":\"water_wep_dmg\",\"rar\":\"common\",\"ty\":\"prefix\"},{\"p\":76,\"id\":\"wep_item_flat\",\"rar\":\"legendary\",\"ty\":\"prefix\"}],\"cor\":[]},\"sockets\":{\"so\":[],\"sl\":0,\"rw\":\"\",\"rp\":0},\"rar\":\"legendary\",\"lvl\":60,\"gtype\":\"staff\"}"
+						mmorpg_potential: "{\"potential\":75}"
+					}
+				}
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "1C78B6068FC2358D"
+				item: {
+					Count: 1
+					id: "alexscaves:sea_staff"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 3.5d
+		}
+	]
+	title: "Armas"
+}

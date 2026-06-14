@@ -1,0 +1,48 @@
+{
+  "base_stats": [
+    {
+      "type": "FLAT",
+      "max": 20.0,
+      "min": 10.0,
+      "stat": "magic_shield"
+    }
+  ],
+  "gear_slot": "chest",
+  "guid": "cloth_chest",
+  "possible_items": [
+    {
+      "item_id": "lowlands_clothing:mountainmenclothes_chestplate",
+      "min_rar": "common",
+      "weight": 1
+    },
+    {
+      "item_id": "irons_spellbooks:wandering_magician_chestplate",
+      "min_rar": "uncommon",
+      "weight": 10
+    },
+    {
+      "item_id": "irons_spellbooks:pumpkin_chestplate",
+      "min_rar": "rare",
+      "weight": 100
+    }
+  ],
+  "req": {
+    "base_req": {},
+    "scaling_req": {
+      "intelligence": 0.4
+    }
+  },
+  "style": "INT",
+  "tags": {
+    "tags": [
+      "chest",
+      "armor_family",
+      "magic_shield_stat",
+      "intelligence",
+	  "cloth_chest",
+	  "cloth"
+    ]
+  },
+  "weapon_type": "none",
+  "weight": 1000
+}

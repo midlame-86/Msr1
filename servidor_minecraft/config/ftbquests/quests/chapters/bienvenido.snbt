@@ -1,0 +1,342 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "square"
+	filename: "bienvenido"
+	group: ""
+	icon: "ftbquests:book"
+	id: "4FA565A70273C468"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["7793A792E8F35128"]
+			description: ["&7Primero que nada elije que arma escojeras estas. Si no es una arma de tu clase no podras usar hechizos pero seguiras haciendo daño"]
+			icon: {
+				Count: 1
+				id: "minecraft:wooden_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "58CB9CAAB2EB7D63"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2A5105B017376A59"
+					table_id: 405550839613976496L
+					type: "choice"
+				}
+				{
+					id: "6E60396DBE525FD4"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "sophisticatedbackpacks:backpack"
+					}
+					type: "item"
+				}
+				{
+					command: "/mine_and_slash set level @s 3"
+					elevate_perms: true
+					icon: "create:experience_block"
+					id: "0759FBC3A7F4B585"
+					title: "Recibir nivel 3"
+					type: "command"
+				}
+			]
+			shape: "square"
+			size: 1.5d
+			tasks: [{
+				id: "75BA3F9726FEACE2"
+				title: "Leer"
+				type: "checkmark"
+			}]
+			title: "Primeros pasos"
+			x: -0.75d
+			y: 0.0d
+		}
+		{
+			dependencies: ["58CB9CAAB2EB7D63"]
+			description: [
+				"&7Las gemas de soporte modifican tus hechizos. No los cambian los mejoran."
+				"&7Algunas reducen el tiempo entre un hechizo y el siguiente. Otras aumentan el &7daño de un tipo específico: fuego, hielo, rayo, lo que sea que uses. Hay &7algunas que hacen cosas más particulares que vas a descubrir con el tiempo."
+				"&7Es simple: si usás hechizos, necesitás gemas. Sin ellas estás usando la mitad de tu potencial"
+			]
+			icon: "mmorpg:skill_gems/skill/int"
+			id: "4A7F8AE61297BEFD"
+			rewards: [{
+				id: "14EE515C8047BB33"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "mmorpg:chest/uncommon_gear"
+					tag: {
+						mmorpg_loot_chest: "{\"num\":5,\"rar\":\"uncommon\",\"lvl\":3,\"id\":\"support_gem\",\"key\":\"\"}"
+					}
+				}
+				type: "item"
+			}]
+			shape: "square"
+			size: 1.5d
+			tasks: [{
+				id: "244E58D43FBF62E0"
+				title: "Entendido"
+				type: "checkmark"
+			}]
+			title: "Gemas  de soporte"
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["58CB9CAAB2EB7D63"]
+			description: ["&7Los aumentos modifican tus estadísticas base. Fuerza, destreza, resistencia, entre otras cada punto que invertís consume aura"]
+			icon: "mmorpg:skill_gems/aura/str"
+			id: "0CF307E00AE8ED89"
+			rewards: [{
+				id: "149C8ACE7C13A2DC"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "mmorpg:chest/uncommon_gear"
+					tag: {
+						mmorpg_loot_chest: "{\"num\":5,\"rar\":\"uncommon\",\"lvl\":3,\"id\":\"aura\",\"key\":\"\"}"
+					}
+				}
+				type: "item"
+			}]
+			shape: "square"
+			size: 1.5d
+			tasks: [{
+				id: "482F8DB5DD1727F9"
+				title: "Entendido"
+				type: "checkmark"
+			}]
+			title: "Aumentos"
+			x: 0.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["58CB9CAAB2EB7D63"]
+			description: [
+				"&7Hay tres tipos principales. La armadura de lámina está hecha para los que &7pelean de frente aumenta tu vida y tu defensa. La de hueso sacrifica algo &7de defensa a cambio de que los ataques fallen más seguido, útil si dependés &7de esquivar. La de mago no protege el cuerpo protege tu escudo mágico, &7que es lo único que importa si no quieres recibir un golpe directo nunca."
+				"&7Tambien se encuentran los subtipos, que determinan cómo se distribuye esa &7protección en cada prenda:"
+				"&7Las prendas de vestir mejoran tu capacidad de esquivar y tu escudo &7mágico. Las de malla equilibran escudo mágico y armadura física. Las de &7bergantín mezclan vida, armadura y evasión sin destacar en ninguna en &7particular son para los que no quieren apostar todo a una sola cosa."
+				"&7Mirá los requisitos de cada pieza antes de equiparla."
+			]
+			icon: {
+				Count: 1
+				id: "minecraft:iron_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "7B825AC7E26DFF5E"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "37FE7C316F041F56"
+					table_id: 8672695084726290362L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "71ADBE0C03EB46A2"
+					table_id: 7074154712315855923L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "232ADCF721DBEC69"
+					table_id: 8493327020853369464L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7C18FD6938D03EA0"
+					table_id: 5741053327200068691L
+					type: "choice"
+				}
+			]
+			shape: "square"
+			size: 1.5d
+			tasks: [{
+				id: "47826B17E2B11A5C"
+				title: "Entendido"
+				type: "checkmark"
+			}]
+			x: 0.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["58CB9CAAB2EB7D63"]
+			description: [
+				"&7&oLo que llevás en la mano izquierda importa tanto como lo que llevás en la derecha."
+				"&7El escudo es para guerreros y paladines absorbe lo que la armadura no llega a cubrir. El tomo es para las clases que usan magia sin él los hechizos pierden fuerza y alcance. El tótem es para las clases que dependen de esquivar sin él esas probabilidades caen lo suficiente como para que notes la diferencia."
+			]
+			icon: {
+				Count: 1
+				id: "minecraft:shield"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "7599746D6A7C62EC"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3632A6087FFE7C42"
+				table_id: 7401807202655080641L
+				type: "choice"
+			}]
+			shape: "square"
+			size: 1.5d
+			tasks: [{
+				id: "7A4B5F0443310AE0"
+				title: "Entendido"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["58CB9CAAB2EB7D63"]
+			description: ["&7Bien ahora miremos si tienes madera para esto. Podras superar esta prueba pero si mueres haciendola. Esta tarea no es para ti"]
+			id: "70D7FD074919037C"
+			size: 1.5d
+			tasks: [
+				{
+					entity: "irons_spellbooks:dead_king_corpse"
+					icon: "minecraft:skeleton_skull"
+					id: "07666256ED681628"
+					title: "Mata Esqueletos"
+					type: "kill"
+					value: 10L
+				}
+				{
+					entity: "minecraft:creeper"
+					icon: "minecraft:creeper_head"
+					id: "7A032AED1E653B5D"
+					title: "Mata creepers"
+					type: "kill"
+					value: 10L
+				}
+				{
+					entity: "minecraft:zombie"
+					icon: "minecraft:zombie_head"
+					id: "5149B20EFB23EDD0"
+					title: "Mata Zombis"
+					type: "kill"
+					value: 10L
+				}
+			]
+			x: -0.75d
+			y: 4.5d
+		}
+		{
+			dependencies: ["70D7FD074919037C"]
+			description: ["&7&o¿Estas dispuesto a liberar este mundo?"]
+			icon: "minecraft:recovery_compass"
+			id: "60BCD461168E3B3F"
+			size: 1.5d
+			tasks: [{
+				id: "6E2CE051E30DF429"
+				title: "Si"
+				type: "checkmark"
+			}]
+			x: -0.75d
+			y: 7.5d
+		}
+		{
+			description: [
+				"&7&oSi estás leyendo esto, es porque te entregué mi diario... o porque ya no estoy."
+				"&7&oEn cualquiera de los dos casos, lo que tienes en las manos es una &7&oresponsabilidad."
+				"&7&oMe llamo Oren. Llevo más tiempo del que quisiera custodiando esta ciudad y &7&otratando de entender qué salió mal en este mundo. Lo que escribí acá es &7&otodo lo que sé, todo lo que descubrí, y algunas cosas que todavía no &7&otermino de comprender."
+				"&7&oSi llegaste hasta acá, eres un hueco. Como yo."
+				"&7&o¿Sabés lo que eso significa?"
+			]
+			id: "0EF8E95685D88C32"
+			size: 1.5d
+			tasks: [{
+				id: "76FE18D7D2AEF7AE"
+				title: "Ok?"
+				type: "checkmark"
+			}]
+			x: -0.75d
+			y: -9.0d
+		}
+		{
+			dependencies: ["0EF8E95685D88C32"]
+			description: [
+				"&7&oAntes del colapso, cuando alguien moría, su alma seguía su camino. &7&oDescansaba en paz ahora no."
+				"&7&oCuando el Ente llegó, todo cambió."
+				"&7&oLa corrupción que trajo consigo rompió algo fundamental en este mundo  &7&oalgo que no se ve ni se toca pero que sostenía todo lo demás. Ahora, &7&ocuando alguien muere, su alma no va a ningún lado. Se queda. Se &7&ofragmenta."
+				"&7&oEste proceso no ocurre con todas las personas pero algunos lo obtienen"
+				"&7&oNo es una elección. No es un don. Es lo que queda cuando un alma pierde &7&odemasiado de sí misma como para descansar pero no lo suficiente como &7&opara seguir siendo lo que era. Los huecos recuerdan haber sido &7&ohumanos. Algunos recuerdan sus nombres, sus caras, las personas que &7&oamaban. Pero cada muerte se lleva un poco más de eso."
+				"&7&oPara mantenerse cuerdos, necesitan almas. No las propias esas ya están &7&orotas. Almas de otros, recolectadas, absorbidas, sostenidas como si &7&ofueran agua en las manos. En cuanto dejan de hacerlo, la fragmentación &7&oavanza. Y cuando el alma se fragmenta demasiado, lo que queda ya no &7&opiensa. Ya no recuerda. Solo actúa por instinto, por hambre, por corrupción."
+				"&7&oA esos los llamamos corrompidos. Ya no son huecos. Son lo que los huecos &7&otemen convertirse."
+				"&7&oNo todos los que mueren se convierten en huecos. Nadie sabe con &7&ocerteza por qué algunos sí y otros no. Tal vez depende de cuánta &7&ovoluntad tenía la persona. Tal vez es algo que el Ente elige, aunque dudo &7&oque algo así elija nada con propósito. Yo llevo mucho tiempo sin encontrar &7&ouna respuesta y dejé de buscarla."
+				"&7&oLo que sí sé es esto: soy un hueco. Morí una vez. Mi alma se fragmentó, &7&opero no del todo todavía puedo pensar, todavía puedo recordar, todavía &7&osé quién soy. Por ahora."
+				"&7&oTu también eres un hueco. Eso significa que tenés tiempo. No sé cuánto, pero tienes."
+				"&7&oUsalo bien."
+			]
+			icon: "minecraft:wither_skeleton_skull"
+			id: "781BC651250C288E"
+			size: 1.5d
+			tasks: [{
+				id: "3C388E13AF8293F4"
+				title: "¿Hueco?"
+				type: "checkmark"
+			}]
+			x: -0.75d
+			y: -6.75d
+		}
+		{
+			dependencies: ["781BC651250C288E"]
+			description: [
+				"&7&oNadie sabe de dónde vino."
+				"&7&oUn día no existía. Al siguiente, el portal apareció una abertura en el aire que no debería estar ahí, que no obedecía ninguna ley de este mundo. Y desde adentro llegó él."
+				"&7&oNo voy a describir lo que es. No porque no pueda, sino porque las palabras que tengo no alcanzan. Lo que sí puedo decir es lo que hizo: corrompió todo lo que tocó. El terreno, el aire, los animales, las personas. Los reinos que existían antes del colapso algunos con siglos de historia, con nombres que hoy casi nadie recuerda cayeron en semanas."
+				"&7&oEl Rey Antiguo fue uno de los últimos en resistir. No lo suficiente."
+				"&7&oNo sé si el Ente tiene conciencia. No sé si sabe que existimos. A veces pienso que simplemente es, como una tormenta es sin intención, sin propósito, solo &7&odestrucción que avanza porque no sabe hacer otra cosa."
+				"&7&oOtras veces pienso que sí sabe. Y que eso es peor."
+				"&7&oLo que dejó atrás es este mundo. Fragmentado, corrompido, lleno de huecos que tratan de sobrevivir con lo que les quedó. El portal sigue abierto. El Ente sigue ahí."
+				"&7&oNadie ha encontrado la forma de cerrarlo. Todavía."
+			]
+			id: "7793A792E8F35128"
+			size: 1.5d
+			tasks: [{
+				id: "3EC740A63227B732"
+				title: "¿Que es el ente?"
+				type: "checkmark"
+			}]
+			x: -0.75d
+			y: -4.5d
+		}
+		{
+			dependencies: ["58CB9CAAB2EB7D63"]
+			description: ["&7Bien veras si bien puedes conseguir todos los materiales para hacer un arma esto es muy distinto a poder hacerla. Lo mejor es que le des un esquema y los materiales para conseguir el verdadero potencial de esos materiales."]
+			icon: "companions:soul_furnace_block"
+			id: "39C545D769B514F1"
+			size: 1.5d
+			tasks: [{
+				id: "4C04E7C3987943D3"
+				title: "Forja"
+				type: "checkmark"
+			}]
+			x: 2.5d
+			y: 0.0d
+		}
+	]
+	title: "¿Que es esto?"
+}

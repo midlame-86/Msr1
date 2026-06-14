@@ -1,0 +1,21 @@
+{
+  "__comment": "Instructions: https://blakesmods.com/docs/cucumber/tags-config",
+  "forge:dusts/sulfur": "null",
+  "forge:ingots/invar": "null",
+  "forge:ingots/silver": "null",
+  "forge:ingots/lead": "null",
+  "forge:gems/ruby": "null",
+  "forge:gems/peridot": "null",
+  "forge:ingots/uranium": "null",
+  "forge:rubber": "null",
+  "forge:dusts/saltpeter": "null",
+  "forge:ingots/steel": "null",
+  "forge:ingots/platinum": "null",
+  "forge:ingots/nickel": "null",
+  "forge:gems/apatite": "null",
+  "forge:gems/sapphire": "null",
+  "forge:ingots/brass": "null",
+  "forge:ingots/electrum": "null",
+  "forge:silicon": "null"
+}: "null"
+}

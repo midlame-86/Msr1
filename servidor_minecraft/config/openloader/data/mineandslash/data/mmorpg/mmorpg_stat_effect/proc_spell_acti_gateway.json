@@ -1,0 +1,9 @@
+{
+  "id": "proc_spell_acti_gateway",
+  "pos": "CASTER",
+  "ser": "proc_spell",
+  "spellId": "acti_gateway",
+  "source": "Source",
+  "target": "Target",
+  "use_resource_costs": false
+}

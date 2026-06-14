@@ -1,0 +1,30 @@
+{
+  "desc": "A test of willpower...",
+  "id": "uber3",
+  "name": "Realm of Desire",
+  "possible_bosses": [
+    "minecraft:wither",
+    "stalwart_dungeons:awful_ghast",
+    "stalwart_dungeons:nether_keeper",
+    "undergarden:forgotten_guardian",
+    "blue_skies:starlit_crusher",
+    "blue_skies:arachnarch",
+	"aquamirae:captain_cornelia",
+	"twilightforest:lich",
+	"twilightforest:minoshroom",
+	"twilightforest:snow_queen",
+	"mowziesmobs:frostmaw",
+	"mowziesmobs:umvuthi",
+	"born_in_chaos_v1:lifestealer_true_form",
+	"born_in_chaos_v1:nightmare_stalker"
+  ],
+  "structure": {
+    "list": [
+      {
+        "folder": "uber/dragon",
+        "size": 2
+      }
+    ]
+  },
+  "weight": 1000
+}

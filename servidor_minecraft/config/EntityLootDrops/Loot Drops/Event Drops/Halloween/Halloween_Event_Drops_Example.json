@@ -1,0 +1,10 @@
+[
+  {
+    "itemId": "minecraft:pumpkin",
+    "dropChance": 30.0,
+    "minAmount": 1,
+    "maxAmount": 2,
+    "_comment": "Halloween event pumpkins",
+    "requirePlayerKill": true
+  }
+]

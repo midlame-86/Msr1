@@ -1,0 +1,80 @@
+{
+	icon: {
+		Count: 1
+		ForgeCaps: {
+			"celestisynth:celestisynthitemstackcapabilities": {
+				cs.aquaSkin: 0
+			}
+		}
+		id: "minecraft:writable_book"
+	}
+	id: "61F5D64FCC08986F"
+	loot_size: 1
+	order_index: 1
+	rewards: [
+		{ item: "ars_nouveau:worn_notebook" }
+		{ item: "alexscaves:cave_book" }
+		{
+			item: {
+				Count: 1
+				id: "patchouli:guide_book"
+				tag: {
+					"patchouli:book": "storagenetwork:network_book"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "patchouli:guide_book"
+				tag: {
+					"patchouli:book": "terramity:terramity_guidebook"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "patchouli:guide_book"
+				tag: {
+					"patchouli:book": "simplyswords:runic_grimoire"
+				}
+			}
+		}
+		{ item: "enigmaticlegacy:the_acknowledgment" }
+		{
+			item: {
+				Count: 1
+				id: "patchouli:guide_book"
+				tag: {
+					"patchouli:book": "irons_spellbooks:iss_guide_book"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "patchouli:guide_book"
+				tag: {
+					Damage: 0
+					"patchouli:book": "parcool:parcool_guide"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "patchouli:guide_book"
+				tag: {
+					"patchouli:book": "dimdungeons:guide_book"
+				}
+			}
+		}
+	]
+	title: "Manuals"
+}

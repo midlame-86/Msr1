@@ -1,0 +1,10 @@
+#Respawn ticks after die.
+#Range: > 0
+respawn_timer = 60000
+#Respawn when chunk reload.
+respawn_when_reload = true
+#Display soul particle
+soul_effect = true
+#A list of entities to respawn.
+entities = ["mowziesmobs:ferrous_wroughtnaut", "mowziesmobs:frostmaw", "legendary_monsters:frostbitten_golem", "legendary_monsters:ancient_guardian", "legendary_monsters:overgrown_colossus", "mowziesmobs:umvuthi", "legendary_monsters:posessed_paladin", "eeeabsmobs:corpse_warlock", "irons_spellbooks:dead_king", "eeeabsmobs:nameless_guardian", "legendary_monsters:withered_abomination", "cataclysm:netherite_monstrosity", "legendary_monsters:cloud_golem", "aquamirae:captain_cornelia", "cataclysm:scylla", "bosses_of_mass_destruction:void_blossom", "bosses_of_mass_destruction:obsidilith", "bosses_of_mass_destruction:gauntlet", "bosses_of_mass_destruction:lich"]
+

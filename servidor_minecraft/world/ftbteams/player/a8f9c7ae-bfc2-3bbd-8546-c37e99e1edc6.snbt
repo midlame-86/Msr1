@@ -1,0 +1,17 @@
+{
+	id: "a8f9c7ae-bfc2-3bbd-8546-c37e99e1edc6"
+	type: "player"
+	player_name: "salame71"
+	ranks: {
+		a8f9c7ae-bfc2-3bbd-8546-c37e99e1edc6: "owner"
+	}
+	properties: {
+		"ftbteams:display_name": "salame71"
+		"ftbteams:description": ""
+		"ftbteams:color": "#FF599F"
+		"ftbteams:free_to_join": 0b
+		"ftbteams:max_msg_history_size": 1000
+	}
+	message_history: [ ]
+	extra: { }
+}

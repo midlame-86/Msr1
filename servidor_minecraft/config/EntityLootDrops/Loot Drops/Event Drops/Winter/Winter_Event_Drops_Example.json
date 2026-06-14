@@ -1,0 +1,10 @@
+[
+  {
+    "itemId": "minecraft:snowball",
+    "dropChance": 20.0,
+    "minAmount": 2,
+    "maxAmount": 5,
+    "_comment": "Winter event snowballs",
+    "requirePlayerKill": true
+  }
+]

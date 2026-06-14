@@ -1,0 +1,104 @@
+2026/06/13 04:13:20 logtail started
+2026/06/13 04:13:20 Program starting: v1.80.2-t62b8bf6a0-g3c35ee987, Go 1.23.5: []string{"./tailscaled"}
+2026/06/13 04:13:20 LogID: 016a10825153a3dddbdd6d853c31117186300805b42d34e8137a2f7b5dc21804
+2026/06/13 04:13:20 logpolicy: using system state directory "/var/lib/tailscale"
+logpolicy.ConfigFromFile /var/lib/tailscale/tailscaled.log.conf: open /var/lib/tailscale/tailscaled.log.conf: no such file or directory
+logpolicy.Config.Validate for /var/lib/tailscale/tailscaled.log.conf: config is nil
+2026/06/13 04:13:20 dns: resolvedIsActuallyResolver error: resolv.conf doesn't point to systemd-resolved; points to [127.0.0.53 168.63.129.16]
+2026/06/13 04:13:20 dns: [rc=resolved resolved=not-in-use ret=direct]
+2026/06/13 04:13:20 dns: using "direct" mode
+2026/06/13 04:13:20 dns: using *dns.directManager
+2026/06/13 04:13:20 dns: inotify addwatch: context canceled
+2026/06/13 04:13:20 wgengine.NewUserspaceEngine(tun "tailscale0") ...
+2026/06/13 04:13:20 dns: resolvedIsActuallyResolver error: resolv.conf doesn't point to systemd-resolved; points to [127.0.0.53 168.63.129.16]
+2026/06/13 04:13:20 dns: [rc=resolved resolved=not-in-use ret=direct]
+2026/06/13 04:13:20 dns: using "direct" mode
+2026/06/13 04:13:20 dns: using *dns.directManager
+2026/06/13 04:13:20 link state: interfaces.State{defaultRoute=eth0 ifs={docker0:[172.17.0.1/16] eth0:[10.0.12.113/16 llu6]} v4=true v6=false}
+2026/06/13 04:13:20 onPortUpdate(port=39299, network=udp6)
+2026/06/13 04:13:20 router: using firewall mode pref 
+2026/06/13 04:13:20 router: default choosing iptables
+2026/06/13 04:13:20 router: netfilter running in iptables mode v6 = true, v6filter = true, v6nat = true
+2026/06/13 04:13:20 onPortUpdate(port=54718, network=udp4)
+2026/06/13 04:13:20 magicsock: disco key = d:d8ba071ea68ce348
+2026/06/13 04:13:20 Creating WireGuard device...
+2026/06/13 04:13:20 Bringing WireGuard device up...
+2026/06/13 04:13:20 Bringing router up...
+2026/06/13 04:13:20 external route: up
+2026/06/13 04:13:20 Clearing router settings...
+2026/06/13 04:13:20 Starting network monitor...
+2026/06/13 04:13:20 Engine created.
+2026/06/13 04:13:20 monitor: [unexpected] network state changed, but stringification didn't: interfaces.State{defaultRoute=eth0 ifs={docker0:[172.17.0.1/16] eth0:[10.0.12.113/16 llu6]} v4=true v6=false}
+2026/06/13 04:13:20 monitor: [unexpected] old: {"InterfaceIPs":{"docker0":["172.17.0.1/16"],"eth0":["10.0.12.113/16","fe80::7e1e:52ff:fe6c:d686/64"],"lo":["127.0.0.1/8","::1/128"]},"Interface":{"docker0":{"Index":3,"MTU":1500,"Name":"docker0","HardwareAddr":"AkJC7xzP","Flags":19,"AltAddrs":null,"Desc":""},"eth0":{"Index":2,"MTU":1500,"Name":"eth0","HardwareAddr":"fB5SbNaG","Flags":51,"AltAddrs":null,"Desc":""},"lo":{"Index":1,"MTU":65536,"Name":"lo","HardwareAddr":null,"Flags":37,"AltAddrs":null,"Desc":""}},"HaveV6":false,"HaveV4":true,"IsExpensive":false,"DefaultRouteInterface":"eth0","HTTPProxy":"","PAC":""}
+2026/06/13 04:13:20 monitor: [unexpected] new: {"InterfaceIPs":{"docker0":["172.17.0.1/16"],"eth0":["10.0.12.113/16","fe80::7e1e:52ff:fe6c:d686/64"],"lo":["127.0.0.1/8","::1/128"],"tailscale0":["fe80::b240:40bb:fb0b:db63/64"]},"Interface":{"docker0":{"Index":3,"MTU":1500,"Name":"docker0","HardwareAddr":"AkJC7xzP","Flags":19,"AltAddrs":null,"Desc":""},"eth0":{"Index":2,"MTU":1500,"Name":"eth0","HardwareAddr":"fB5SbNaG","Flags":51,"AltAddrs":null,"Desc":""},"lo":{"Index":1,"MTU":65536,"Name":"lo","HardwareAddr":null,"Flags":37,"AltAddrs":null,"Desc":""},"tailscale0":{"Index":4,"MTU":1280,"Name":"tailscale0","HardwareAddr":null,"Flags":57,"AltAddrs":null,"Desc":""}},"HaveV6":false,"HaveV4":true,"IsExpensive":false,"DefaultRouteInterface":"eth0","HTTPProxy":"","PAC":""}
+2026/06/13 04:13:20 LinkChange: major, rebinding. New state: interfaces.State{defaultRoute=eth0 ifs={docker0:[172.17.0.1/16] eth0:[10.0.12.113/16 llu6]} v4=true v6=false}
+2026/06/13 04:13:20 onPortUpdate(port=39299, network=udp6)
+2026/06/13 04:13:20 onPortUpdate(port=54718, network=udp4)
+2026/06/13 04:13:20 Rebind; defIf="eth0", ips=[10.0.12.113/16 fe80::7e1e:52ff:fe6c:d686/64]
+2026/06/13 04:13:20 magicsock: 0 active derp conns
+2026/06/13 04:13:20 pm: migrating "_daemon" profile to new format
+2026/06/13 04:13:20 logpolicy: using system state directory "/var/lib/tailscale"
+2026/06/13 04:13:20 monitor: gateway and self IP changed: gw=10.0.0.1 self=10.0.12.113
+2026/06/13 04:13:20 got LocalBackend in 41ms
+2026/06/13 04:13:20 Start
+2026/06/13 04:13:20 Backend: logs: be:016a10825153a3dddbdd6d853c31117186300805b42d34e8137a2f7b5dc21804 fe:
+2026/06/13 04:13:20 Switching ipn state NoState -> NeedsLogin (WantRunning=false, nm=false)
+2026/06/13 04:13:20 blockEngineUpdates(true)
+2026/06/13 04:13:20 health(warnable=wantrunning-false): error: Tailscale is stopped.
+2026/06/13 04:13:20 wgengine: Reconfig: configuring userspace WireGuard config (with 0/0 peers)
+2026/06/13 04:13:20 wgengine: Reconfig: configuring router
+2026/06/13 04:13:20 wgengine: Reconfig: configuring DNS
+2026/06/13 04:13:20 dns: Set: {DefaultResolvers:[] Routes:{} SearchDomains:[] Hosts:0}
+2026/06/13 04:13:20 dns: Resolvercfg: {Routes:{} Hosts:0 LocalDomains:[], cloud="azure"}
+2026/06/13 04:13:20 dns: OScfg: {}
+2026/06/13 04:13:20 Start
+2026/06/13 04:13:20 generating new machine key
+2026/06/13 04:13:21 machine key written to store
+2026/06/13 04:13:21 Backend: logs: be:016a10825153a3dddbdd6d853c31117186300805b42d34e8137a2f7b5dc21804 fe:
+2026/06/13 04:13:21 Switching ipn state NoState -> NeedsLogin (WantRunning=true, nm=false)
+2026/06/13 04:13:21 blockEngineUpdates(true)
+2026/06/13 04:13:21 health(warnable=wantrunning-false): ok
+2026/06/13 04:13:21 health(warnable=warming-up): error: Tailscale is starting. Please wait.
+2026/06/13 04:13:21 control: client.Shutdown ...
+2026/06/13 04:13:21 control: updateRoutine: exiting
+2026/06/13 04:13:21 control: mapRoutine: exiting
+2026/06/13 04:13:21 control: authRoutine: exiting
+2026/06/13 04:13:21 control: Client.Shutdown done.
+2026/06/13 04:13:21 StartLoginInteractiveAs("root"): url=false
+2026/06/13 04:13:21 control: client.Login(2)
+2026/06/13 04:13:21 control: LoginInteractive -> regen=true
+2026/06/13 04:13:21 control: doLogin(regen=true, hasUrl=false)
+2026/06/13 04:13:21 control: control server key from https://controlplane.tailscale.com: ts2021=[fSeS+], legacy=[nlFWp]
+2026/06/13 04:13:21 control: Generating a new nodekey.
+2026/06/13 04:13:21 control: RegisterReq: onode= node=[1h7CD] fup=false nks=false
+2026/06/13 04:13:24 control: RegisterReq: got response; nodeKeyExpired=false, machineAuthorized=false; authURL=true
+2026/06/13 04:13:24 control: AuthURL is https://login.tailscale.com/a/13cb2aad01f135
+2026/06/13 04:13:24 control: doLogin(regen=false, hasUrl=true)
+2026/06/13 04:13:24 Received auth URL: https://login.tailsc...
+2026/06/13 04:13:24 popBrowserAuthNow("root"): url=true, key-expired=false, seamless-key-renewal=false
+2026/06/13 04:13:24 blockEngineUpdates(true)
+2026/06/13 04:13:24 stopEngineAndWait...
+2026/06/13 04:13:24 control: RegisterReq: onode= node=[1h7CD] fup=true nks=false
+2026/06/13 04:13:24 requestEngineStatusAndWait
+2026/06/13 04:13:24 requestEngineStatusAndWait: waiting...
+2026/06/13 04:13:24 requestEngineStatusAndWait: got status update.
+2026/06/13 04:13:24 stopEngineAndWait: done.
+2026/06/13 04:13:26 health(warnable=warming-up): ok
+2026/06/13 04:13:31 tailscaled got signal interrupt; shutting down
+2026/06/13 04:13:31 control: client.Shutdown ...
+2026/06/13 04:13:31 control: mapRoutine: exiting
+2026/06/13 04:13:31 control: authRoutine: exiting
+2026/06/13 04:13:31 control: updateRoutine: exiting
+2026/06/13 04:13:31 control: Client.Shutdown done.
+2026/06/13 04:13:31 monitor: RTM_DELROUTE: src=, dst=fe80::/64, gw=, outif=4, table=254
+2026/06/13 04:13:31 monitor: RTM_DELROUTE: src=, dst=fe80::b240:40bb:fb0b:db63/128, gw=, outif=4, table=255
+2026/06/13 04:13:31 monitor: RTM_DELROUTE: src=, dst=ff00::/8, gw=, outif=4, table=255
+2026/06/13 04:13:31 monitor: ip rule deleted: {Family:2 DstLength:0 SrcLength:0 Tos:0 Table:254 Protocol:0 Scope:0 Type:1 Flags:0 Attributes:{Dst:<nil> Src:<nil> Gateway:<nil> OutIface:0 Priority:5210 Table:254 Mark:16711680 Pref:<nil> Expires:<nil> Metrics:<nil> Multipath:[]}}
+2026/06/13 04:13:31 monitor: ip rule deleted: {Family:2 DstLength:0 SrcLength:0 Tos:0 Table:253 Protocol:0 Scope:0 Type:1 Flags:0 Attributes:{Dst:<nil> Src:<nil> Gateway:<nil> OutIface:0 Priority:5230 Table:253 Mark:16711680 Pref:<nil> Expires:<nil> Metrics:<nil> Multipath:[]}}
+2026/06/13 04:13:31 monitor: ip rule deleted: {Family:2 DstLength:0 SrcLength:0 Tos:0 Table:0 Protocol:0 Scope:0 Type:7 Flags:0 Attributes:{Dst:<nil> Src:<nil> Gateway:<nil> OutIface:0 Priority:5250 Table:0 Mark:16711680 Pref:<nil> Expires:<nil> Metrics:<nil> Multipath:[]}}
+2026/06/13 04:13:31 monitor: ip rule deleted: {Family:2 DstLength:0 SrcLength:0 Tos:0 Table:52 Protocol:0 Scope:0 Type:1 Flags:0 Attributes:{Dst:<nil> Src:<nil> Gateway:<nil> OutIface:0 Priority:5270 Table:52 Mark:0 Pref:<nil> Expires:<nil> Metrics:<nil> Multipath:[]}}
+2026/06/13 04:13:31 monitor: [unexpected] network state changed, but stringification didn't: interfaces.State{defaultRoute=eth0 ifs={docker0:[172.17.0.1/16] eth0:[10.0.12.113/16 llu6]} v4=true v6=false}
+2026/06/13 04:13:31 monitor: [unexpected] old: {"InterfaceIPs":{"docker0":["172.17.0.1/16"],"eth0":["10.0.12.113/16","fe80::7e1e:52ff:fe6c:d686/64"],"lo":["127.0.0.1/8","::1/128"],"tailscale0":["fe80::b240:40bb:fb0b:db63/64"]},"Interface":{"docker0":{"Index":3,"MTU":1500,"Name":"docker0","HardwareAddr":"AkJC7xzP","Flags":19,"AltAddrs":null,"Desc":""},"eth0":{"Index":2,"MTU":1500,"Name":"eth0","HardwareAddr":"fB5SbNaG","Flags":51,"AltAddrs":null,"Desc":""},"lo":{"Index":1,"MTU":65536,"Name":"lo","HardwareAddr":null,"Flags":37,"AltAddrs":null,"Desc":""},"tailscale0":{"Index":4,"MTU":1280,"Name":"tailscale0","HardwareAddr":null,"Flags":57,"AltAddrs":null,"Desc":""}},"HaveV6":false,"HaveV4":true,"IsExpensive":false,"DefaultRouteInterface":"eth0","HTTPProxy":"","PAC":""}
+2026/06/13 04:13:31 monitor: [unexpected] new: {"InterfaceIPs":{"docker0":["172.17.0.1/16"],"eth0":["10.0.12.113/16","fe80::7e1e:52ff:fe6c:d686/64"],"lo":["127.0.0.1/8","::1/128"],"tailscale0":null},"Interface":{"docker0":{"Index":3,"MTU":1500,"Name":"docker0","HardwareAddr":"AkJC7xzP","Flags":19,"AltAddrs":null,"Desc":""},"eth0":{"Index":2,"MTU":1500,"Name":"eth0","HardwareAddr":"fB5SbNaG","Flags":51,"AltAddrs":null,"Desc":""},"lo":{"Index":1,"MTU":65536,"Name":"lo","HardwareAddr":null,"Flags":37,"AltAddrs":null,"Desc":""},"tailscale0":{"Index":4,"MTU":1280,"Name":"tailscale0","HardwareAddr":null,"Flags":24,"AltAddrs":null,"Desc":""}},"HaveV6":false,"HaveV4":true,"IsExpensive":false,"DefaultRouteInterface":"eth0","HTTPProxy":"","PAC":""}
+2026/06/13 04:13:31 flushing log.
+2026/06/13 04:13:31 logger closing down

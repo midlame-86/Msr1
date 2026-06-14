@@ -1,0 +1,1203 @@
+{
+	autofocus_id: "0075A658D43E6F63"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "a"
+	group: ""
+	icon: "mowziesmobs:wrought_axe"
+	id: "2E683C35273AEB40"
+	images: [
+		{
+			height: 2.0d
+			image: "celestisynth:textures/entity/visuals/solaris_spin.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: -0.5d
+			y: -2.5d
+		}
+		{
+			height: 1.0d
+			image: "legendary_monsters:item/corrupted_soul"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.5d
+			y: 4.5d
+		}
+		{
+			height: 1.5d
+			image: "celestisynth:textures/entity/visuals/frostbound_impact_crack.png"
+			rotation: 0.0d
+			width: 1.5d
+			x: -0.5d
+			y: 2.0d
+		}
+		{
+			height: 2.5d
+			image: "eeeabsmobs:textures/particle/crimson_eye_4.png"
+			rotation: 0.0d
+			width: 2.5d
+			x: -0.5d
+			y: 9.0d
+		}
+		{
+			alpha: 150
+			height: 2.0d
+			image: "celestisynth:textures/entity/visuals/keres_pulse.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: -0.5d
+			y: 11.0d
+		}
+		{
+			height: 1.5d
+			image: "celestisynth:textures/entity/visuals/poltergeist_impact_crack.png"
+			rotation: 0.0d
+			width: 1.5d
+			x: -0.5d
+			y: 7.0d
+		}
+		{
+			height: 0.8d
+			image: "cataclysm:textures/mob_effect/blessing_of_amethyst.png"
+			rotation: 0.0d
+			width: 0.8d
+			x: -3.5d
+			y: 6.5d
+		}
+		{
+			height: 0.8d
+			image: "minecraft:textures/mob_effect/jump_boost.png"
+			rotation: 0.0d
+			width: 0.8d
+			x: 2.5d
+			y: 6.5d
+		}
+		{
+			height: 2.0d
+			image: "celestisynth:textures/entity/visuals/solaris_spin_soul.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 8.0d
+			y: -2.5d
+		}
+		{
+			alpha: 100
+			height: 1.5d
+			image: "cataclysm:textures/particle/rain_cloud_7.png"
+			rotation: 0.0d
+			width: 1.5d
+			x: 7.0d
+			y: 1.5d
+		}
+		{
+			alpha: 100
+			height: 1.5d
+			image: "cataclysm:textures/particle/rain_cloud_7.png"
+			rotation: 0.0d
+			width: 1.5d
+			x: 9.0d
+			y: 1.5d
+		}
+		{
+			alpha: 100
+			height: 2.5d
+			image: "celestisynth:textures/entity/visuals/skin/frostbound_shard_pulse_seabreeze.png"
+			rotation: 0.0d
+			width: 2.5d
+			x: 8.0d
+			y: 3.5d
+		}
+		{
+			alpha: 150
+			height: 2.0d
+			image: "celestisynth:textures/entity/visuals/aquaflora_flower/aquaflora_flower2.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 8.0d
+			y: 9.0d
+		}
+		{
+			alpha: 150
+			height: 3.0d
+			image: "celestisynth:textures/entity/visuals/aquaflora_bash/aquaflora_bash3.png"
+			rotation: 0.0d
+			width: 3.0d
+			x: 8.0d
+			y: 13.0d
+		}
+		{
+			alpha: 150
+			height: 0.8d
+			image: "born_in_chaos_v1:textures/mob_effect/strong_rampage.png"
+			rotation: 0.0d
+			width: 0.8d
+			x: 9.0d
+			y: 12.5d
+		}
+		{
+			alpha: 150
+			height: 0.8d
+			image: "born_in_chaos_v1:textures/mob_effect/strong_rampage.png"
+			rotation: 0.0d
+			width: 0.8d
+			x: 0.5d
+			y: 10.5d
+		}
+		{
+			height: 2.0d
+			image: "celestisynth:textures/entity/visuals/skin/frostbound_impact_crack_seabreeze.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 15.0d
+			y: -2.5d
+		}
+		{
+			alpha: 150
+			height: 1.0d
+			image: "minecraft:block/soul_fire_0"
+			rotation: 0.0d
+			width: 1.0d
+			x: 16.0d
+			y: 3.0d
+		}
+		{
+			alpha: 150
+			height: 1.0d
+			image: "minecraft:block/fire_0"
+			rotation: 0.0d
+			width: 1.0d
+			x: 14.0d
+			y: 3.0d
+		}
+		{
+			alpha: 150
+			height: 2.0d
+			image: "cataclysm:textures/entity/flame_strike_sigil.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 15.0d
+			y: 5.5d
+		}
+		{
+			height: 2.0d
+			image: "celestisynth:textures/entity/visuals/rainfall_shoot/rainfall_shoot2.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 15.0d
+			y: 8.0d
+		}
+		{
+			height: 2.0d
+			image: "celestisynth:textures/entity/visuals/rainfall_shoot/rainfall_shoot2.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 16.0d
+			y: 9.5d
+		}
+		{
+			height: 2.0d
+			image: "celestisynth:textures/entity/visuals/rainfall_shoot/rainfall_shoot2.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 14.5d
+			y: 10.5d
+		}
+		{
+			alpha: 150
+			height: 2.0d
+			image: "celestisynth:textures/entity/visuals/solaris_spin.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 8.0d
+			y: 11.0d
+		}
+		{
+			alpha: 150
+			height: 1.0d
+			image: "born_in_chaos_v1:textures/mob_effect/call.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 10.5d
+			y: 6.5d
+		}
+		{
+			alpha: 150
+			height: 1.5d
+			image: "alexscaves:textures/particle/void_eye_0.png"
+			rotation: 0.0d
+			width: 1.5d
+			x: 8.0d
+			y: 6.5d
+		}
+		{
+			height: 2.0d
+			image: "celestisynth:textures/entity/visuals/rainfall_shoot/rainfall_shoot2.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 16.0d
+			y: 12.0d
+		}
+		{
+			height: 2.0d
+			image: "celestisynth:textures/entity/visuals/rainfall_shoot/rainfall_shoot2.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 15.0d
+			y: 20.0d
+		}
+		{
+			height: 3.0d
+			image: "celestisynth:textures/entity/visuals/rainfall_shoot/rainfall_shoot2.png"
+			rotation: 0.0d
+			width: 3.0d
+			x: 13.5d
+			y: 16.5d
+		}
+		{
+			height: 3.0d
+			image: "celestisynth:textures/entity/visuals/rainfall_shoot/rainfall_shoot2.png"
+			rotation: 0.0d
+			width: 3.0d
+			x: 14.5d
+			y: 14.5d
+		}
+	]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["4FA565A70273C468"]
+			description: ["&o&7¿Como lo destruimos? Bien... yo me he hecho esta pregunta varias veces. Primero que nada su poder es inmenso solo con su llegada cambio el mundo entero asi que sin duda sera un camino muy largo. Pero luego de estar estudiando avistamientos de la llegada del ente durante años creo que llegue a una conclusio. Los primeros seres que salieron del colapso pueden ser la clave segun registros aparecieron 9 criaturas en la llegada del ente a estos los llamaron titanes. Estos pueden tener la clave para encontrarnos con el ente y destruirlo"]
+			icon: "block_factorys_bosses:dragon_skull"
+			id: "26EF0BFD67F60A5C"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "0111345E96F6DF17"
+				title: "Leer"
+				type: "checkmark"
+			}]
+			title: "Capitulo 1"
+			x: -0.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["26EF0BFD67F60A5C"]
+			description: [
+				"&c&oNuestro primer paso. Una armadura poseida por almas en  pena este nos dara uno de los fragmentos necesarios para ir con el Rey muerto que proteje la entrada al Nether. Al liberar las 3 dimensiones Podremos invocar a los titanes "
+				"&cNivel de dificultad: ☠"
+			]
+			id: "6ED4CA495C32A8A3"
+			rewards: [
+				{
+					id: "4BAA2CE429793370"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "mowziesmobs:wrought_helmet"
+						tag: {
+							mmorpg_custom_data: "{\"data\":{\"map\":{\"crafted\":\"true\",\"sl\":\"false\"}}}"
+							mmorpg_gear: "{\"baseStats\":{\"p\":89},\"imp\":{\"p\":38,\"imp\":\"gladiator_helm\"},\"affixes\":{\"suf\":[{\"p\":23,\"id\":\"lightning_res\",\"rar\":\"uncommon\",\"ty\":\"suffix\"}],\"pre\":[{\"p\":9,\"id\":\"giants\",\"rar\":\"common\",\"ty\":\"prefix\"}],\"cor\":[]},\"sockets\":{\"so\":[],\"sl\":1,\"rw\":\"\",\"rp\":0},\"rar\":\"uncommon\",\"lvl\":10,\"gtype\":\"plate_helmet\"}"
+							mmorpg_potential: "{\"potential\":10}"
+						}
+					}
+					type: "item"
+				}
+				{
+					command: "/mine_and_slash give exp @p 10000"
+					icon: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "create:experience_nugget"
+					}
+					id: "6B2C9CB9313E8463"
+					title: "Exp"
+					type: "command"
+				}
+			]
+			shape: "square"
+			tasks: [{
+				advancement: "mowziesmobs:kill_ferrous_wroughtnaut"
+				criterion: ""
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "mowziesmobs:wrought_helmet"
+				}
+				id: "7DFD4E6CF9C12B6E"
+				title: "Caballero de Hierro"
+				type: "advancement"
+			}]
+			title: "Caballero de  hierro "
+			x: -0.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["685841DFA7D188BE"]
+			description: [
+				"&c&oSegundo guardian Frostmaw es una bestia que vive en las montañas nevadas. Si bien antes los frostmaw habia muchos mas pero luego del inicio del ciclo los huecos empezaron a matarlos para usar su magia. Ahora solo quedan unos pocos pero debido a su casi extincion son en extremo agresivos"
+				"&cNivel de dificultad: ☠☠"
+			]
+			id: "618B9DCA100813DB"
+			rewards: [
+				{
+					command: "/mine_and_slash give exp @p 10000"
+					icon: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "create:experience_nugget"
+					}
+					id: "1973A5435E313D22"
+					title: "Exp"
+					type: "command"
+				}
+				{
+					id: "1C1FA57F5DCFCDE7"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "mmorpg:chest/uncommon_gear"
+						tag: {
+							mmorpg_loot_chest: "{\"num\":5,\"rar\":\"uncommon\",\"lvl\":15,\"id\":\"aura\",\"key\":\"\"}"
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "square"
+			subtitle: "Frostmaw"
+			tasks: [{
+				advancement: "mowziesmobs:kill_frostmaw"
+				criterion: ""
+				id: "1B5B341ACFA16F06"
+				title: "Frostmaw"
+				type: "advancement"
+			}]
+			x: -0.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6ED4CA495C32A8A3"]
+			description: [
+				"&c&oEl primer guardian el Golem Congelado proteje la primera parte de la brujula del Rey muerto. Este es un fue creado con una pequeña parte de la magia del Frostmaw cuando habia gran cantidad de estos fueron creados en masa para los grandes reinos. No obstante con la casi extincion de los frostmaw y la caida de la mayoria de reinos quedan solo unos pocos. Resguardados en sus guaridas inactivos hasta que su rey vuelva."
+				"&cNivel de dificultad: ☠"
+			]
+			id: "685841DFA7D188BE"
+			rewards: [
+				{
+					id: "7D841FF3AD92EA1C"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "mmorpg:chest/uncommon_gear"
+						tag: {
+							mmorpg_loot_chest: "{\"num\":5,\"rar\":\"uncommon\",\"lvl\":15,\"id\":\"support_gem\",\"key\":\"\"}"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2A8A322279FEAE69"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "mmorpg:chest/uncommon_gear"
+						tag: {
+							mmorpg_loot_chest: "{\"num\":5,\"rar\":\"uncommon\",\"lvl\":15,\"id\":\"gem\",\"key\":\"\"}"
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "square"
+			subtitle: "Golem Congelado"
+			tasks: [{
+				advancement: "legendary_monsters:defeat_frostbitten_golem"
+				criterion: ""
+				id: "2A8DFC1A78B9E413"
+				type: "advancement"
+			}]
+			x: -0.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["618B9DCA100813DB"]
+			description: [
+				"&c&oCuarto guardian el Coloso de musgo. Fue creado craeado para una guerra entre los reinos de Migard y Anarchis. Diseñado para matar grandes filas de enemigos su veneno causa daño en una gran area y mata en pocos segundos a cualquiera que no tenga proteccion contra este. Luego de que Anarchis ganara la guerra fue desterrado por su peligrosidad y encerrado en una cueva de musgo."
+				"&cNivel de dificultad: ☠☠☠"
+			]
+			id: "6EA343FC57D048BC"
+			shape: "square"
+			subtitle: "Coloso de musgo"
+			tasks: [{
+				advancement: "legendary_monsters:defeat_overgrown_colossus"
+				criterion: ""
+				id: "409F62317C1CCE0C"
+				type: "advancement"
+			}]
+			x: 0.5d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"026D6F6EBFC5E4A9"
+				"6EA343FC57D048BC"
+			]
+			description: [
+				"&c&oQuinto guardian Umvuthi. A diferencia de los demas esta misma pidio proteger el ultimo fragmento. Esta es lider de los Umthuvana una tribu donde veneran al sol. Umvuthi puede usar los poderes del sol y tiene un gran dominio de la magia de fuego. Si bien nose sabe como obtuvo sus poderes se dice que es pariente de los fenix."
+				"&cNivel de dificultad: ☠☠☠"
+			]
+			id: "0075A658D43E6F63"
+			shape: "square"
+			subtitle: "Umvuthi"
+			tasks: [{
+				advancement: "mowziesmobs:kill_umvuthi"
+				criterion: ""
+				id: "2CBE20C79846D55E"
+				type: "advancement"
+			}]
+			x: -0.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["618B9DCA100813DB"]
+			description: [
+				"&c&oTercer guardian el antiguo. Un paladin poderoso que tenia su propio asentamiento pero un dia sobre el y toda la gente que vivia en el asentamiento cayo una maldicion perdiendo poco a poco su humanidad naciendo nuevo dientes y picos rocos por todas partes. Actualmente lo unico que queda de su humanidad es su arma un ancla que usaba como martillo"
+				"&cNivel de dificultad: ☠☠☠"
+			]
+			id: "026D6F6EBFC5E4A9"
+			shape: "square"
+			subtitle: "Guardian antiguo"
+			tasks: [{
+				advancement: "legendary_monsters:defeat_the_ancient_guardian"
+				criterion: ""
+				id: "4051B466017D8B8F"
+				type: "advancement"
+			}]
+			x: -1.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["6C94F4A2BA4B0C1E"]
+			dependency_requirement: "all_started"
+			description: [
+				"&c&oTrivus el necromatinco. Luego de que verdant perdiera fue capturado y encerrado en el nether a cambio de dejarlo con vida el Rey Muerto le ordeno protegerlo con su magia entonces Trivus  fue obligado a hacer una atadura si dejaba de protejer al Rey moriria. Actualmente se  encuentra en el nether al no tener contacto humano ni nada que ver o hacer sucumbio a la desesperacion estudiando la magia del vacio para liberarse de su atadura. Lamentablemente sucumbio a esta antes de poder liberarse de esta. Cayendo en la locura"
+				"&cNivel de dificultad: ☠☠☠"
+			]
+			id: "2EF884CF537B7C9B"
+			rewards: [{
+				id: "7DC708A1F0947A47"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "too_many_bows:crimson_nexus"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "Trivus"
+			tasks: [{
+				advancement: "eeeabsmobs:eeeabsmobs/kill_corpse_warlock"
+				criterion: ""
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "eeeabsmobs:bloody_altar_eye"
+				}
+				id: "5F8A27546FE568AA"
+				type: "advancement"
+			}]
+			x: -0.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["2EF884CF537B7C9B"]
+			description: [
+				"&c&oEl rey muerto. El ultimo paso para liberar al nether luego de que asumiera como rey mando a la esclavizacion de los piglins y bestia provenientes del nether estos se resistieron provocando una gran guerra. A causa de esta la  mayoria del nether quedo destruido y todos los piglins que quedaron fueron encerrados dentro del nether. El rey sello la entrada al nether para todo el mundo rompiendo todo el equilibro del mundo. Ahora tendras que matarlo para liberar al nether y seguir con tu travesia."
+				"&cNivel de dificultad: ☠☠☠☠"
+			]
+			id: "4154B68088224AB5"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				entity: "irons_spellbooks:dead_king"
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "irons_spellbooks:blood_staff"
+				}
+				id: "61682EFD9F8867EE"
+				type: "kill"
+				value: 1L
+			}]
+			x: -0.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["0075A658D43E6F63"]
+			description: [
+				"&c&oSirok el gusano del desierto. Si bien ahora es una bestia que ataca todo lo que ve. Anteriormente fue el mejor aliado de los Verdant junto con el Trivus el necromantico en la gran guerra contra el Rey Muerto para liberar el acesso al nether. Este fue creado para derrotar al Rey Muerto contando con un veneno capaz de lastimarlo pero luego de que Verdant perdiera la guerra. Asesinaron los magos que lo controlaban volviendose hostil y escapando hacia el desierto."
+				"&cNivel de dificultad: ☠☠☠"
+			]
+			icon: "block_factorys_bosses:sandworm_spawn_egg"
+			id: "6C94F4A2BA4B0C1E"
+			shape: "hexagon"
+			subtitle: "Sirok"
+			tasks: [{
+				advancement: "block_factorys_bosses:no_hit_sandworm"
+				criterion: ""
+				id: "747559245C18A07F"
+				type: "advancement"
+			}]
+			x: -0.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["6C94F4A2BA4B0C1E"]
+			id: "733C92B95BCE5CBD"
+			optional: true
+			shape: "square"
+			tasks: [{
+				advancement: "mowziesmobs:sculptor_challenge"
+				criterion: ""
+				id: "21FEA2832E205122"
+				type: "advancement"
+			}]
+			x: 1.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["2EF884CF537B7C9B"]
+			dependency_requirement: "all_started"
+			id: "76861ED4205E64FB"
+			optional: true
+			shape: "square"
+			tasks: [{
+				advancement: "legendary_monsters:defeat_skeletosaurus"
+				criterion: ""
+				id: "1E42198AFF4A8AFD"
+				type: "advancement"
+			}]
+			x: -2.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["6C94F4A2BA4B0C1E"]
+			id: "2D2D8054C15F4740"
+			shape: "square"
+			tasks: [{
+				entity: "cataclysm:amethyst_crab"
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "cataclysm:amethyst_crab_meat"
+				}
+				id: "3679804DFE6BDE30"
+				type: "kill"
+				value: 1L
+			}]
+			x: -2.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["4154B68088224AB5"]
+			description: ["&o&7Luego de que los piglins fueran encerrados dentro del nether perdieron casi todos sus recursos sin comida ni armas o minerales. Estos tuvieron que comer los hongos corruptos y usar oro como mineral principal. Debido a que empezaron a comer hongos corrupto tuvieron cambios en su personalidad se volvieron mas hostiles y con el gran resentimiento a las criatura del overworld se volvieron hostiles con todas las criaturas que no sean provenientes del nether. Actualmente el nether esta totalmente destruido y no hay paz en el todo es una constante guerra entre sus habitantes. ¿Podras liberar a el nether del caos que lo consume?"]
+			hide_dependency_lines: true
+			icon: "block_factorys_bosses:dragon_skull"
+			id: "51012FA7A4C50F3E"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "0E006BFCB9614A52"
+				title: "Capitulo 2"
+				type: "checkmark"
+			}]
+			x: 8.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["51012FA7A4C50F3E"]
+			id: "420510717C09F212"
+			shape: "square"
+			tasks: [{
+				advancement: "eeeabsmobs:eeeabsmobs/kill_nameless_guardian"
+				criterion: ""
+				icon: "eeeabsmobs:coreforge_ruins_eye"
+				id: "42132274148C5FE3"
+				type: "advancement"
+			}]
+			title: "Mata al guardian sin nombre"
+			x: 8.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["420510717C09F212"]
+			id: "3E003D4977F2A5A7"
+			shape: "square"
+			tasks: [{
+				advancement: "cataclysm:kill_monstrosity"
+				criterion: ""
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "cataclysm:monstrous_eye"
+				}
+				id: "625655C4122E06CD"
+				type: "advancement"
+			}]
+			x: 8.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["3E003D4977F2A5A7"]
+			id: "126B00575B67A4A8"
+			shape: "square"
+			tasks: [{
+				advancement: "legendary_monsters:defeat_cloud_golem"
+				criterion: ""
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "legendary_monsters:eye_of_air"
+				}
+				id: "33996388C39D19EC"
+				type: "advancement"
+			}]
+			x: 8.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["126B00575B67A4A8"]
+			id: "65E9CD3173782E33"
+			shape: "square"
+			tasks: [{
+				advancement: "cataclysm:kill_scylla"
+				criterion: ""
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "cataclysm:storm_eye"
+				}
+				id: "1D951219EE0BE20F"
+				type: "advancement"
+			}]
+			x: 7.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["126B00575B67A4A8"]
+			id: "71B24E1C726E4DD0"
+			min_required_dependencies: 1
+			shape: "square"
+			tasks: [{
+				entity: "aquamirae:captain_cornelia"
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "aquamirae:three_bolt_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "694BDCEC71FAF144"
+				type: "kill"
+				value: 1L
+			}]
+			x: 9.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["02D537128D41CF82"]
+			dependency_requirement: "all_started"
+			id: "5614344CC7CBE983"
+			shape: "square"
+			tasks: [{
+				advancement: "born_in_chaos_v1:pumpkin_lord"
+				criterion: ""
+				id: "5E7E7FDAA7F53F75"
+				type: "advancement"
+			}]
+			x: 10.5d
+			y: 7.0d
+		}
+		{
+			dependencies: [
+				"71B24E1C726E4DD0"
+				"65E9CD3173782E33"
+			]
+			id: "02D537128D41CF82"
+			shape: "square"
+			tasks: [{
+				advancement: "alexscaves:alexscaves/defeat_forsaken"
+				criterion: ""
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "alexscaves:pure_darkness"
+				}
+				id: "60A65A7612B3DD49"
+				type: "advancement"
+			}]
+			x: 8.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["02D537128D41CF82"]
+			id: "212100492385B764"
+			shape: "hexagon"
+			tasks: [{
+				advancement: "bosses_of_mass_destruction:adventure/void_blossom_defeat"
+				criterion: ""
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "bosses_of_mass_destruction:crystal_fruit"
+				}
+				id: "6DFF5DD11666A91F"
+				type: "advancement"
+			}]
+			x: 8.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["212100492385B764"]
+			id: "5DAC8B64436A3C50"
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				advancement: "block_factorys_bosses:kill_dragon"
+				criterion: ""
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "block_factorys_bosses:dragon_skull"
+				}
+				id: "0BDB31780FFE4CC1"
+				type: "advancement"
+			}]
+			x: 7.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["212100492385B764"]
+			id: "490509CFDBE34130"
+			shape: "square"
+			tasks: [{
+				advancement: "alexscaves:alexscaves/defeat_luxtructosaurus"
+				criterion: ""
+				id: "3926AB7C464AD36F"
+				type: "advancement"
+			}]
+			x: 8.5d
+			y: 11.0d
+		}
+		{
+			dependencies: [
+				"5DAC8B64436A3C50"
+				"490509CFDBE34130"
+			]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "minecraft:ender_eye"
+			}
+			id: "618C9D9C5EDBFE09"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				advancement: "minecraft:end/kill_dragon"
+				criterion: ""
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "minecraft:ender_eye"
+				}
+				id: "745370E744D07558"
+				type: "advancement"
+			}]
+			x: 8.0d
+			y: 13.0d
+		}
+		{
+			dependencies: ["618C9D9C5EDBFE09"]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "block_factorys_bosses:dragon_skull"
+			}
+			id: "1C8D56D248C97E0A"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "652B1FDF4A4D8BA7"
+				title: "Capitulo 3"
+				type: "checkmark"
+			}]
+			x: 15.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["1C8D56D248C97E0A"]
+			id: "58E10B3CD4815FB8"
+			shape: "square"
+			tasks: [{
+				advancement: "bosses_of_mass_destruction:end/obsidilith_defeat"
+				criterion: ""
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "bosses_of_mass_destruction:obsidian_heart"
+				}
+				id: "7BFEDD4755B51809"
+				type: "advancement"
+			}]
+			x: 15.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["605F17EF2F7A4286"]
+			id: "22228B6992EB2867"
+			shape: "square"
+			tasks: [{
+				advancement: "bosses_of_mass_destruction:nether/gauntlet_defeat"
+				criterion: ""
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "bosses_of_mass_destruction:blazing_eye"
+				}
+				id: "5FC175B11B00EC1A"
+				type: "advancement"
+			}]
+			x: 14.0d
+			y: 3.5d
+		}
+		{
+			id: "605F17EF2F7A4286"
+			shape: "square"
+			tasks: [{
+				advancement: "bosses_of_mass_destruction:adventure/night_lich_defeat"
+				criterion: ""
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "bosses_of_mass_destruction:soul_star"
+				}
+				id: "3B45D238F33D6857"
+				type: "advancement"
+			}]
+			x: 15.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["605F17EF2F7A4286"]
+			id: "49595E30E353D9E8"
+			shape: "square"
+			tasks: [{
+				advancement: "block_factorys_bosses:kill_underworld_knight"
+				criterion: ""
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "block_factorys_bosses:knight_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "3271779F12C42DBC"
+				type: "advancement"
+			}]
+			x: 16.0d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"49595E30E353D9E8"
+				"22228B6992EB2867"
+			]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "cataclysm:essence_of_the_storm"
+			}
+			id: "75753E0FDCCA7CB3"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "132C9F95803E9D9B"
+				type: "checkmark"
+			}]
+			title: "&4Titanes"
+			x: 15.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["75753E0FDCCA7CB3"]
+			id: "30AB6E2689F5C041"
+			shape: "square"
+			tasks: [{
+				advancement: "cataclysm:kill_harbinger"
+				criterion: ""
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "cataclysm:mech_eye"
+				}
+				id: "4512540D0921358C"
+				type: "advancement"
+			}]
+			x: 16.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["30AB6E2689F5C041"]
+			id: "75D5AEAEF14A07A6"
+			shape: "square"
+			tasks: [{
+				advancement: "cataclysm:kill_ender_guardian"
+				criterion: ""
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "cataclysm:void_eye"
+				}
+				id: "7886B027FC0EDA57"
+				type: "advancement"
+			}]
+			x: 15.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["75D5AEAEF14A07A6"]
+			id: "09C2766CE65B33F3"
+			shape: "square"
+			tasks: [{
+				advancement: "cataclysm:kill_remnant"
+				criterion: ""
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "cataclysm:desert_eye"
+				}
+				id: "21FE72464290E1A5"
+				type: "advancement"
+			}]
+			x: 14.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["09C2766CE65B33F3"]
+			icon: "cataclysm:flame_eye"
+			id: "4E397BE3E0BC09D4"
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				advancement: "cataclysm:kill_ignis"
+				criterion: ""
+				id: "0A916848D9106A82"
+				type: "advancement"
+			}]
+			x: 17.0d
+			y: 13.5d
+		}
+		{
+			dependencies: ["4E397BE3E0BC09D4"]
+			id: "1FEC075895A758F6"
+			shape: "square"
+			tasks: [{
+				advancement: "cataclysm:kill_leviathan"
+				criterion: ""
+				icon: "cataclysm:abyss_eye"
+				id: "33C87033F5753323"
+				type: "advancement"
+			}]
+			x: 15.0d
+			y: 20.5d
+		}
+		{
+			dependencies: ["1FEC075895A758F6"]
+			id: "58239D2A48233BB5"
+			shape: "square"
+			size: 1.5d
+			tasks: [{
+				advancement: "cataclysm:kill_maledictus"
+				criterion: ""
+				icon: "cataclysm:cursed_eye"
+				id: "11C7F4788B5AA798"
+				type: "advancement"
+			}]
+			x: 13.5d
+			y: 17.25d
+		}
+		{
+			dependencies: ["1FEC075895A758F6"]
+			id: "124899F6E0015EB8"
+			shape: "square"
+			size: 1.5d
+			tasks: [{
+				entity: "minecraft:wither"
+				icon: "minecraft:wither_skeleton_skull"
+				id: "0AD8108E537F109E"
+				type: "kill"
+				value: 1L
+			}]
+			x: 16.5d
+			y: 12.0d
+		}
+		{
+			id: "70A0E3853E7365A4"
+			shape: "square"
+			tasks: [{
+				advancement: "legendary_monsters:defeat_posessed_paladin"
+				criterion: ""
+				id: "3E39EB18DB99F2E5"
+				type: "advancement"
+			}]
+			x: 16.5d
+			y: 16.5d
+		}
+		{
+			id: "7903D685BDFEB7FD"
+			tasks: [{
+				advancement: "lootr:100loot"
+				criterion: ""
+				id: "4427438EB926BFBF"
+				type: "advancement"
+			}]
+			x: 14.5d
+			y: 14.5d
+		}
+		{
+			id: "082CFAD1E0375316"
+			tasks: [{
+				advancement: "legendary_monsters:defeat_the_obliterator"
+				criterion: ""
+				id: "4036F223B50CFBF2"
+				type: "advancement"
+			}]
+			x: 16.5d
+			y: 19.0d
+		}
+	]
+	title: "&4El ciclo"
+}

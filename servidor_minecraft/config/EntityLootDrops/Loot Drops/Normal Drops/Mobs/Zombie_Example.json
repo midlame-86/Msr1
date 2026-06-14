@@ -1,0 +1,11 @@
+[
+  {
+    "entityId": "minecraft:zombie",
+    "itemId": "minecraft:iron_ingot",
+    "dropChance": 10.0,
+    "minAmount": 1,
+    "maxAmount": 2,
+    "_comment": "Iron ingot from zombies",
+    "requirePlayerKill": true
+  }
+]

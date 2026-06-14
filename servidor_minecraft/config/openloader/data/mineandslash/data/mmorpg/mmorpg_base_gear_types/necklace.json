@@ -1,0 +1,50 @@
+{
+  "base_stats": [],
+  "gear_slot": "necklace",
+  "guid": "necklace",
+  "possible_items": [
+    {
+      "item_id": "mmorpg:jewelry/necklace/iron",
+      "min_rar": "common",
+      "weight": 1
+    },
+    {
+      "item_id": "mmorpg:jewelry/necklace/gold",
+      "min_rar": "rare",
+      "weight": 10
+    },
+    {
+      "item_id": "mmorpg:jewelry/necklace/diamond",
+      "min_rar": "legendary",
+      "weight": 100
+    },
+    {
+      "item_id": "artifacts:charm_of_sinking",
+      "min_rar": "common",
+      "weight": 1
+    },
+    {
+      "item_id": "artifacts:shock_pendant",
+      "min_rar": "rare",
+      "weight": 10
+    },
+    {
+      "item_id": "artifacts:cross_necklace",
+      "min_rar": "common",
+      "weight": 1
+    }
+  ],
+  "req": {
+    "base_req": {},
+    "scaling_req": {}
+  },
+  "style": "STR",
+  "tags": {
+    "tags": [
+      "jewelry_family",
+      "necklace"
+    ]
+  },
+  "weapon_type": "none",
+  "weight": 1000
+}

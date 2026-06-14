@@ -1,0 +1,10 @@
+[
+  {
+    "itemId": "minecraft:sunflower",
+    "dropChance": 15.0,
+    "minAmount": 1,
+    "maxAmount": 2,
+    "_comment": "Summer event sunflowers",
+    "requirePlayerKill": true
+  }
+]

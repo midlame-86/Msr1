@@ -1,0 +1,7 @@
+{
+  "effect": "boots_regen_life",
+  "give_to": "Target",
+  "id": "give_boots_regen_life_to_target",
+  "seconds": 4,
+  "ser": "give_exile_effect"
+}

@@ -1,0 +1,10 @@
+[
+  {
+    "entityId": "block_factorys_bosses:sandworm",
+    "itemId": "kubejs:mutane",
+    "dropChance": 100.0,
+    "minAmount": 12,
+    "maxAmount": 16,
+    "requirePlayerKill": true
+  }
+]

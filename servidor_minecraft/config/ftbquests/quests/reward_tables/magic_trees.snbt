@@ -1,0 +1,13 @@
+{
+	icon: "ars_nouveau:green_archwood_sapling"
+	id: "14CA79BF0C960DF0"
+	loot_size: 1
+	order_index: 3
+	rewards: [
+		{ item: "ars_nouveau:green_archwood_sapling" }
+		{ item: "ars_nouveau:blue_archwood_sapling" }
+		{ item: "ars_nouveau:purple_archwood_sapling" }
+		{ item: "ars_nouveau:red_archwood_sapling" }
+	]
+	title: "Magic Trees"
+}

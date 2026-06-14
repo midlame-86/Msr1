@@ -1,0 +1,41 @@
+#INT 1pt あたりのダメージ%（例：0.5 → +0.5%/pt）
+#Range: -1000.0 ~ 1000.0
+int_to_damage_per_point = 0.5
+#MnSのspell_damage% をどれだけ重み付けするか（1.0 = そのまま）
+#Range: 0.0 ~ 100.0
+spell_power_weight = 1.0
+#ISSの spell level 1 あたりの%（例：2 → +2%/level）
+#Range: -1000.0 ~ 1000.0
+level_bonus_per_lvl = 2.0
+#最終倍率の下限
+#Range: 0.0 ~ 1000.0
+min_total_mult = 0.1
+#最終倍率の上限
+#Range: 0.0 ~ 1000.0
+max_total_mult = 10.0
+#追加マナ倍率（1.0=上乗せなし, 1.25=+25%）
+#Range: 0.0 ~ 100.0
+extra_mana_mult = 1.15
+#追加マナ固定値（+n）
+#Range: 0 ~ 10000
+extra_mana_flat = 0
+#スクロール使用時は追加コストを無効化する
+no_extra_for_scroll = true
+#スペル個別の追加倍率（例: ["irons_spellbooks:dragon_breath=1.10","irons_spellbooks:cone_of_cold=0.95"]）
+extra_per_spell = ["irons_spellbooks:dragon_breath=1.0"]
+#連続詠唱(チャネリング)の追加マナ消費（1秒あたり）
+#Range: 0 ~ 100000
+channel_extra_per_sec = 8
+
+[blood_fallback]
+	#MnSのBloodリソースに直接消費できない場合、HPを血として消費するか
+	enable = true
+	#フォールバック消費で死亡を許可するか
+	lethal = false
+	#フォールバック時、最低で残すハート数
+	#Range: 0.0 ~ 20.0
+	min_hearts = 1.0
+	#フォールバック: 1マナ=何ハート消費か
+	#Range: 0.0 ~ 10.0
+	hearts_per_mana = 0.25
+

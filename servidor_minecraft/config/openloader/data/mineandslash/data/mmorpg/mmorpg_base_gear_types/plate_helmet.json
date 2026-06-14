@@ -1,0 +1,65 @@
+{
+  "base_stats": [
+    {
+      "type": "FLAT",
+      "max": 6.0,
+      "min": 3.0,
+      "stat": "armor"
+    },
+    {
+      "type": "FLAT",
+      "max": 2.0,
+      "min": 1.0,
+      "stat": "health"
+    }
+  ],
+  "gear_slot": "helmet",
+  "guid": "plate_helmet",
+  "possible_items": [
+    {
+      "item_id": "cte_essentials:plate_0_helmet",
+      "min_rar": "common",
+      "weight": 1
+    },
+    {
+      "item_id": "lowlands:clothing:depth_scaphander_helmet",
+      "min_rar": "uncommon",
+      "weight": 10
+    },
+    {
+      "item_id": "samurai_dynasty:steel_helmet",
+      "min_rar": "rare",
+      "weight": 100
+    },
+    {
+      "item_id": "minecraft:turtle_helmet",
+      "min_rar": "rare",
+      "weight": 100
+    },
+    {
+      "item_id": "luckys_armory:plated_armor_helmet",
+      "min_rar": "common",
+      "weight": 1
+    }
+  ],
+  "req": {
+    "base_req": {},
+    "scaling_req": {
+      "strength": 0.4
+    }
+  },
+  "style": "STR",
+  "tags": {
+    "tags": [
+      "armor_family",
+      "strength",
+      "helmet",
+      "armor_stat",
+      "armor_stat_half",
+	  "plate_helmet",
+	  "plate"
+    ]
+  },
+  "weapon_type": "none",
+  "weight": 1000
+}

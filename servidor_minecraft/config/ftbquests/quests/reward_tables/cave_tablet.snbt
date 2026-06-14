@@ -1,0 +1,69 @@
+{
+	icon: {
+		Count: 1
+		id: "alexscaves:cave_tablet"
+		tag: {
+			CaveBiome: "alexscaves:magnetic_caves"
+		}
+	}
+	id: "7E14389EDB1E250C"
+	loot_size: 1
+	order_index: 0
+	rewards: [
+		{
+			item: {
+				Count: 1
+				id: "alexscaves:cave_tablet"
+				tag: {
+					CaveBiome: "alexscaves:magnetic_caves"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "alexscaves:cave_tablet"
+				tag: {
+					CaveBiome: "alexscaves:forlorn_hollows"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "alexscaves:cave_tablet"
+				tag: {
+					CaveBiome: "alexscaves:abyssal_chasm"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "alexscaves:cave_tablet"
+				tag: {
+					CaveBiome: "alexscaves:candy_cavity"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "alexscaves:cave_tablet"
+				tag: {
+					CaveBiome: "alexscaves:toxic_caves"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "alexscaves:cave_tablet"
+				tag: {
+					CaveBiome: "alexscaves:primordial_caves"
+				}
+			}
+		}
+	]
+	title: "Cave Tablet"
+}

@@ -1,0 +1,10 @@
+[
+  {
+    "entityId": "minecraft:piglin_brute",
+    "itemId": "kubejs:crimson_metal",
+    "dropChance": 20.0,
+    "minAmount": 1,
+    "maxAmount": 2,
+    "requirePlayerKill": true
+  }
+]

@@ -1,0 +1,17 @@
+{
+	id: "d41fc604-5d23-35f7-a664-b3595e7aa405"
+	type: "player"
+	player_name: "32gaboo"
+	ranks: {
+		d41fc604-5d23-35f7-a664-b3595e7aa405: "owner"
+	}
+	properties: {
+		"ftbteams:display_name": "32gaboo"
+		"ftbteams:description": ""
+		"ftbteams:color": "#FF59C6"
+		"ftbteams:free_to_join": 0b
+		"ftbteams:max_msg_history_size": 1000
+	}
+	message_history: [ ]
+	extra: { }
+}

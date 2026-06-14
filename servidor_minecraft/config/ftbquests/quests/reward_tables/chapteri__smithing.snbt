@@ -1,0 +1,12 @@
+{
+	icon: "terramity:virentium_upgrade_smithing_template"
+	id: "23DFF1441BDF9BA2"
+	loot_size: 1
+	order_index: 10
+	rewards: [
+		{ icon: "terramity:virentium_upgrade_smithing_template", item: "terramity:virentium_upgrade_smithing_template", title: "Virentium Smithing Template" }
+		{ item: "terramity:dimlite_upgrade_smithing_template", title: "Dimlite Smithing Template" }
+		{ item: "terramity:cosmilite_upgrade_smithing_template", title: "Cosmolite Smithing Template" }
+	]
+	title: "ChapterI - Smithing"
+}

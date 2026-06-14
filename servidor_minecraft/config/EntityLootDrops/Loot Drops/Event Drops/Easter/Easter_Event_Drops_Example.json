@@ -1,0 +1,10 @@
+[
+  {
+    "itemId": "minecraft:egg",
+    "dropChance": 25.0,
+    "minAmount": 1,
+    "maxAmount": 3,
+    "_comment": "Easter event eggs",
+    "requirePlayerKill": true
+  }
+]

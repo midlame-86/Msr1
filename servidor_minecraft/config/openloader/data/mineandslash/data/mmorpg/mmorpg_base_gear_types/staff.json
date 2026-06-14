@@ -1,0 +1,54 @@
+{
+  "base_stats": [
+    {
+      "type": "FLAT",
+      "max": 8.0,
+      "min": 4.0,
+      "stat": "weapon_damage"
+    },
+	{
+	  "type": "FLAT",
+	  "max": 1.0,
+	  "min": 1.0,
+	  "stat": "learn_bolt"
+	},
+	{
+	  "type": "FLAT",
+	  "max": 4.0,
+	  "min": 2.0,
+	  "stat": "mana_on_bolt_hit"
+	}
+  ],
+  "gear_slot": "staff",
+  "guid": "staff",
+  "possible_items": [
+    {
+      "item_id": "irons_spellbooks:graybeard_staff",
+      "min_rar": "uncommon",
+      "weight": 10
+    },
+    {
+      "item_id": "irons_spellbooks:ice_staff",
+      "min_rar": "rare",
+      "weight": 100
+    }
+  ],
+  "req": {
+    "base_req": {},
+    "scaling_req": {
+      "intelligence": 0.4
+    }
+  },
+  "style": "INT",
+  "tags": {
+    "tags": [
+      "mage_weapon",
+      "staff",
+      "weapon_family",
+      "melee_weapon",
+      "intelligence"
+    ]
+  },
+  "weapon_type": "staff",
+  "weight": 1000
+}

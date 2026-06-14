@@ -1,0 +1,18 @@
+[
+  {
+    "itemId": "goldcoins:deditanaranja",
+    "dropChance": 10.0,
+    "minAmount": 1,
+    "maxAmount": 2,
+    "requiredDimension": "minecraft:the_nether",
+	"requirePlayerKill": true
+  },
+  {
+    "itemId": "goldcoins:deditaazul",
+    "dropChance": 5.0,
+    "minAmount": 1,
+    "maxAmount": 1,
+    "requiredDimension": "minecraft:the_nether",
+	"requirePlayerKill": true
+  }
+]

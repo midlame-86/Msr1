@@ -1,0 +1,32 @@
+[
+  {
+    "itemId": "goldcoins:deditanaranja",
+    "dropChance": 8.0,
+    "minAmount": 1,
+    "maxAmount": 3,
+    "requiredDimension": "mmorpg:dungeon",
+	"requirePlayerKill": true,
+	"allowDefaultDrops": false,
+    "allowModIDs": [
+        "mmorpg",
+        "dungeon_realm",
+        "ancient_obelisks",
+        "the_harvest"
+    ]
+  },
+  {
+    "itemId": "goldcoins:deditaazul",
+    "dropChance": 1.5,
+    "minAmount": 1,
+    "maxAmount": 1,
+    "requiredDimension": "mmorpg:dungeon",
+	"requirePlayerKill": true,
+	"allowDefaultDrops": false,
+    "allowModIDs": [
+        "mmorpg",
+        "dungeon_realm",
+        "ancient_obelisks",
+        "the_harvest"
+    ]
+  }
+]

@@ -1,0 +1,17 @@
+{
+	id: "0cb582ea-ff33-3194-b9ea-c98c18b6458b"
+	type: "player"
+	player_name: "Thepollo10"
+	ranks: {
+		0cb582ea-ff33-3194-b9ea-c98c18b6458b: "owner"
+	}
+	properties: {
+		"ftbteams:display_name": "Thepollo10"
+		"ftbteams:description": ""
+		"ftbteams:color": "#6859FF"
+		"ftbteams:free_to_join": 0b
+		"ftbteams:max_msg_history_size": 1000
+	}
+	message_history: [ ]
+	extra: { }
+}

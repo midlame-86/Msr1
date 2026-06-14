@@ -1,0 +1,12 @@
+{
+	icon: "terramity:void_upgrade_smithing_template"
+	id: "21EED6D6D7678A88"
+	loot_size: 1
+	order_index: 12
+	rewards: [
+		{ item: "terramity:void_upgrade_smithing_template", title: "Void Smithing Template" }
+		{ item: "terramity:conductite_upgrade_smithing_template", title: "Conductite Smithing Template" }
+		{ item: "terramity:hellspec_upgrade_smithing_template", title: "Hellspect Smithing Template" }
+	]
+	title: "ChapterII - Smithing"
+}
